@@ -1,0 +1,3653 @@
+# Processed by EYE v11.20.4 (2025-07-27)
+# eye --quiet code/runtime.n3 tmp/n3query.n3 --turtle ../exp/zika/data_red_0pt1.n3 --pass-only-new --nope
+
+@prefix ut: <http://example.org/utils#>.
+
+<http://example.org/zika#world> <http://example.org/zika#hasZikaArea> "Brazil".
+_:node_2_1 ut:has _:node_3_1.
+_:node_2_1 ut:has _:node_10_1.
+_:node_18_1 ut:has _:node_19_1.
+_:node_35_1 ut:has _:node_36_1.
+_:node_41_1 ut:has _:node_45_1.
+_:node_50_1 ut:has _:node_157_1.
+_:node_51_1 ut:has _:node_52_1.
+_:node_60_1 ut:has _:node_61_1.
+_:node_60_1 ut:has _:node_68_1.
+_:node_75_1 ut:has _:node_76_1.
+_:node_83_1 ut:has _:node_84_1.
+_:node_89_1 ut:has _:node_90_1.
+_:node_97_1 ut:has _:node_98_1.
+_:node_102_1 ut:has _:node_103_1.
+_:node_110_1 ut:has _:node_111_1.
+_:node_119_1 ut:has _:node_122_1.
+_:node_119_1 ut:has _:node_129_1.
+_:node_119_1 ut:has _:node_136_1.
+_:node_140_1 ut:has _:node_141_1.
+_:node_140_1 ut:has _:node_148_1.
+_:node_156_1 ut:has _:node_161_1.
+_:node_168_1 ut:has _:node_169_1.
+_:node_177_1 ut:has _:node_178_1.
+_:node_186_1 ut:has _:node_213_1.
+_:node_186_1 ut:has _:node_277_1.
+_:node_189_1 ut:has _:node_190_1.
+_:node_189_1 ut:has _:node_197_1.
+_:node_204_1 ut:has _:node_208_1.
+_:node_221_1 ut:has _:node_222_1.
+_:node_240_1 ut:has _:node_241_1.
+_:node_247_1 ut:has _:node_248_1.
+_:node_260_1 ut:has _:node_261_1.
+_:node_269_1 ut:has _:node_270_1.
+_:node_276_1 ut:has _:node_283_1.
+_:node_276_1 ut:has _:node_293_1.
+_:node_300_1 ut:has _:node_301_1.
+_:node_308_1 ut:has _:node_310_1.
+_:node_309_1 ut:has _:node_338_1.
+_:node_320_1 ut:has _:node_321_1.
+_:node_329_1 ut:has _:node_330_1.
+_:node_337_1 ut:has _:node_345_1.
+_:node_357_1 ut:has _:node_358_1.
+_:node_365_1 ut:has _:node_372_1.
+_:node_366_1 ut:has _:node_368_1.
+_:node_367_1 ut:has _:node_400_1.
+_:node_378_1 ut:has _:node_379_1.
+_:node_378_1 ut:has _:node_386_1.
+_:node_378_1 ut:has _:node_396_1.
+_:node_404_1 ut:has _:node_405_1.
+_:node_415_1 ut:has _:node_416_1.
+_:node_415_1 ut:has _:node_423_1.
+_:node_432_1 ut:has _:node_464_1.
+_:node_433_1 ut:has _:node_434_1.
+_:node_441_1 ut:has _:node_442_1.
+_:node_448_1 ut:has _:node_449_1.
+_:node_448_1 ut:has _:node_456_1.
+_:node_463_1 ut:has _:node_471_1.
+_:node_463_1 ut:has _:node_481_1.
+_:node_489_1 ut:has _:node_490_1.
+_:node_489_1 ut:has _:node_503_1.
+_:node_498_1 ut:has _:node_499_1.
+_:node_508_1 ut:has _:node_509_1.
+_:node_520_1 ut:has _:node_540_1.
+_:node_522_1 ut:has _:node_523_1.
+_:node_527_1 ut:has _:node_528_1.
+_:node_546_1 ut:has _:node_547_1.
+_:node_555_1 ut:has _:node_559_1.
+_:node_570_1 ut:has _:node_571_1.
+_:node_578_1 ut:has _:node_579_1.
+_:node_578_1 ut:has _:node_586_1.
+_:node_591_1 ut:has _:node_592_1.
+_:node_596_1 ut:has _:node_598_1.
+_:node_607_1 ut:has _:node_608_1.
+_:node_617_1 ut:has _:node_618_1.
+_:node_627_1 ut:has _:node_631_1.
+_:node_637_1 ut:has _:node_638_1.
+_:node_643_1 ut:has _:node_645_1.
+_:node_643_1 ut:has _:node_652_1.
+_:node_656_1 ut:has _:node_657_1.
+_:node_664_1 ut:has _:node_670_1.
+_:node_665_1 ut:has _:node_666_1.
+_:node_674_1 ut:has _:node_675_1.
+_:node_683_1 ut:has _:node_684_1.
+_:node_683_1 ut:has _:node_691_1.
+_:node_695_1 ut:has _:node_696_1.
+_:node_702_1 ut:has _:node_704_1.
+_:node_708_1 ut:has _:node_712_1.
+_:node_716_1 ut:has _:node_717_1.
+_:node_726_1 ut:has _:node_728_1.
+_:node_736_1 ut:has _:node_737_1.
+_:node_736_1 ut:has _:node_744_1.
+_:node_748_1 ut:has _:node_749_1.
+_:node_753_1 ut:has _:node_754_1.
+_:node_758_1 ut:has _:node_760_1.
+_:node_759_1 ut:has _:node_785_1.
+_:node_769_1 ut:has _:node_770_1.
+_:node_777_1 ut:has _:node_778_1.
+_:node_789_1 ut:has _:node_793_1.
+_:node_797_1 ut:has _:node_798_1.
+_:node_806_1 ut:has _:node_807_1.
+_:node_806_1 ut:has _:node_814_1.
+_:node_822_1 ut:has _:node_823_1.
+_:node_822_1 ut:has _:node_830_1.
+_:node_842_1 ut:has _:node_843_1.
+_:node_842_1 ut:has _:node_855_1.
+_:node_850_1 ut:has _:node_922_1.
+_:node_851_1 ut:has _:node_1690_1.
+_:node_861_1 ut:has _:node_862_1.
+_:node_861_1 ut:has _:node_872_1.
+_:node_879_1 ut:has _:node_883_1.
+_:node_887_1 ut:has _:node_888_1.
+_:node_887_1 ut:has _:node_895_1.
+_:node_887_1 ut:has _:node_904_1.
+_:node_908_1 ut:has _:node_909_1.
+_:node_926_1 ut:has _:node_927_1.
+_:node_933_1 ut:has _:node_934_1.
+_:node_940_1 ut:has _:node_941_1.
+_:node_949_1 ut:has _:node_950_1.
+_:node_954_1 ut:has _:node_955_1.
+_:node_963_1 ut:has _:node_967_1.
+_:node_971_1 ut:has _:node_973_1.
+_:node_972_1 ut:has _:node_1007_1.
+_:node_980_1 ut:has _:node_981_1.
+_:node_989_1 ut:has _:node_990_1.
+_:node_997_1 ut:has _:node_998_1.
+_:node_1006_1 ut:has _:node_1011_1.
+_:node_1019_1 ut:has _:node_1023_1.
+_:node_1029_1 ut:has _:node_1030_1.
+_:node_1037_1 ut:has _:node_1057_1.
+_:node_1043_1 ut:has _:node_1044_1.
+_:node_1051_1 ut:has _:node_1052_1.
+_:node_1056_1 ut:has _:node_1064_1.
+_:node_1056_1 ut:has _:node_1071_1.
+_:node_1078_1 ut:has _:node_1079_1.
+_:node_1088_1 ut:has _:node_1089_1.
+_:node_1097_1 ut:has _:node_1099_1.
+_:node_1108_1 ut:has _:node_1109_1.
+_:node_1117_1 ut:has _:node_1118_1.
+_:node_1117_1 ut:has _:node_1125_1.
+_:node_1136_1 ut:has _:node_1137_1.
+_:node_1136_1 ut:has _:node_1144_1.
+_:node_1152_1 ut:has _:node_1153_1.
+_:node_1160_1 ut:has _:node_1161_1.
+_:node_1165_1 ut:has _:node_1167_1.
+_:node_1165_1 ut:has _:node_1177_1.
+_:node_1182_1 ut:has _:node_1183_1.
+_:node_1190_1 ut:has _:node_1191_1.
+_:node_1190_1 ut:has _:node_1198_1.
+_:node_1205_1 ut:has _:node_1232_1.
+_:node_1206_1 ut:has _:node_1207_1.
+_:node_1214_1 ut:has _:node_1215_1.
+_:node_1222_1 ut:has _:node_1226_1.
+_:node_1231_1 ut:has _:node_1239_1.
+_:node_1231_1 ut:has _:node_1249_1.
+_:node_1254_1 ut:has _:node_1255_1.
+_:node_1270_1 ut:has _:node_1271_1.
+_:node_1270_1 ut:has _:node_1278_1.
+_:node_1287_1 ut:has _:node_1288_1.
+_:node_1295_1 ut:has _:node_1296_1.
+_:node_1301_1 ut:has _:node_1303_1.
+_:node_1301_1 ut:has _:node_1310_1.
+_:node_1320_1 ut:has _:node_1321_1.
+_:node_1326_1 ut:has _:node_1331_1.
+_:node_1328_1 ut:has _:node_1361_1.
+_:node_1328_1 ut:has _:node_1394_1.
+_:node_1335_1 ut:has _:node_1336_1.
+_:node_1345_1 ut:has _:node_1346_1.
+_:node_1345_1 ut:has _:node_1353_1.
+_:node_1360_1 ut:has _:node_1368_1.
+_:node_1375_1 ut:has _:node_1376_1.
+_:node_1383_1 ut:has _:node_1387_1.
+_:node_1399_1 ut:has _:node_1400_1.
+_:node_1399_1 ut:has _:node_1407_1.
+_:node_1412_1 ut:has _:node_1413_1.
+_:node_1421_1 ut:has _:node_1422_1.
+_:node_1421_1 ut:has _:node_1432_1.
+_:node_1445_1 ut:has _:node_1446_1.
+_:node_1453_1 ut:has _:node_1455_1.
+_:node_1454_1 ut:has _:node_1495_1.
+_:node_1462_1 ut:has _:node_1463_1.
+_:node_1470_1 ut:has _:node_1471_1.
+_:node_1479_1 ut:has _:node_1480_1.
+_:node_1487_1 ut:has _:node_1488_1.
+_:node_1487_1 ut:has _:node_1502_1.
+_:node_1487_1 ut:has _:node_1514_1.
+_:node_1509_1 ut:has _:node_1510_1.
+_:node_1524_1 ut:has _:node_1554_1.
+_:node_1524_1 ut:has _:node_1589_1.
+_:node_1525_1 ut:has _:node_1526_1.
+_:node_1525_1 ut:has _:node_1533_1.
+_:node_1525_1 ut:has _:node_1540_1.
+_:node_1545_1 ut:has _:node_1549_1.
+_:node_1562_1 ut:has _:node_1563_1.
+_:node_1572_1 ut:has _:node_1573_1.
+_:node_1581_1 ut:has _:node_1582_1.
+_:node_1594_1 ut:has _:node_1595_1.
+_:node_1605_1 ut:has _:node_1606_1.
+_:node_1613_1 ut:has _:node_1614_1.
+_:node_1622_1 ut:has _:node_1626_1.
+_:node_1645_1 ut:has _:node_1646_1.
+_:node_1661_1 ut:has _:node_1666_1.
+_:node_1670_1 ut:has _:node_1674_1.
+_:node_1679_1 ut:has _:node_1680_1.
+_:node_1689_1 ut:has _:node_1767_1.
+_:node_1694_1 ut:has _:node_1695_1.
+_:node_1702_1 ut:has _:node_1706_1.
+_:node_1713_1 ut:has _:node_1715_1.
+_:node_1723_1 ut:has _:node_1729_1.
+_:node_1724_1 ut:has _:node_1725_1.
+_:node_1733_1 ut:has _:node_1734_1.
+_:node_1742_1 ut:has _:node_1745_1.
+_:node_1753_1 ut:has _:node_1754_1.
+_:node_1772_1 ut:has _:node_1778_1.
+_:node_1773_1 ut:has _:node_1774_1.
+_:node_1782_1 ut:has _:node_1783_1.
+_:node_1790_1 ut:has _:node_1862_1.
+_:node_1792_1 ut:has _:node_1793_1.
+_:node_1800_1 ut:has _:node_1801_1.
+_:node_1809_1 ut:has _:node_1813_1.
+_:node_1817_1 ut:has _:node_1841_1.
+_:node_1818_1 ut:has _:node_1819_1.
+_:node_1818_1 ut:has _:node_1826_1.
+_:node_1833_1 ut:has _:node_1834_1.
+_:node_1833_1 ut:has _:node_1845_1.
+_:node_1853_1 ut:has _:node_1857_1.
+_:node_1861_1 ut:has _:node_1866_1.
+_:node_1873_1 ut:has _:node_1877_1.
+_:node_1881_1 ut:has _:node_1882_1.
+_:node_1893_1 ut:has _:node_1898_1.
+_:node_1894_1 ut:has _:node_1983_1.
+_:node_1903_1 ut:has _:node_1904_1.
+_:node_1911_1 ut:has _:node_1912_1.
+_:node_1923_1 ut:has _:node_1924_1.
+_:node_1928_1 ut:has _:node_1929_1.
+_:node_1933_1 ut:has _:node_1934_1.
+_:node_1933_1 ut:has _:node_1941_1.
+_:node_1946_1 ut:has _:node_1949_1.
+_:node_1956_1 ut:has _:node_1957_1.
+_:node_1965_1 ut:has _:node_1966_1.
+_:node_1970_1 ut:has _:node_1971_1.
+_:node_1970_1 ut:has _:node_1978_1.
+_:node_1982_1 ut:has _:node_1990_1.
+_:node_1995_1 ut:has _:node_1996_1.
+_:node_2005_1 ut:has _:node_2006_1.
+_:node_2013_1 ut:has _:node_2077_1.
+_:node_2014_1 ut:has _:node_2015_1.
+_:node_2025_1 ut:has _:node_2030_1.
+_:node_2027_1 ut:has _:node_2048_1.
+_:node_2037_1 ut:has _:node_2038_1.
+_:node_2047_1 ut:has _:node_2052_1.
+_:node_2058_1 ut:has _:node_2059_1.
+_:node_2066_1 ut:has _:node_2072_1.
+_:node_2067_1 ut:has _:node_2068_1.
+_:node_2081_1 ut:has _:node_2082_1.
+_:node_2095_1 ut:has _:node_2096_1.
+_:node_2103_1 ut:has _:node_2120_1.
+_:node_2106_1 ut:has _:node_2107_1.
+_:node_2129_1 ut:has _:node_2130_1.
+_:node_2137_1 ut:has _:node_2138_1.
+_:node_2142_1 ut:has _:node_2143_1.
+_:node_2142_1 ut:has _:node_2150_1.
+_:node_2157_1 ut:has _:node_2159_1.
+_:node_2170_1 ut:has _:node_2171_1.
+_:node_2179_1 ut:has _:node_2180_1.
+_:node_2188_1 ut:has _:node_2189_1.
+_:node_2197_1 ut:has _:node_2198_1.
+_:node_2206_1 ut:has _:node_2208_1.
+_:node_2206_1 ut:has _:node_2215_1.
+_:node_2206_1 ut:has _:node_2222_1.
+_:node_2207_1 ut:has _:node_2242_1.
+_:node_2226_1 ut:has _:node_2227_1.
+_:node_2234_1 ut:has _:node_2235_1.
+_:node_2250_1 ut:has _:node_2251_1.
+_:node_2259_1 ut:has _:node_2260_1.
+_:node_2270_1 ut:has _:node_2271_1.
+_:node_2277_1 ut:has _:node_2278_1.
+_:node_2277_1 ut:has _:node_2285_1.
+_:node_2291_1 ut:has _:node_2292_1.
+_:node_2299_1 ut:has _:node_2300_1.
+_:node_2305_1 ut:has _:node_2306_1.
+_:node_2314_1 ut:has _:node_2315_1.
+_:node_2321_1 ut:has _:node_2322_1.
+_:node_2331_1 ut:has _:node_2335_1.
+_:node_2339_1 ut:has _:node_2340_1.
+_:node_2349_1 ut:has _:node_2354_1.
+_:node_2351_1 ut:has _:node_2378_1.
+_:node_2359_1 ut:has _:node_2360_1.
+_:node_2367_1 ut:has _:node_2368_1.
+_:node_2377_1 ut:has _:node_2382_1.
+_:node_2386_1 ut:has _:node_2387_1.
+_:node_2394_1 ut:has _:node_2395_1.
+_:node_2406_1 ut:has _:node_2407_1.
+_:node_2417_1 ut:has _:node_2418_1.
+_:node_2422_1 ut:has _:node_2427_1.
+_:node_2431_1 ut:has _:node_2432_1.
+_:node_2441_1 ut:has _:node_2442_1.
+_:node_2449_1 ut:has _:node_2450_1.
+_:node_2457_1 ut:has _:node_2478_1.
+_:node_2460_1 ut:has _:node_2461_1.
+_:node_2468_1 ut:has _:node_2472_1.
+_:node_2477_1 ut:has _:node_2485_1.
+_:node_2489_1 ut:has _:node_2493_1.
+_:node_2497_1 ut:has _:node_2498_1.
+_:node_2505_1 ut:has _:node_2506_1.
+_:node_2517_1 ut:has _:node_2518_1.
+_:node_2525_1 ut:has _:node_2526_1.
+_:node_2533_1 ut:has _:node_2537_1.
+_:node_2544_1 ut:has _:node_2545_1.
+_:node_2553_1 ut:has _:node_2554_1.
+_:node_2559_1 ut:has _:node_2564_1.
+_:node_2563_1 ut:has _:node_2580_1.
+_:node_2575_1 ut:has _:node_2576_1.
+_:node_2587_1 ut:has _:node_2588_1.
+_:node_2596_1 ut:has _:node_2597_1.
+_:node_2602_1 ut:has _:node_2603_1.
+_:node_2602_1 ut:has _:node_2610_1.
+_:node_2617_1 ut:has _:node_2619_1.
+_:node_2618_1 ut:has _:node_2710_1.
+_:node_2626_1 ut:has _:node_2627_1.
+_:node_2626_1 ut:has _:node_2634_1.
+_:node_2639_1 ut:has _:node_2640_1.
+_:node_2648_1 ut:has _:node_2649_1.
+_:node_2648_1 ut:has _:node_2657_1.
+_:node_2665_1 ut:has _:node_2666_1.
+_:node_2674_1 ut:has _:node_2675_1.
+_:node_2683_1 ut:has _:node_2684_1.
+_:node_2683_1 ut:has _:node_2696_1.
+_:node_2701_1 ut:has _:node_2702_1.
+_:node_2714_1 ut:has _:node_2715_1.
+_:node_2714_1 ut:has _:node_2722_1.
+_:node_2730_1 ut:has _:node_2731_1.
+_:node_2735_1 ut:has _:node_2736_1.
+_:node_2735_1 ut:has _:node_2743_1.
+_:node_2747_1 ut:has _:node_2749_1.
+_:node_2756_1 ut:has _:node_2762_1.
+_:node_2757_1 ut:has _:node_2758_1.
+_:node_2771_1 ut:has _:node_2797_1.
+_:node_2771_1 ut:has _:node_2882_1.
+_:node_2775_1 ut:has _:node_2776_1.
+_:node_2780_1 ut:has _:node_2781_1.
+_:node_2788_1 ut:has _:node_2789_1.
+_:node_2796_1 ut:has _:node_2805_1.
+_:node_2812_1 ut:has _:node_2813_1.
+_:node_2820_1 ut:has _:node_2821_1.
+_:node_2820_1 ut:has _:node_2828_1.
+_:node_2834_1 ut:has _:node_2848_1.
+_:node_2840_1 ut:has _:node_2841_1.
+_:node_2846_1 ut:has _:node_2854_1.
+_:node_2858_1 ut:has _:node_2862_1.
+_:node_2866_1 ut:has _:node_2867_1.
+_:node_2874_1 ut:has _:node_2875_1.
+_:node_2886_1 ut:has _:node_2887_1.
+_:node_2897_1 ut:has _:node_2898_1.
+_:node_2897_1 ut:has _:node_2905_1.
+_:node_2909_1 ut:has _:node_2910_1.
+_:node_2921_1 ut:has _:node_2922_1.
+_:node_2921_1 ut:has _:node_2929_1.
+_:node_2934_1 ut:has _:node_2935_1.
+_:node_2945_1 ut:has _:node_2946_1.
+_:node_2954_1 ut:has _:node_2955_1.
+_:node_2962_1 ut:has _:node_2963_1.
+_:node_2968_1 ut:has _:node_2969_1.
+_:node_2978_1 ut:has _:node_2979_1.
+_:node_2986_1 ut:has _:node_3009_1.
+_:node_2986_1 ut:has _:node_3041_1.
+_:node_2991_1 ut:has _:node_2992_1.
+_:node_2999_1 ut:has _:node_3000_1.
+_:node_3008_1 ut:has _:node_3016_1.
+_:node_3023_1 ut:has _:node_3024_1.
+_:node_3023_1 ut:has _:node_3031_1.
+_:node_3040_1 ut:has _:node_3048_1.
+_:node_3055_1 ut:has _:node_3056_1.
+_:node_3055_1 ut:has _:node_3063_1.
+_:node_3055_1 ut:has _:node_3070_1.
+_:node_3078_1 ut:has _:node_3079_1.
+_:node_3086_1 ut:has _:node_3092_1.
+_:node_3088_1 ut:has _:node_3114_1.
+_:node_3088_1 ut:has _:node_3141_1.
+_:node_3089_1 ut:has _:node_3371_1.
+_:node_3096_1 ut:has _:node_3097_1.
+_:node_3105_1 ut:has _:node_3109_1.
+_:node_3121_1 ut:has _:node_3122_1.
+_:node_3131_1 ut:has _:node_3135_1.
+_:node_3140_1 ut:has _:node_3148_1.
+_:node_3158_1 ut:has _:node_3159_1.
+_:node_3158_1 ut:has _:node_3169_1.
+_:node_3173_1 ut:has _:node_3175_1.
+_:node_3173_1 ut:has _:node_3182_1.
+_:node_3186_1 ut:has _:node_3187_1.
+_:node_3191_1 ut:has _:node_3192_1.
+_:node_3191_1 ut:has _:node_3199_1.
+_:node_3206_1 ut:has _:node_3232_1.
+_:node_3206_1 ut:has _:node_3321_1.
+_:node_3207_1 ut:has _:node_3208_1.
+_:node_3217_1 ut:has _:node_3218_1.
+_:node_3224_1 ut:has _:node_3225_1.
+_:node_3236_1 ut:has _:node_3237_1.
+_:node_3244_1 ut:has _:node_3245_1.
+_:node_3249_1 ut:has _:node_3250_1.
+_:node_3257_1 ut:has _:node_3258_1.
+_:node_3263_1 ut:has _:node_3265_1.
+_:node_3275_1 ut:has _:node_3276_1.
+_:node_3283_1 ut:has _:node_3284_1.
+_:node_3291_1 ut:has _:node_3292_1.
+_:node_3302_1 ut:has _:node_3303_1.
+_:node_3313_1 ut:has _:node_3317_1.
+_:node_3325_1 ut:has _:node_3326_1.
+_:node_3336_1 ut:has _:node_3337_1.
+_:node_3345_1 ut:has _:node_3346_1.
+_:node_3353_1 ut:has _:node_3442_1.
+_:node_3354_1 ut:has _:node_3355_1.
+_:node_3361_1 ut:has _:node_3362_1.
+_:node_3369_1 ut:has _:node_3378_1.
+_:node_3369_1 ut:has _:node_3385_1.
+_:node_3389_1 ut:has _:node_3390_1.
+_:node_3394_1 ut:has _:node_3395_1.
+_:node_3402_1 ut:has _:node_3403_1.
+_:node_3402_1 ut:has _:node_3410_1.
+_:node_3420_1 ut:has _:node_3426_1.
+_:node_3421_1 ut:has _:node_3422_1.
+_:node_3434_1 ut:has _:node_3435_1.
+_:node_3434_1 ut:has _:node_3446_1.
+_:node_3434_1 ut:has _:node_3453_1.
+_:node_3462_1 ut:has _:node_3464_1.
+_:node_3472_1 ut:has _:node_3476_1.
+_:node_3484_1 ut:has _:node_3504_1.
+_:node_3488_1 ut:has _:node_3489_1.
+_:node_3495_1 ut:has _:node_3496_1.
+_:node_3495_1 ut:has _:node_3513_1.
+_:node_3518_1 ut:has _:node_3519_1.
+_:node_3526_1 ut:has _:node_3527_1.
+_:node_3526_1 ut:has _:node_3537_1.
+_:node_3541_1 ut:has _:node_3555_1.
+_:node_3546_1 ut:has _:node_3547_1.
+_:node_3559_1 ut:has _:node_3560_1.
+_:node_3565_1 ut:has _:node_3566_1.
+_:node_3570_1 ut:has _:node_3571_1.
+_:node_3570_1 ut:has _:node_3578_1.
+_:node_3587_1 ut:has _:node_3605_1.
+_:node_3590_1 ut:has _:node_3591_1.
+_:node_3597_1 ut:has _:node_3601_1.
+_:node_3611_1 ut:has _:node_3615_1.
+_:node_3622_1 ut:has _:node_3628_1.
+_:node_3623_1 ut:has _:node_3645_1.
+_:node_3623_1 ut:has _:node_3663_1.
+_:node_3623_1 ut:has _:node_3696_1.
+_:node_3624_1 ut:has _:node_565_1.
+_:node_3624_1 ut:has _:node_3908_1.
+_:node_3633_1 ut:has _:node_3634_1.
+_:node_3659_1 ut:has _:node_3670_1.
+_:node_3675_1 ut:has _:node_3676_1.
+_:node_3675_1 ut:has _:node_3683_1.
+_:node_3687_1 ut:has _:node_3691_1.
+_:node_3695_1 ut:has _:node_3703_1.
+_:node_3711_1 ut:has _:node_3712_1.
+_:node_3720_1 ut:has _:node_3721_1.
+_:node_3731_1 ut:has _:node_3760_1.
+_:node_3732_1 ut:has _:node_3733_1.
+_:node_3740_1 ut:has _:node_3741_1.
+_:node_3751_1 ut:has _:node_3752_1.
+_:node_3759_1 ut:has _:node_3767_1.
+_:node_3775_1 ut:has _:node_3776_1.
+_:node_3783_1 ut:has _:node_3784_1.
+_:node_3783_1 ut:has _:node_3791_1.
+_:node_3795_1 ut:has _:node_3827_1.
+_:node_3798_1 ut:has _:node_3799_1.
+_:node_3798_1 ut:has _:node_3806_1.
+_:node_3798_1 ut:has _:node_3813_1.
+_:node_3817_1 ut:has _:node_3818_1.
+_:node_3831_1 ut:has _:node_3832_1.
+_:node_3837_1 ut:has _:node_3838_1.
+_:node_3845_1 ut:has _:node_3846_1.
+_:node_3845_1 ut:has _:node_3856_1.
+_:node_3861_1 ut:has _:node_3862_1.
+_:node_3869_1 ut:has _:node_3873_1.
+_:node_3881_1 ut:has _:node_3904_1.
+_:node_3881_1 ut:has _:node_3975_1.
+_:node_3883_1 ut:has _:node_3884_1.
+_:node_3893_1 ut:has _:node_3894_1.
+_:node_3916_1 ut:has _:node_3917_1.
+_:node_3924_1 ut:has _:node_3928_1.
+_:node_3936_1 ut:has _:node_3940_1.
+_:node_3953_1 ut:has _:node_3957_1.
+_:node_3962_1 ut:has _:node_3963_1.
+_:node_3962_1 ut:has _:node_3970_1.
+_:node_3980_1 ut:has _:node_3984_1.
+_:node_3990_1 ut:has _:node_3991_1.
+_:node_4000_1 ut:has _:node_4001_1.
+_:node_4009_1 ut:has _:node_4010_1.
+_:node_4014_1 ut:has _:node_4015_1.
+_:node_4023_1 ut:has _:node_4024_1.
+_:node_4028_1 ut:has _:node_4029_1.
+_:node_4028_1 ut:has _:node_4039_1.
+_:node_4047_1 ut:has _:node_4048_1.
+_:node_4056_1 ut:has _:node_4057_1.
+_:node_4067_1 ut:has _:node_4068_1.
+_:node_4075_1 ut:has _:node_4092_1.
+_:node_4076_1 ut:has _:node_4077_1.
+_:node_4091_1 ut:has _:node_4096_1.
+_:node_4091_1 ut:has _:node_4103_1.
+_:node_4107_1 ut:has _:node_4111_1.
+_:node_4118_1 ut:has _:node_4119_1.
+_:node_4126_1 ut:has _:node_4127_1.
+_:node_4126_1 ut:has _:node_4137_1.
+_:node_4144_1 ut:has _:node_26_1.
+_:node_4_1 ut:hasCodeValue "active".
+_:node_6_1 ut:hasCodeValue 271749004 .
+_:node_8_1 ut:hasCodeValue "confirmed".
+_:node_11_1 ut:hasCodeValue 420008001 .
+_:node_20_1 ut:hasCodeValue "active".
+_:node_22_1 ut:hasCodeValue 77386006 .
+_:node_24_1 ut:hasCodeValue "confirmed".
+_:node_27_1 ut:hasCodeValue "active".
+_:node_29_1 ut:hasCodeValue 271749004 .
+_:node_31_1 ut:hasCodeValue "confirmed".
+_:node_37_1 ut:hasCodeValue 420008001 .
+_:node_46_1 ut:hasCodeValue 225517006 .
+_:node_53_1 ut:hasCodeValue "active".
+_:node_55_1 ut:hasCodeValue 271749004 .
+_:node_57_1 ut:hasCodeValue "confirmed".
+_:node_62_1 ut:hasCodeValue "active".
+_:node_64_1 ut:hasCodeValue 77386006 .
+_:node_66_1 ut:hasCodeValue "confirmed".
+_:node_69_1 ut:hasCodeValue "active".
+_:node_71_1 ut:hasCodeValue 9826008 .
+_:node_73_1 ut:hasCodeValue "confirmed".
+_:node_77_1 ut:hasCodeValue "active".
+_:node_79_1 ut:hasCodeValue 271749004 .
+_:node_81_1 ut:hasCodeValue "confirmed".
+_:node_85_1 ut:hasCodeValue 420008001 .
+_:node_91_1 ut:hasCodeValue "active".
+_:node_93_1 ut:hasCodeValue 271749004 .
+_:node_95_1 ut:hasCodeValue "confirmed".
+_:node_99_1 ut:hasCodeValue 420008001 .
+_:node_104_1 ut:hasCodeValue "active".
+_:node_106_1 ut:hasCodeValue 271749004 .
+_:node_108_1 ut:hasCodeValue "confirmed".
+_:node_112_1 ut:hasCodeValue "active".
+_:node_114_1 ut:hasCodeValue 271749004 .
+_:node_116_1 ut:hasCodeValue "confirmed".
+_:node_123_1 ut:hasCodeValue "active".
+_:node_125_1 ut:hasCodeValue 77386006 .
+_:node_127_1 ut:hasCodeValue "confirmed".
+_:node_130_1 ut:hasCodeValue 420008001 .
+_:node_137_1 ut:hasCodeValue 225517006 .
+_:node_142_1 ut:hasCodeValue "active".
+_:node_144_1 ut:hasCodeValue 77386006 .
+_:node_146_1 ut:hasCodeValue "confirmed".
+_:node_149_1 ut:hasCodeValue "active".
+_:node_151_1 ut:hasCodeValue 9826008 .
+_:node_153_1 ut:hasCodeValue "confirmed".
+_:node_158_1 ut:hasCodeValue 225517006 .
+_:node_162_1 ut:hasCodeValue 420008001 .
+_:node_170_1 ut:hasCodeValue "active".
+_:node_172_1 ut:hasCodeValue 77386006 .
+_:node_174_1 ut:hasCodeValue "confirmed".
+_:node_179_1 ut:hasCodeValue "active".
+_:node_181_1 ut:hasCodeValue 271749004 .
+_:node_183_1 ut:hasCodeValue "confirmed".
+_:node_191_1 ut:hasCodeValue "active".
+_:node_193_1 ut:hasCodeValue 77386006 .
+_:node_195_1 ut:hasCodeValue "confirmed".
+_:node_198_1 ut:hasCodeValue "active".
+_:node_200_1 ut:hasCodeValue 271749004 .
+_:node_202_1 ut:hasCodeValue "confirmed".
+_:node_209_1 ut:hasCodeValue 225517006 .
+_:node_214_1 ut:hasCodeValue "active".
+_:node_216_1 ut:hasCodeValue 271749004 .
+_:node_218_1 ut:hasCodeValue "confirmed".
+_:node_223_1 ut:hasCodeValue "active".
+_:node_225_1 ut:hasCodeValue 77386006 .
+_:node_227_1 ut:hasCodeValue "confirmed".
+_:node_242_1 ut:hasCodeValue 420008001 .
+_:node_249_1 ut:hasCodeValue "active".
+_:node_251_1 ut:hasCodeValue 77386006 .
+_:node_253_1 ut:hasCodeValue "confirmed".
+_:node_262_1 ut:hasCodeValue "active".
+_:node_264_1 ut:hasCodeValue 271749004 .
+_:node_266_1 ut:hasCodeValue "confirmed".
+_:node_271_1 ut:hasCodeValue 420008001 .
+_:node_278_1 ut:hasCodeValue 225517006 .
+_:node_284_1 ut:hasCodeValue "active".
+_:node_286_1 ut:hasCodeValue 9826008 .
+_:node_288_1 ut:hasCodeValue "confirmed".
+_:node_294_1 ut:hasCodeValue 225517006 .
+_:node_302_1 ut:hasCodeValue "active".
+_:node_304_1 ut:hasCodeValue 77386006 .
+_:node_306_1 ut:hasCodeValue "confirmed".
+_:node_311_1 ut:hasCodeValue "active".
+_:node_313_1 ut:hasCodeValue 9826008 .
+_:node_315_1 ut:hasCodeValue "confirmed".
+_:node_322_1 ut:hasCodeValue "active".
+_:node_324_1 ut:hasCodeValue 271749004 .
+_:node_326_1 ut:hasCodeValue "confirmed".
+_:node_331_1 ut:hasCodeValue "active".
+_:node_333_1 ut:hasCodeValue 77386006 .
+_:node_335_1 ut:hasCodeValue "confirmed".
+_:node_339_1 ut:hasCodeValue "active".
+_:node_341_1 ut:hasCodeValue 9826008 .
+_:node_343_1 ut:hasCodeValue "confirmed".
+_:node_346_1 ut:hasCodeValue "active".
+_:node_348_1 ut:hasCodeValue 9826008 .
+_:node_350_1 ut:hasCodeValue "confirmed".
+_:node_359_1 ut:hasCodeValue "active".
+_:node_361_1 ut:hasCodeValue 271749004 .
+_:node_363_1 ut:hasCodeValue "confirmed".
+_:node_369_1 ut:hasCodeValue 420008001 .
+_:node_373_1 ut:hasCodeValue 225517006 .
+_:node_380_1 ut:hasCodeValue "active".
+_:node_382_1 ut:hasCodeValue 271749004 .
+_:node_384_1 ut:hasCodeValue "confirmed".
+_:node_387_1 ut:hasCodeValue "active".
+_:node_389_1 ut:hasCodeValue 9826008 .
+_:node_391_1 ut:hasCodeValue "confirmed".
+_:node_397_1 ut:hasCodeValue 225517006 .
+_:node_401_1 ut:hasCodeValue 420008001 .
+_:node_406_1 ut:hasCodeValue "active".
+_:node_408_1 ut:hasCodeValue 9826008 .
+_:node_410_1 ut:hasCodeValue "confirmed".
+_:node_417_1 ut:hasCodeValue "active".
+_:node_419_1 ut:hasCodeValue 77386006 .
+_:node_421_1 ut:hasCodeValue "confirmed".
+_:node_424_1 ut:hasCodeValue "active".
+_:node_426_1 ut:hasCodeValue 271749004 .
+_:node_428_1 ut:hasCodeValue "confirmed".
+_:node_435_1 ut:hasCodeValue "active".
+_:node_437_1 ut:hasCodeValue 271749004 .
+_:node_439_1 ut:hasCodeValue "confirmed".
+_:node_443_1 ut:hasCodeValue 420008001 .
+_:node_450_1 ut:hasCodeValue "active".
+_:node_452_1 ut:hasCodeValue 77386006 .
+_:node_454_1 ut:hasCodeValue "confirmed".
+_:node_457_1 ut:hasCodeValue "active".
+_:node_459_1 ut:hasCodeValue 271749004 .
+_:node_461_1 ut:hasCodeValue "confirmed".
+_:node_465_1 ut:hasCodeValue "active".
+_:node_467_1 ut:hasCodeValue 271749004 .
+_:node_469_1 ut:hasCodeValue "confirmed".
+_:node_472_1 ut:hasCodeValue "active".
+_:node_474_1 ut:hasCodeValue 9826008 .
+_:node_476_1 ut:hasCodeValue "confirmed".
+_:node_482_1 ut:hasCodeValue 225517006 .
+_:node_491_1 ut:hasCodeValue "active".
+_:node_493_1 ut:hasCodeValue 77386006 .
+_:node_495_1 ut:hasCodeValue "confirmed".
+_:node_500_1 ut:hasCodeValue 420008001 .
+_:node_504_1 ut:hasCodeValue 225517006 .
+_:node_510_1 ut:hasCodeValue "active".
+_:node_512_1 ut:hasCodeValue 271749004 .
+_:node_514_1 ut:hasCodeValue "confirmed".
+_:node_524_1 ut:hasCodeValue 420008001 .
+_:node_529_1 ut:hasCodeValue "active".
+_:node_531_1 ut:hasCodeValue 9826008 .
+_:node_533_1 ut:hasCodeValue "confirmed".
+_:node_541_1 ut:hasCodeValue 420008001 .
+_:node_548_1 ut:hasCodeValue "active".
+_:node_550_1 ut:hasCodeValue 9826008 .
+_:node_552_1 ut:hasCodeValue "confirmed".
+_:node_560_1 ut:hasCodeValue 225517006 .
+_:node_566_1 ut:hasCodeValue 225517006 .
+_:node_572_1 ut:hasCodeValue "active".
+_:node_574_1 ut:hasCodeValue 271749004 .
+_:node_576_1 ut:hasCodeValue "confirmed".
+_:node_580_1 ut:hasCodeValue "active".
+_:node_582_1 ut:hasCodeValue 77386006 .
+_:node_584_1 ut:hasCodeValue "confirmed".
+_:node_587_1 ut:hasCodeValue 420008001 .
+_:node_593_1 ut:hasCodeValue 420008001 .
+_:node_599_1 ut:hasCodeValue "active".
+_:node_601_1 ut:hasCodeValue 271749004 .
+_:node_603_1 ut:hasCodeValue "confirmed".
+_:node_609_1 ut:hasCodeValue "active".
+_:node_611_1 ut:hasCodeValue 9826008 .
+_:node_613_1 ut:hasCodeValue "confirmed".
+_:node_619_1 ut:hasCodeValue "active".
+_:node_621_1 ut:hasCodeValue 77386006 .
+_:node_623_1 ut:hasCodeValue "confirmed".
+_:node_632_1 ut:hasCodeValue 225517006 .
+_:node_639_1 ut:hasCodeValue 420008001 .
+_:node_646_1 ut:hasCodeValue "active".
+_:node_648_1 ut:hasCodeValue 77386006 .
+_:node_650_1 ut:hasCodeValue "confirmed".
+_:node_653_1 ut:hasCodeValue 420008001 .
+_:node_658_1 ut:hasCodeValue "active".
+_:node_660_1 ut:hasCodeValue 77386006 .
+_:node_662_1 ut:hasCodeValue "confirmed".
+_:node_667_1 ut:hasCodeValue 420008001 .
+_:node_671_1 ut:hasCodeValue 225517006 .
+_:node_676_1 ut:hasCodeValue "active".
+_:node_678_1 ut:hasCodeValue 9826008 .
+_:node_680_1 ut:hasCodeValue "confirmed".
+_:node_685_1 ut:hasCodeValue 420008001 .
+_:node_692_1 ut:hasCodeValue 225517006 .
+_:node_697_1 ut:hasCodeValue 420008001 .
+_:node_705_1 ut:hasCodeValue 420008001 .
+_:node_713_1 ut:hasCodeValue 225517006 .
+_:node_718_1 ut:hasCodeValue "active".
+_:node_720_1 ut:hasCodeValue 271749004 .
+_:node_722_1 ut:hasCodeValue "confirmed".
+_:node_729_1 ut:hasCodeValue "active".
+_:node_731_1 ut:hasCodeValue 77386006 .
+_:node_733_1 ut:hasCodeValue "confirmed".
+_:node_738_1 ut:hasCodeValue "active".
+_:node_740_1 ut:hasCodeValue 77386006 .
+_:node_742_1 ut:hasCodeValue "confirmed".
+_:node_745_1 ut:hasCodeValue 420008001 .
+_:node_750_1 ut:hasCodeValue 420008001 .
+_:node_755_1 ut:hasCodeValue 420008001 .
+_:node_761_1 ut:hasCodeValue "active".
+_:node_763_1 ut:hasCodeValue 271749004 .
+_:node_765_1 ut:hasCodeValue "confirmed".
+_:node_771_1 ut:hasCodeValue 420008001 .
+_:node_779_1 ut:hasCodeValue "active".
+_:node_781_1 ut:hasCodeValue 77386006 .
+_:node_783_1 ut:hasCodeValue "confirmed".
+_:node_786_1 ut:hasCodeValue 420008001 .
+_:node_794_1 ut:hasCodeValue 225517006 .
+_:node_799_1 ut:hasCodeValue "active".
+_:node_801_1 ut:hasCodeValue 77386006 .
+_:node_803_1 ut:hasCodeValue "confirmed".
+_:node_808_1 ut:hasCodeValue "active".
+_:node_810_1 ut:hasCodeValue 77386006 .
+_:node_812_1 ut:hasCodeValue "confirmed".
+_:node_815_1 ut:hasCodeValue "active".
+_:node_817_1 ut:hasCodeValue 9826008 .
+_:node_819_1 ut:hasCodeValue "confirmed".
+_:node_824_1 ut:hasCodeValue "active".
+_:node_826_1 ut:hasCodeValue 271749004 .
+_:node_828_1 ut:hasCodeValue "confirmed".
+_:node_831_1 ut:hasCodeValue "active".
+_:node_833_1 ut:hasCodeValue 9826008 .
+_:node_835_1 ut:hasCodeValue "confirmed".
+_:node_844_1 ut:hasCodeValue "active".
+_:node_846_1 ut:hasCodeValue 77386006 .
+_:node_848_1 ut:hasCodeValue "confirmed".
+_:node_856_1 ut:hasCodeValue 225517006 .
+_:node_863_1 ut:hasCodeValue "active".
+_:node_865_1 ut:hasCodeValue 271749004 .
+_:node_867_1 ut:hasCodeValue "confirmed".
+_:node_873_1 ut:hasCodeValue 225517006 .
+_:node_884_1 ut:hasCodeValue 225517006 .
+_:node_889_1 ut:hasCodeValue "active".
+_:node_891_1 ut:hasCodeValue 271749004 .
+_:node_893_1 ut:hasCodeValue "confirmed".
+_:node_896_1 ut:hasCodeValue 420008001 .
+_:node_905_1 ut:hasCodeValue 225517006 .
+_:node_910_1 ut:hasCodeValue "active".
+_:node_912_1 ut:hasCodeValue 271749004 .
+_:node_914_1 ut:hasCodeValue "confirmed".
+_:node_923_1 ut:hasCodeValue 225517006 .
+_:node_928_1 ut:hasCodeValue 420008001 .
+_:node_935_1 ut:hasCodeValue 420008001 .
+_:node_942_1 ut:hasCodeValue "active".
+_:node_944_1 ut:hasCodeValue 77386006 .
+_:node_946_1 ut:hasCodeValue "confirmed".
+_:node_951_1 ut:hasCodeValue 420008001 .
+_:node_956_1 ut:hasCodeValue "active".
+_:node_958_1 ut:hasCodeValue 271749004 .
+_:node_960_1 ut:hasCodeValue "confirmed".
+_:node_968_1 ut:hasCodeValue 225517006 .
+_:node_974_1 ut:hasCodeValue "active".
+_:node_976_1 ut:hasCodeValue 271749004 .
+_:node_978_1 ut:hasCodeValue "confirmed".
+_:node_982_1 ut:hasCodeValue "active".
+_:node_984_1 ut:hasCodeValue 9826008 .
+_:node_986_1 ut:hasCodeValue "confirmed".
+_:node_991_1 ut:hasCodeValue "active".
+_:node_993_1 ut:hasCodeValue 271749004 .
+_:node_995_1 ut:hasCodeValue "confirmed".
+_:node_999_1 ut:hasCodeValue "active".
+_:node_1001_1 ut:hasCodeValue 9826008 .
+_:node_1003_1 ut:hasCodeValue "confirmed".
+_:node_1008_1 ut:hasCodeValue 420008001 .
+_:node_1012_1 ut:hasCodeValue "active".
+_:node_1014_1 ut:hasCodeValue 271749004 .
+_:node_1016_1 ut:hasCodeValue "confirmed".
+_:node_1024_1 ut:hasCodeValue 225517006 .
+_:node_1031_1 ut:hasCodeValue "active".
+_:node_1033_1 ut:hasCodeValue 77386006 .
+_:node_1035_1 ut:hasCodeValue "confirmed".
+_:node_1045_1 ut:hasCodeValue "active".
+_:node_1047_1 ut:hasCodeValue 271749004 .
+_:node_1049_1 ut:hasCodeValue "confirmed".
+_:node_1053_1 ut:hasCodeValue 420008001 .
+_:node_1058_1 ut:hasCodeValue "active".
+_:node_1060_1 ut:hasCodeValue 271749004 .
+_:node_1062_1 ut:hasCodeValue "confirmed".
+_:node_1065_1 ut:hasCodeValue "active".
+_:node_1067_1 ut:hasCodeValue 77386006 .
+_:node_1069_1 ut:hasCodeValue "confirmed".
+_:node_1072_1 ut:hasCodeValue "active".
+_:node_1074_1 ut:hasCodeValue 9826008 .
+_:node_1076_1 ut:hasCodeValue "confirmed".
+_:node_1080_1 ut:hasCodeValue "active".
+_:node_1082_1 ut:hasCodeValue 271749004 .
+_:node_1084_1 ut:hasCodeValue "confirmed".
+_:node_1090_1 ut:hasCodeValue "active".
+_:node_1092_1 ut:hasCodeValue 9826008 .
+_:node_1094_1 ut:hasCodeValue "confirmed".
+_:node_1100_1 ut:hasCodeValue "active".
+_:node_1102_1 ut:hasCodeValue 9826008 .
+_:node_1104_1 ut:hasCodeValue "confirmed".
+_:node_1110_1 ut:hasCodeValue "active".
+_:node_1112_1 ut:hasCodeValue 9826008 .
+_:node_1114_1 ut:hasCodeValue "confirmed".
+_:node_1119_1 ut:hasCodeValue "active".
+_:node_1121_1 ut:hasCodeValue 77386006 .
+_:node_1123_1 ut:hasCodeValue "confirmed".
+_:node_1126_1 ut:hasCodeValue "active".
+_:node_1128_1 ut:hasCodeValue 9826008 .
+_:node_1130_1 ut:hasCodeValue "confirmed".
+_:node_1138_1 ut:hasCodeValue "active".
+_:node_1140_1 ut:hasCodeValue 77386006 .
+_:node_1142_1 ut:hasCodeValue "confirmed".
+_:node_1145_1 ut:hasCodeValue "active".
+_:node_1147_1 ut:hasCodeValue 9826008 .
+_:node_1149_1 ut:hasCodeValue "confirmed".
+_:node_1154_1 ut:hasCodeValue "active".
+_:node_1156_1 ut:hasCodeValue 77386006 .
+_:node_1158_1 ut:hasCodeValue "confirmed".
+_:node_1162_1 ut:hasCodeValue 420008001 .
+_:node_1168_1 ut:hasCodeValue "active".
+_:node_1170_1 ut:hasCodeValue 9826008 .
+_:node_1172_1 ut:hasCodeValue "confirmed".
+_:node_1178_1 ut:hasCodeValue 225517006 .
+_:node_1184_1 ut:hasCodeValue "active".
+_:node_1186_1 ut:hasCodeValue 77386006 .
+_:node_1188_1 ut:hasCodeValue "confirmed".
+_:node_1192_1 ut:hasCodeValue "active".
+_:node_1194_1 ut:hasCodeValue 77386006 .
+_:node_1196_1 ut:hasCodeValue "confirmed".
+_:node_1199_1 ut:hasCodeValue "active".
+_:node_1201_1 ut:hasCodeValue 9826008 .
+_:node_1203_1 ut:hasCodeValue "confirmed".
+_:node_1208_1 ut:hasCodeValue "active".
+_:node_1210_1 ut:hasCodeValue 9826008 .
+_:node_1212_1 ut:hasCodeValue "confirmed".
+_:node_1216_1 ut:hasCodeValue "active".
+_:node_1218_1 ut:hasCodeValue 271749004 .
+_:node_1220_1 ut:hasCodeValue "confirmed".
+_:node_1227_1 ut:hasCodeValue 225517006 .
+_:node_1233_1 ut:hasCodeValue "active".
+_:node_1235_1 ut:hasCodeValue 271749004 .
+_:node_1237_1 ut:hasCodeValue "confirmed".
+_:node_1240_1 ut:hasCodeValue "active".
+_:node_1242_1 ut:hasCodeValue 9826008 .
+_:node_1244_1 ut:hasCodeValue "confirmed".
+_:node_1250_1 ut:hasCodeValue 225517006 .
+_:node_1256_1 ut:hasCodeValue 420008001 .
+_:node_1272_1 ut:hasCodeValue "active".
+_:node_1274_1 ut:hasCodeValue 77386006 .
+_:node_1276_1 ut:hasCodeValue "confirmed".
+_:node_1279_1 ut:hasCodeValue 420008001 .
+_:node_1289_1 ut:hasCodeValue "active".
+_:node_1291_1 ut:hasCodeValue 77386006 .
+_:node_1293_1 ut:hasCodeValue "confirmed".
+_:node_1297_1 ut:hasCodeValue 420008001 .
+_:node_1304_1 ut:hasCodeValue "active".
+_:node_1306_1 ut:hasCodeValue 271749004 .
+_:node_1308_1 ut:hasCodeValue "confirmed".
+_:node_1311_1 ut:hasCodeValue "active".
+_:node_1313_1 ut:hasCodeValue 9826008 .
+_:node_1315_1 ut:hasCodeValue "confirmed".
+_:node_1322_1 ut:hasCodeValue 420008001 .
+_:node_1332_1 ut:hasCodeValue 225517006 .
+_:node_1337_1 ut:hasCodeValue "active".
+_:node_1339_1 ut:hasCodeValue 77386006 .
+_:node_1341_1 ut:hasCodeValue "confirmed".
+_:node_1347_1 ut:hasCodeValue "active".
+_:node_1349_1 ut:hasCodeValue 271749004 .
+_:node_1351_1 ut:hasCodeValue "confirmed".
+_:node_1354_1 ut:hasCodeValue "active".
+_:node_1356_1 ut:hasCodeValue 9826008 .
+_:node_1358_1 ut:hasCodeValue "confirmed".
+_:node_1362_1 ut:hasCodeValue "active".
+_:node_1364_1 ut:hasCodeValue 271749004 .
+_:node_1366_1 ut:hasCodeValue "confirmed".
+_:node_1369_1 ut:hasCodeValue "active".
+_:node_1371_1 ut:hasCodeValue 271749004 .
+_:node_1373_1 ut:hasCodeValue "confirmed".
+_:node_1377_1 ut:hasCodeValue "active".
+_:node_1379_1 ut:hasCodeValue 77386006 .
+_:node_1381_1 ut:hasCodeValue "confirmed".
+_:node_1388_1 ut:hasCodeValue 225517006 .
+_:node_1395_1 ut:hasCodeValue 420008001 .
+_:node_1401_1 ut:hasCodeValue "active".
+_:node_1403_1 ut:hasCodeValue 77386006 .
+_:node_1405_1 ut:hasCodeValue "confirmed".
+_:node_1408_1 ut:hasCodeValue 420008001 .
+_:node_1414_1 ut:hasCodeValue "active".
+_:node_1416_1 ut:hasCodeValue 77386006 .
+_:node_1418_1 ut:hasCodeValue "confirmed".
+_:node_1423_1 ut:hasCodeValue "active".
+_:node_1425_1 ut:hasCodeValue 271749004 .
+_:node_1427_1 ut:hasCodeValue "confirmed".
+_:node_1433_1 ut:hasCodeValue "active".
+_:node_1435_1 ut:hasCodeValue 9826008 .
+_:node_1437_1 ut:hasCodeValue "confirmed".
+_:node_1447_1 ut:hasCodeValue "active".
+_:node_1449_1 ut:hasCodeValue 271749004 .
+_:node_1451_1 ut:hasCodeValue "confirmed".
+_:node_1456_1 ut:hasCodeValue "active".
+_:node_1458_1 ut:hasCodeValue 271749004 .
+_:node_1460_1 ut:hasCodeValue "confirmed".
+_:node_1464_1 ut:hasCodeValue "active".
+_:node_1466_1 ut:hasCodeValue 77386006 .
+_:node_1468_1 ut:hasCodeValue "confirmed".
+_:node_1472_1 ut:hasCodeValue "active".
+_:node_1474_1 ut:hasCodeValue 77386006 .
+_:node_1476_1 ut:hasCodeValue "confirmed".
+_:node_1481_1 ut:hasCodeValue "active".
+_:node_1483_1 ut:hasCodeValue 271749004 .
+_:node_1485_1 ut:hasCodeValue "confirmed".
+_:node_1489_1 ut:hasCodeValue "active".
+_:node_1491_1 ut:hasCodeValue 271749004 .
+_:node_1493_1 ut:hasCodeValue "confirmed".
+_:node_1496_1 ut:hasCodeValue "active".
+_:node_1498_1 ut:hasCodeValue 271749004 .
+_:node_1500_1 ut:hasCodeValue "confirmed".
+_:node_1503_1 ut:hasCodeValue "active".
+_:node_1505_1 ut:hasCodeValue 9826008 .
+_:node_1507_1 ut:hasCodeValue "confirmed".
+_:node_1511_1 ut:hasCodeValue 420008001 .
+_:node_1515_1 ut:hasCodeValue 225517006 .
+_:node_1527_1 ut:hasCodeValue "active".
+_:node_1529_1 ut:hasCodeValue 77386006 .
+_:node_1531_1 ut:hasCodeValue "confirmed".
+_:node_1534_1 ut:hasCodeValue "active".
+_:node_1536_1 ut:hasCodeValue 271749004 .
+_:node_1538_1 ut:hasCodeValue "confirmed".
+_:node_1541_1 ut:hasCodeValue 420008001 .
+_:node_1550_1 ut:hasCodeValue 225517006 .
+_:node_1555_1 ut:hasCodeValue "active".
+_:node_1557_1 ut:hasCodeValue 9826008 .
+_:node_1559_1 ut:hasCodeValue "confirmed".
+_:node_1564_1 ut:hasCodeValue "active".
+_:node_1566_1 ut:hasCodeValue 77386006 .
+_:node_1568_1 ut:hasCodeValue "confirmed".
+_:node_1574_1 ut:hasCodeValue "active".
+_:node_1576_1 ut:hasCodeValue 271749004 .
+_:node_1578_1 ut:hasCodeValue "confirmed".
+_:node_1583_1 ut:hasCodeValue "active".
+_:node_1585_1 ut:hasCodeValue 271749004 .
+_:node_1587_1 ut:hasCodeValue "confirmed".
+_:node_1590_1 ut:hasCodeValue 420008001 .
+_:node_1596_1 ut:hasCodeValue "active".
+_:node_1598_1 ut:hasCodeValue 9826008 .
+_:node_1600_1 ut:hasCodeValue "confirmed".
+_:node_1607_1 ut:hasCodeValue "active".
+_:node_1609_1 ut:hasCodeValue 271749004 .
+_:node_1611_1 ut:hasCodeValue "confirmed".
+_:node_1615_1 ut:hasCodeValue "active".
+_:node_1617_1 ut:hasCodeValue 9826008 .
+_:node_1619_1 ut:hasCodeValue "confirmed".
+_:node_1627_1 ut:hasCodeValue 225517006 .
+_:node_1647_1 ut:hasCodeValue "active".
+_:node_1649_1 ut:hasCodeValue 9826008 .
+_:node_1651_1 ut:hasCodeValue "confirmed".
+_:node_1667_1 ut:hasCodeValue 225517006 .
+_:node_1675_1 ut:hasCodeValue 225517006 .
+_:node_1681_1 ut:hasCodeValue "active".
+_:node_1683_1 ut:hasCodeValue 271749004 .
+_:node_1685_1 ut:hasCodeValue "confirmed".
+_:node_1691_1 ut:hasCodeValue 225517006 .
+_:node_1696_1 ut:hasCodeValue "active".
+_:node_1698_1 ut:hasCodeValue 9826008 .
+_:node_1700_1 ut:hasCodeValue "confirmed".
+_:node_1707_1 ut:hasCodeValue 225517006 .
+_:node_1716_1 ut:hasCodeValue "active".
+_:node_1718_1 ut:hasCodeValue 9826008 .
+_:node_1720_1 ut:hasCodeValue "confirmed".
+_:node_1726_1 ut:hasCodeValue 420008001 .
+_:node_1730_1 ut:hasCodeValue 225517006 .
+_:node_1735_1 ut:hasCodeValue "active".
+_:node_1737_1 ut:hasCodeValue 77386006 .
+_:node_1739_1 ut:hasCodeValue "confirmed".
+_:node_1746_1 ut:hasCodeValue "active".
+_:node_1748_1 ut:hasCodeValue 77386006 .
+_:node_1750_1 ut:hasCodeValue "confirmed".
+_:node_1755_1 ut:hasCodeValue "active".
+_:node_1757_1 ut:hasCodeValue 271749004 .
+_:node_1759_1 ut:hasCodeValue "confirmed".
+_:node_1768_1 ut:hasCodeValue 225517006 .
+_:node_1775_1 ut:hasCodeValue 420008001 .
+_:node_1779_1 ut:hasCodeValue 225517006 .
+_:node_1784_1 ut:hasCodeValue 420008001 .
+_:node_1794_1 ut:hasCodeValue "active".
+_:node_1796_1 ut:hasCodeValue 9826008 .
+_:node_1798_1 ut:hasCodeValue "confirmed".
+_:node_1802_1 ut:hasCodeValue "active".
+_:node_1804_1 ut:hasCodeValue 77386006 .
+_:node_1806_1 ut:hasCodeValue "confirmed".
+_:node_1814_1 ut:hasCodeValue 225517006 .
+_:node_1820_1 ut:hasCodeValue 420008001 .
+_:node_1827_1 ut:hasCodeValue 225517006 .
+_:node_1835_1 ut:hasCodeValue "active".
+_:node_1837_1 ut:hasCodeValue 9826008 .
+_:node_1839_1 ut:hasCodeValue "confirmed".
+_:node_1842_1 ut:hasCodeValue 420008001 .
+_:node_1846_1 ut:hasCodeValue 420008001 .
+_:node_1858_1 ut:hasCodeValue 225517006 .
+_:node_1863_1 ut:hasCodeValue 225517006 .
+_:node_1867_1 ut:hasCodeValue "active".
+_:node_1869_1 ut:hasCodeValue 77386006 .
+_:node_1871_1 ut:hasCodeValue "confirmed".
+_:node_1878_1 ut:hasCodeValue 225517006 .
+_:node_1883_1 ut:hasCodeValue "active".
+_:node_1885_1 ut:hasCodeValue 271749004 .
+_:node_1887_1 ut:hasCodeValue "confirmed".
+_:node_1899_1 ut:hasCodeValue 225517006 .
+_:node_1905_1 ut:hasCodeValue "active".
+_:node_1907_1 ut:hasCodeValue 271749004 .
+_:node_1909_1 ut:hasCodeValue "confirmed".
+_:node_1913_1 ut:hasCodeValue "active".
+_:node_1915_1 ut:hasCodeValue 9826008 .
+_:node_1917_1 ut:hasCodeValue "confirmed".
+_:node_1925_1 ut:hasCodeValue 420008001 .
+_:node_1930_1 ut:hasCodeValue 420008001 .
+_:node_1935_1 ut:hasCodeValue "active".
+_:node_1937_1 ut:hasCodeValue 77386006 .
+_:node_1939_1 ut:hasCodeValue "confirmed".
+_:node_1942_1 ut:hasCodeValue 420008001 .
+_:node_1950_1 ut:hasCodeValue "active".
+_:node_1952_1 ut:hasCodeValue 9826008 .
+_:node_1954_1 ut:hasCodeValue "confirmed".
+_:node_1958_1 ut:hasCodeValue "active".
+_:node_1960_1 ut:hasCodeValue 9826008 .
+_:node_1962_1 ut:hasCodeValue "confirmed".
+_:node_1967_1 ut:hasCodeValue 420008001 .
+_:node_1972_1 ut:hasCodeValue "active".
+_:node_1974_1 ut:hasCodeValue 9826008 .
+_:node_1976_1 ut:hasCodeValue "confirmed".
+_:node_1979_1 ut:hasCodeValue 420008001 .
+_:node_1984_1 ut:hasCodeValue 225517006 .
+_:node_1991_1 ut:hasCodeValue 225517006 .
+_:node_1997_1 ut:hasCodeValue "active".
+_:node_1999_1 ut:hasCodeValue 77386006 .
+_:node_2001_1 ut:hasCodeValue "confirmed".
+_:node_2007_1 ut:hasCodeValue "active".
+_:node_2009_1 ut:hasCodeValue 271749004 .
+_:node_2011_1 ut:hasCodeValue "confirmed".
+_:node_2016_1 ut:hasCodeValue 420008001 .
+_:node_2031_1 ut:hasCodeValue 225517006 .
+_:node_2039_1 ut:hasCodeValue "active".
+_:node_2041_1 ut:hasCodeValue 271749004 .
+_:node_2043_1 ut:hasCodeValue "confirmed".
+_:node_2049_1 ut:hasCodeValue 420008001 .
+_:node_2053_1 ut:hasCodeValue 420008001 .
+_:node_2060_1 ut:hasCodeValue "active".
+_:node_2062_1 ut:hasCodeValue 9826008 .
+_:node_2064_1 ut:hasCodeValue "confirmed".
+_:node_2069_1 ut:hasCodeValue 420008001 .
+_:node_2073_1 ut:hasCodeValue 225517006 .
+_:node_2078_1 ut:hasCodeValue 225517006 .
+_:node_2083_1 ut:hasCodeValue "active".
+_:node_2085_1 ut:hasCodeValue 9826008 .
+_:node_2087_1 ut:hasCodeValue "confirmed".
+_:node_2097_1 ut:hasCodeValue "active".
+_:node_2099_1 ut:hasCodeValue 9826008 .
+_:node_2101_1 ut:hasCodeValue "confirmed".
+_:node_2108_1 ut:hasCodeValue "active".
+_:node_2110_1 ut:hasCodeValue 9826008 .
+_:node_2112_1 ut:hasCodeValue "confirmed".
+_:node_2121_1 ut:hasCodeValue "active".
+_:node_2123_1 ut:hasCodeValue 77386006 .
+_:node_2125_1 ut:hasCodeValue "confirmed".
+_:node_2131_1 ut:hasCodeValue "active".
+_:node_2133_1 ut:hasCodeValue 77386006 .
+_:node_2135_1 ut:hasCodeValue "confirmed".
+_:node_2139_1 ut:hasCodeValue 420008001 .
+_:node_2144_1 ut:hasCodeValue "active".
+_:node_2146_1 ut:hasCodeValue 77386006 .
+_:node_2148_1 ut:hasCodeValue "confirmed".
+_:node_2151_1 ut:hasCodeValue "active".
+_:node_2153_1 ut:hasCodeValue 9826008 .
+_:node_2155_1 ut:hasCodeValue "confirmed".
+_:node_2160_1 ut:hasCodeValue "active".
+_:node_2162_1 ut:hasCodeValue 271749004 .
+_:node_2164_1 ut:hasCodeValue "confirmed".
+_:node_2172_1 ut:hasCodeValue "active".
+_:node_2174_1 ut:hasCodeValue 9826008 .
+_:node_2176_1 ut:hasCodeValue "confirmed".
+_:node_2181_1 ut:hasCodeValue "active".
+_:node_2183_1 ut:hasCodeValue 271749004 .
+_:node_2185_1 ut:hasCodeValue "confirmed".
+_:node_2190_1 ut:hasCodeValue 420008001 .
+_:node_2199_1 ut:hasCodeValue "active".
+_:node_2201_1 ut:hasCodeValue 77386006 .
+_:node_2203_1 ut:hasCodeValue "confirmed".
+_:node_2209_1 ut:hasCodeValue "active".
+_:node_2211_1 ut:hasCodeValue 271749004 .
+_:node_2213_1 ut:hasCodeValue "confirmed".
+_:node_2216_1 ut:hasCodeValue "active".
+_:node_2218_1 ut:hasCodeValue 9826008 .
+_:node_2220_1 ut:hasCodeValue "confirmed".
+_:node_2223_1 ut:hasCodeValue 420008001 .
+_:node_2228_1 ut:hasCodeValue 420008001 .
+_:node_2236_1 ut:hasCodeValue "active".
+_:node_2238_1 ut:hasCodeValue 77386006 .
+_:node_2240_1 ut:hasCodeValue "confirmed".
+_:node_2243_1 ut:hasCodeValue "active".
+_:node_2245_1 ut:hasCodeValue 271749004 .
+_:node_2247_1 ut:hasCodeValue "confirmed".
+_:node_2252_1 ut:hasCodeValue "active".
+_:node_2254_1 ut:hasCodeValue 77386006 .
+_:node_2256_1 ut:hasCodeValue "confirmed".
+_:node_2261_1 ut:hasCodeValue "active".
+_:node_2263_1 ut:hasCodeValue 9826008 .
+_:node_2265_1 ut:hasCodeValue "confirmed".
+_:node_2272_1 ut:hasCodeValue 420008001 .
+_:node_2279_1 ut:hasCodeValue "active".
+_:node_2281_1 ut:hasCodeValue 9826008 .
+_:node_2283_1 ut:hasCodeValue "confirmed".
+_:node_2286_1 ut:hasCodeValue 420008001 .
+_:node_2293_1 ut:hasCodeValue "active".
+_:node_2295_1 ut:hasCodeValue 77386006 .
+_:node_2297_1 ut:hasCodeValue "confirmed".
+_:node_2301_1 ut:hasCodeValue 420008001 .
+_:node_2307_1 ut:hasCodeValue "active".
+_:node_2309_1 ut:hasCodeValue 77386006 .
+_:node_2311_1 ut:hasCodeValue "confirmed".
+_:node_2316_1 ut:hasCodeValue 420008001 .
+_:node_2323_1 ut:hasCodeValue "active".
+_:node_2325_1 ut:hasCodeValue 9826008 .
+_:node_2327_1 ut:hasCodeValue "confirmed".
+_:node_2336_1 ut:hasCodeValue 225517006 .
+_:node_2341_1 ut:hasCodeValue "active".
+_:node_2343_1 ut:hasCodeValue 271749004 .
+_:node_2345_1 ut:hasCodeValue "confirmed".
+_:node_2355_1 ut:hasCodeValue 225517006 .
+_:node_2361_1 ut:hasCodeValue "active".
+_:node_2363_1 ut:hasCodeValue 271749004 .
+_:node_2365_1 ut:hasCodeValue "confirmed".
+_:node_2369_1 ut:hasCodeValue "active".
+_:node_2371_1 ut:hasCodeValue 77386006 .
+_:node_2373_1 ut:hasCodeValue "confirmed".
+_:node_2379_1 ut:hasCodeValue 420008001 .
+_:node_2383_1 ut:hasCodeValue 420008001 .
+_:node_2388_1 ut:hasCodeValue 420008001 .
+_:node_2396_1 ut:hasCodeValue "active".
+_:node_2398_1 ut:hasCodeValue 77386006 .
+_:node_2400_1 ut:hasCodeValue "confirmed".
+_:node_2408_1 ut:hasCodeValue "active".
+_:node_2410_1 ut:hasCodeValue 9826008 .
+_:node_2412_1 ut:hasCodeValue "confirmed".
+_:node_2419_1 ut:hasCodeValue 420008001 .
+_:node_2428_1 ut:hasCodeValue 225517006 .
+_:node_2433_1 ut:hasCodeValue "active".
+_:node_2435_1 ut:hasCodeValue 9826008 .
+_:node_2437_1 ut:hasCodeValue "confirmed".
+_:node_2443_1 ut:hasCodeValue "active".
+_:node_2445_1 ut:hasCodeValue 77386006 .
+_:node_2447_1 ut:hasCodeValue "confirmed".
+_:node_2451_1 ut:hasCodeValue "active".
+_:node_2453_1 ut:hasCodeValue 77386006 .
+_:node_2455_1 ut:hasCodeValue "confirmed".
+_:node_2462_1 ut:hasCodeValue "active".
+_:node_2464_1 ut:hasCodeValue 271749004 .
+_:node_2466_1 ut:hasCodeValue "confirmed".
+_:node_2473_1 ut:hasCodeValue 225517006 .
+_:node_2479_1 ut:hasCodeValue "active".
+_:node_2481_1 ut:hasCodeValue 271749004 .
+_:node_2483_1 ut:hasCodeValue "confirmed".
+_:node_2486_1 ut:hasCodeValue 420008001 .
+_:node_2494_1 ut:hasCodeValue 225517006 .
+_:node_2499_1 ut:hasCodeValue "active".
+_:node_2501_1 ut:hasCodeValue 9826008 .
+_:node_2503_1 ut:hasCodeValue "confirmed".
+_:node_2507_1 ut:hasCodeValue "active".
+_:node_2509_1 ut:hasCodeValue 271749004 .
+_:node_2511_1 ut:hasCodeValue "confirmed".
+_:node_2519_1 ut:hasCodeValue "active".
+_:node_2521_1 ut:hasCodeValue 9826008 .
+_:node_2523_1 ut:hasCodeValue "confirmed".
+_:node_2527_1 ut:hasCodeValue "active".
+_:node_2529_1 ut:hasCodeValue 9826008 .
+_:node_2531_1 ut:hasCodeValue "confirmed".
+_:node_2538_1 ut:hasCodeValue 225517006 .
+_:node_2546_1 ut:hasCodeValue "active".
+_:node_2548_1 ut:hasCodeValue 271749004 .
+_:node_2550_1 ut:hasCodeValue "confirmed".
+_:node_2555_1 ut:hasCodeValue 420008001 .
+_:node_2565_1 ut:hasCodeValue 225517006 .
+_:node_2577_1 ut:hasCodeValue 420008001 .
+_:node_2581_1 ut:hasCodeValue "active".
+_:node_2583_1 ut:hasCodeValue 9826008 .
+_:node_2585_1 ut:hasCodeValue "confirmed".
+_:node_2589_1 ut:hasCodeValue "active".
+_:node_2591_1 ut:hasCodeValue 77386006 .
+_:node_2593_1 ut:hasCodeValue "confirmed".
+_:node_2598_1 ut:hasCodeValue 420008001 .
+_:node_2604_1 ut:hasCodeValue "active".
+_:node_2606_1 ut:hasCodeValue 77386006 .
+_:node_2608_1 ut:hasCodeValue "confirmed".
+_:node_2611_1 ut:hasCodeValue "active".
+_:node_2613_1 ut:hasCodeValue 9826008 .
+_:node_2615_1 ut:hasCodeValue "confirmed".
+_:node_2620_1 ut:hasCodeValue "active".
+_:node_2622_1 ut:hasCodeValue 77386006 .
+_:node_2624_1 ut:hasCodeValue "confirmed".
+_:node_2628_1 ut:hasCodeValue "active".
+_:node_2630_1 ut:hasCodeValue 77386006 .
+_:node_2632_1 ut:hasCodeValue "confirmed".
+_:node_2635_1 ut:hasCodeValue 420008001 .
+_:node_2641_1 ut:hasCodeValue "active".
+_:node_2643_1 ut:hasCodeValue 271749004 .
+_:node_2645_1 ut:hasCodeValue "confirmed".
+_:node_2650_1 ut:hasCodeValue "active".
+_:node_2652_1 ut:hasCodeValue 77386006 .
+_:node_2654_1 ut:hasCodeValue "confirmed".
+_:node_2658_1 ut:hasCodeValue "active".
+_:node_2660_1 ut:hasCodeValue 9826008 .
+_:node_2662_1 ut:hasCodeValue "confirmed".
+_:node_2667_1 ut:hasCodeValue "active".
+_:node_2669_1 ut:hasCodeValue 271749004 .
+_:node_2671_1 ut:hasCodeValue "confirmed".
+_:node_2676_1 ut:hasCodeValue "active".
+_:node_2678_1 ut:hasCodeValue 271749004 .
+_:node_2680_1 ut:hasCodeValue "confirmed".
+_:node_2685_1 ut:hasCodeValue "active".
+_:node_2687_1 ut:hasCodeValue 9826008 .
+_:node_2689_1 ut:hasCodeValue "confirmed".
+_:node_2697_1 ut:hasCodeValue 225517006 .
+_:node_2703_1 ut:hasCodeValue 420008001 .
+_:node_2711_1 ut:hasCodeValue 225517006 .
+_:node_2716_1 ut:hasCodeValue "active".
+_:node_2718_1 ut:hasCodeValue 77386006 .
+_:node_2720_1 ut:hasCodeValue "confirmed".
+_:node_2723_1 ut:hasCodeValue "active".
+_:node_2725_1 ut:hasCodeValue 9826008 .
+_:node_2727_1 ut:hasCodeValue "confirmed".
+_:node_2732_1 ut:hasCodeValue 420008001 .
+_:node_2737_1 ut:hasCodeValue "active".
+_:node_2739_1 ut:hasCodeValue 271749004 .
+_:node_2741_1 ut:hasCodeValue "confirmed".
+_:node_2744_1 ut:hasCodeValue 420008001 .
+_:node_2750_1 ut:hasCodeValue "active".
+_:node_2752_1 ut:hasCodeValue 9826008 .
+_:node_2754_1 ut:hasCodeValue "confirmed".
+_:node_2759_1 ut:hasCodeValue 420008001 .
+_:node_2763_1 ut:hasCodeValue 225517006 .
+_:node_2777_1 ut:hasCodeValue 420008001 .
+_:node_2782_1 ut:hasCodeValue "active".
+_:node_2784_1 ut:hasCodeValue 77386006 .
+_:node_2786_1 ut:hasCodeValue "confirmed".
+_:node_2790_1 ut:hasCodeValue "active".
+_:node_2792_1 ut:hasCodeValue 77386006 .
+_:node_2794_1 ut:hasCodeValue "confirmed".
+_:node_2798_1 ut:hasCodeValue "active".
+_:node_2800_1 ut:hasCodeValue 77386006 .
+_:node_2802_1 ut:hasCodeValue "confirmed".
+_:node_2806_1 ut:hasCodeValue "active".
+_:node_2808_1 ut:hasCodeValue 77386006 .
+_:node_2810_1 ut:hasCodeValue "confirmed".
+_:node_2814_1 ut:hasCodeValue "active".
+_:node_2816_1 ut:hasCodeValue 9826008 .
+_:node_2818_1 ut:hasCodeValue "confirmed".
+_:node_2822_1 ut:hasCodeValue 420008001 .
+_:node_2829_1 ut:hasCodeValue 225517006 .
+_:node_2842_1 ut:hasCodeValue 420008001 .
+_:node_2849_1 ut:hasCodeValue 420008001 .
+_:node_2855_1 ut:hasCodeValue 225517006 .
+_:node_2863_1 ut:hasCodeValue 225517006 .
+_:node_2868_1 ut:hasCodeValue "active".
+_:node_2870_1 ut:hasCodeValue 271749004 .
+_:node_2872_1 ut:hasCodeValue "confirmed".
+_:node_2876_1 ut:hasCodeValue "active".
+_:node_2878_1 ut:hasCodeValue 77386006 .
+_:node_2880_1 ut:hasCodeValue "confirmed".
+_:node_2883_1 ut:hasCodeValue 225517006 .
+_:node_2888_1 ut:hasCodeValue "active".
+_:node_2890_1 ut:hasCodeValue 9826008 .
+_:node_2892_1 ut:hasCodeValue "confirmed".
+_:node_2899_1 ut:hasCodeValue "active".
+_:node_2901_1 ut:hasCodeValue 271749004 .
+_:node_2903_1 ut:hasCodeValue "confirmed".
+_:node_2906_1 ut:hasCodeValue 420008001 .
+_:node_2911_1 ut:hasCodeValue "active".
+_:node_2913_1 ut:hasCodeValue 77386006 .
+_:node_2915_1 ut:hasCodeValue "confirmed".
+_:node_2923_1 ut:hasCodeValue "active".
+_:node_2925_1 ut:hasCodeValue 9826008 .
+_:node_2927_1 ut:hasCodeValue "confirmed".
+_:node_2930_1 ut:hasCodeValue 420008001 .
+_:node_2936_1 ut:hasCodeValue 420008001 .
+_:node_2947_1 ut:hasCodeValue "active".
+_:node_2949_1 ut:hasCodeValue 77386006 .
+_:node_2951_1 ut:hasCodeValue "confirmed".
+_:node_2956_1 ut:hasCodeValue 420008001 .
+_:node_2964_1 ut:hasCodeValue 420008001 .
+_:node_2970_1 ut:hasCodeValue "active".
+_:node_2972_1 ut:hasCodeValue 9826008 .
+_:node_2974_1 ut:hasCodeValue "confirmed".
+_:node_2980_1 ut:hasCodeValue "active".
+_:node_2982_1 ut:hasCodeValue 9826008 .
+_:node_2984_1 ut:hasCodeValue "confirmed".
+_:node_2993_1 ut:hasCodeValue "active".
+_:node_2995_1 ut:hasCodeValue 9826008 .
+_:node_2997_1 ut:hasCodeValue "confirmed".
+_:node_3001_1 ut:hasCodeValue "active".
+_:node_3003_1 ut:hasCodeValue 9826008 .
+_:node_3005_1 ut:hasCodeValue "confirmed".
+_:node_3010_1 ut:hasCodeValue "active".
+_:node_3012_1 ut:hasCodeValue 77386006 .
+_:node_3014_1 ut:hasCodeValue "confirmed".
+_:node_3017_1 ut:hasCodeValue "active".
+_:node_3019_1 ut:hasCodeValue 271749004 .
+_:node_3021_1 ut:hasCodeValue "confirmed".
+_:node_3025_1 ut:hasCodeValue "active".
+_:node_3027_1 ut:hasCodeValue 9826008 .
+_:node_3029_1 ut:hasCodeValue "confirmed".
+_:node_3032_1 ut:hasCodeValue 420008001 .
+_:node_3042_1 ut:hasCodeValue "active".
+_:node_3044_1 ut:hasCodeValue 271749004 .
+_:node_3046_1 ut:hasCodeValue "confirmed".
+_:node_3049_1 ut:hasCodeValue "active".
+_:node_3051_1 ut:hasCodeValue 9826008 .
+_:node_3053_1 ut:hasCodeValue "confirmed".
+_:node_3057_1 ut:hasCodeValue "active".
+_:node_3059_1 ut:hasCodeValue 77386006 .
+_:node_3061_1 ut:hasCodeValue "confirmed".
+_:node_3064_1 ut:hasCodeValue "active".
+_:node_3066_1 ut:hasCodeValue 271749004 .
+_:node_3068_1 ut:hasCodeValue "confirmed".
+_:node_3071_1 ut:hasCodeValue "active".
+_:node_3073_1 ut:hasCodeValue 9826008 .
+_:node_3075_1 ut:hasCodeValue "confirmed".
+_:node_3080_1 ut:hasCodeValue "active".
+_:node_3082_1 ut:hasCodeValue 77386006 .
+_:node_3084_1 ut:hasCodeValue "confirmed".
+_:node_3093_1 ut:hasCodeValue 225517006 .
+_:node_3098_1 ut:hasCodeValue "active".
+_:node_3100_1 ut:hasCodeValue 77386006 .
+_:node_3102_1 ut:hasCodeValue "confirmed".
+_:node_3110_1 ut:hasCodeValue 225517006 .
+_:node_3115_1 ut:hasCodeValue "active".
+_:node_3117_1 ut:hasCodeValue 77386006 .
+_:node_3119_1 ut:hasCodeValue "confirmed".
+_:node_3123_1 ut:hasCodeValue "active".
+_:node_3125_1 ut:hasCodeValue 77386006 .
+_:node_3127_1 ut:hasCodeValue "confirmed".
+_:node_3136_1 ut:hasCodeValue 225517006 .
+_:node_3142_1 ut:hasCodeValue "active".
+_:node_3144_1 ut:hasCodeValue 271749004 .
+_:node_3146_1 ut:hasCodeValue "confirmed".
+_:node_3149_1 ut:hasCodeValue "active".
+_:node_3151_1 ut:hasCodeValue 9826008 .
+_:node_3153_1 ut:hasCodeValue "confirmed".
+_:node_3160_1 ut:hasCodeValue "active".
+_:node_3162_1 ut:hasCodeValue 271749004 .
+_:node_3164_1 ut:hasCodeValue "confirmed".
+_:node_3170_1 ut:hasCodeValue 225517006 .
+_:node_3176_1 ut:hasCodeValue "active".
+_:node_3178_1 ut:hasCodeValue 271749004 .
+_:node_3180_1 ut:hasCodeValue "confirmed".
+_:node_3183_1 ut:hasCodeValue 420008001 .
+_:node_3188_1 ut:hasCodeValue 420008001 .
+_:node_3193_1 ut:hasCodeValue "active".
+_:node_3195_1 ut:hasCodeValue 9826008 .
+_:node_3197_1 ut:hasCodeValue "confirmed".
+_:node_3200_1 ut:hasCodeValue 420008001 .
+_:node_3209_1 ut:hasCodeValue "active".
+_:node_3211_1 ut:hasCodeValue 9826008 .
+_:node_3213_1 ut:hasCodeValue "confirmed".
+_:node_3219_1 ut:hasCodeValue 420008001 .
+_:node_3226_1 ut:hasCodeValue "active".
+_:node_3228_1 ut:hasCodeValue 77386006 .
+_:node_3230_1 ut:hasCodeValue "confirmed".
+_:node_3233_1 ut:hasCodeValue 420008001 .
+_:node_3238_1 ut:hasCodeValue "active".
+_:node_3240_1 ut:hasCodeValue 271749004 .
+_:node_3242_1 ut:hasCodeValue "confirmed".
+_:node_3246_1 ut:hasCodeValue 420008001 .
+_:node_3251_1 ut:hasCodeValue "active".
+_:node_3253_1 ut:hasCodeValue 271749004 .
+_:node_3255_1 ut:hasCodeValue "confirmed".
+_:node_3259_1 ut:hasCodeValue 420008001 .
+_:node_3266_1 ut:hasCodeValue "active".
+_:node_3268_1 ut:hasCodeValue 77386006 .
+_:node_3270_1 ut:hasCodeValue "confirmed".
+_:node_3277_1 ut:hasCodeValue "active".
+_:node_3279_1 ut:hasCodeValue 271749004 .
+_:node_3281_1 ut:hasCodeValue "confirmed".
+_:node_3285_1 ut:hasCodeValue "active".
+_:node_3287_1 ut:hasCodeValue 77386006 .
+_:node_3289_1 ut:hasCodeValue "confirmed".
+_:node_3293_1 ut:hasCodeValue "active".
+_:node_3295_1 ut:hasCodeValue 9826008 .
+_:node_3297_1 ut:hasCodeValue "confirmed".
+_:node_3304_1 ut:hasCodeValue "active".
+_:node_3306_1 ut:hasCodeValue 9826008 .
+_:node_3308_1 ut:hasCodeValue "confirmed".
+_:node_3318_1 ut:hasCodeValue 225517006 .
+_:node_3322_1 ut:hasCodeValue 225517006 .
+_:node_3327_1 ut:hasCodeValue "active".
+_:node_3329_1 ut:hasCodeValue 271749004 .
+_:node_3331_1 ut:hasCodeValue "confirmed".
+_:node_3338_1 ut:hasCodeValue "active".
+_:node_3340_1 ut:hasCodeValue 9826008 .
+_:node_3342_1 ut:hasCodeValue "confirmed".
+_:node_3347_1 ut:hasCodeValue "active".
+_:node_3349_1 ut:hasCodeValue 9826008 .
+_:node_3351_1 ut:hasCodeValue "confirmed".
+_:node_3356_1 ut:hasCodeValue 420008001 .
+_:node_3363_1 ut:hasCodeValue 420008001 .
+_:node_3372_1 ut:hasCodeValue "active".
+_:node_3374_1 ut:hasCodeValue 271749004 .
+_:node_3376_1 ut:hasCodeValue "confirmed".
+_:node_3379_1 ut:hasCodeValue "active".
+_:node_3381_1 ut:hasCodeValue 77386006 .
+_:node_3383_1 ut:hasCodeValue "confirmed".
+_:node_3386_1 ut:hasCodeValue 420008001 .
+_:node_3391_1 ut:hasCodeValue 420008001 .
+_:node_3396_1 ut:hasCodeValue "active".
+_:node_3398_1 ut:hasCodeValue 77386006 .
+_:node_3400_1 ut:hasCodeValue "confirmed".
+_:node_3404_1 ut:hasCodeValue "active".
+_:node_3406_1 ut:hasCodeValue 77386006 .
+_:node_3408_1 ut:hasCodeValue "confirmed".
+_:node_3411_1 ut:hasCodeValue "active".
+_:node_3413_1 ut:hasCodeValue 271749004 .
+_:node_3415_1 ut:hasCodeValue "confirmed".
+_:node_3423_1 ut:hasCodeValue 420008001 .
+_:node_3427_1 ut:hasCodeValue 225517006 .
+_:node_3436_1 ut:hasCodeValue "active".
+_:node_3438_1 ut:hasCodeValue 9826008 .
+_:node_3440_1 ut:hasCodeValue "confirmed".
+_:node_3443_1 ut:hasCodeValue 225517006 .
+_:node_3447_1 ut:hasCodeValue 420008001 .
+_:node_3454_1 ut:hasCodeValue 225517006 .
+_:node_3465_1 ut:hasCodeValue "active".
+_:node_3467_1 ut:hasCodeValue 9826008 .
+_:node_3469_1 ut:hasCodeValue "confirmed".
+_:node_3477_1 ut:hasCodeValue 225517006 .
+_:node_3490_1 ut:hasCodeValue 420008001 .
+_:node_3497_1 ut:hasCodeValue "active".
+_:node_3499_1 ut:hasCodeValue 77386006 .
+_:node_3501_1 ut:hasCodeValue "confirmed".
+_:node_3505_1 ut:hasCodeValue "active".
+_:node_3507_1 ut:hasCodeValue 271749004 .
+_:node_3509_1 ut:hasCodeValue "confirmed".
+_:node_3514_1 ut:hasCodeValue 225517006 .
+_:node_3520_1 ut:hasCodeValue "active".
+_:node_3522_1 ut:hasCodeValue 77386006 .
+_:node_3524_1 ut:hasCodeValue "confirmed".
+_:node_3528_1 ut:hasCodeValue "active".
+_:node_3530_1 ut:hasCodeValue 9826008 .
+_:node_3532_1 ut:hasCodeValue "confirmed".
+_:node_3538_1 ut:hasCodeValue 225517006 .
+_:node_3548_1 ut:hasCodeValue 420008001 .
+_:node_3556_1 ut:hasCodeValue 420008001 .
+_:node_3561_1 ut:hasCodeValue 420008001 .
+_:node_3567_1 ut:hasCodeValue 420008001 .
+_:node_3572_1 ut:hasCodeValue "active".
+_:node_3574_1 ut:hasCodeValue 77386006 .
+_:node_3576_1 ut:hasCodeValue "confirmed".
+_:node_3579_1 ut:hasCodeValue "active".
+_:node_3581_1 ut:hasCodeValue 271749004 .
+_:node_3583_1 ut:hasCodeValue "confirmed".
+_:node_3592_1 ut:hasCodeValue 420008001 .
+_:node_3602_1 ut:hasCodeValue 225517006 .
+_:node_3606_1 ut:hasCodeValue 420008001 .
+_:node_3616_1 ut:hasCodeValue 225517006 .
+_:node_3629_1 ut:hasCodeValue 225517006 .
+_:node_3635_1 ut:hasCodeValue "active".
+_:node_3637_1 ut:hasCodeValue 77386006 .
+_:node_3639_1 ut:hasCodeValue "confirmed".
+_:node_3646_1 ut:hasCodeValue "active".
+_:node_3648_1 ut:hasCodeValue 77386006 .
+_:node_3650_1 ut:hasCodeValue "confirmed".
+_:node_3664_1 ut:hasCodeValue "active".
+_:node_3666_1 ut:hasCodeValue 271749004 .
+_:node_3668_1 ut:hasCodeValue "confirmed".
+_:node_3671_1 ut:hasCodeValue 225517006 .
+_:node_3677_1 ut:hasCodeValue "active".
+_:node_3679_1 ut:hasCodeValue 9826008 .
+_:node_3681_1 ut:hasCodeValue "confirmed".
+_:node_3684_1 ut:hasCodeValue 420008001 .
+_:node_3692_1 ut:hasCodeValue 225517006 .
+_:node_3697_1 ut:hasCodeValue "active".
+_:node_3699_1 ut:hasCodeValue 9826008 .
+_:node_3701_1 ut:hasCodeValue "confirmed".
+_:node_3704_1 ut:hasCodeValue "active".
+_:node_3706_1 ut:hasCodeValue 77386006 .
+_:node_3708_1 ut:hasCodeValue "confirmed".
+_:node_3713_1 ut:hasCodeValue "active".
+_:node_3715_1 ut:hasCodeValue 9826008 .
+_:node_3717_1 ut:hasCodeValue "confirmed".
+_:node_3722_1 ut:hasCodeValue "active".
+_:node_3724_1 ut:hasCodeValue 77386006 .
+_:node_3726_1 ut:hasCodeValue "confirmed".
+_:node_3734_1 ut:hasCodeValue "active".
+_:node_3736_1 ut:hasCodeValue 9826008 .
+_:node_3738_1 ut:hasCodeValue "confirmed".
+_:node_3742_1 ut:hasCodeValue "active".
+_:node_3744_1 ut:hasCodeValue 77386006 .
+_:node_3746_1 ut:hasCodeValue "confirmed".
+_:node_3753_1 ut:hasCodeValue "active".
+_:node_3755_1 ut:hasCodeValue 9826008 .
+_:node_3757_1 ut:hasCodeValue "confirmed".
+_:node_3761_1 ut:hasCodeValue "active".
+_:node_3763_1 ut:hasCodeValue 9826008 .
+_:node_3765_1 ut:hasCodeValue "confirmed".
+_:node_3768_1 ut:hasCodeValue "active".
+_:node_3770_1 ut:hasCodeValue 77386006 .
+_:node_3772_1 ut:hasCodeValue "confirmed".
+_:node_3777_1 ut:hasCodeValue 420008001 .
+_:node_3785_1 ut:hasCodeValue "active".
+_:node_3787_1 ut:hasCodeValue 77386006 .
+_:node_3789_1 ut:hasCodeValue "confirmed".
+_:node_3792_1 ut:hasCodeValue 420008001 .
+_:node_3800_1 ut:hasCodeValue "active".
+_:node_3802_1 ut:hasCodeValue 271749004 .
+_:node_3804_1 ut:hasCodeValue "confirmed".
+_:node_3807_1 ut:hasCodeValue "active".
+_:node_3809_1 ut:hasCodeValue 9826008 .
+_:node_3811_1 ut:hasCodeValue "confirmed".
+_:node_3814_1 ut:hasCodeValue 420008001 .
+_:node_3819_1 ut:hasCodeValue "active".
+_:node_3821_1 ut:hasCodeValue 9826008 .
+_:node_3823_1 ut:hasCodeValue "confirmed".
+_:node_3828_1 ut:hasCodeValue 420008001 .
+_:node_3833_1 ut:hasCodeValue 420008001 .
+_:node_3839_1 ut:hasCodeValue "active".
+_:node_3841_1 ut:hasCodeValue 271749004 .
+_:node_3843_1 ut:hasCodeValue "confirmed".
+_:node_3847_1 ut:hasCodeValue "active".
+_:node_3849_1 ut:hasCodeValue 77386006 .
+_:node_3851_1 ut:hasCodeValue "confirmed".
+_:node_3857_1 ut:hasCodeValue 225517006 .
+_:node_3863_1 ut:hasCodeValue "active".
+_:node_3865_1 ut:hasCodeValue 77386006 .
+_:node_3867_1 ut:hasCodeValue "confirmed".
+_:node_3874_1 ut:hasCodeValue 225517006 .
+_:node_3885_1 ut:hasCodeValue "active".
+_:node_3887_1 ut:hasCodeValue 9826008 .
+_:node_3889_1 ut:hasCodeValue "confirmed".
+_:node_3895_1 ut:hasCodeValue "active".
+_:node_3897_1 ut:hasCodeValue 9826008 .
+_:node_3899_1 ut:hasCodeValue "confirmed".
+_:node_3905_1 ut:hasCodeValue 420008001 .
+_:node_3909_1 ut:hasCodeValue "active".
+_:node_3911_1 ut:hasCodeValue 77386006 .
+_:node_3913_1 ut:hasCodeValue "confirmed".
+_:node_3918_1 ut:hasCodeValue "active".
+_:node_3920_1 ut:hasCodeValue 77386006 .
+_:node_3922_1 ut:hasCodeValue "confirmed".
+_:node_3929_1 ut:hasCodeValue 225517006 .
+_:node_3941_1 ut:hasCodeValue 225517006 .
+_:node_3958_1 ut:hasCodeValue 225517006 .
+_:node_3964_1 ut:hasCodeValue "active".
+_:node_3966_1 ut:hasCodeValue 271749004 .
+_:node_3968_1 ut:hasCodeValue "confirmed".
+_:node_3971_1 ut:hasCodeValue 420008001 .
+_:node_3976_1 ut:hasCodeValue 225517006 .
+_:node_3985_1 ut:hasCodeValue 225517006 .
+_:node_3992_1 ut:hasCodeValue "active".
+_:node_3994_1 ut:hasCodeValue 271749004 .
+_:node_3996_1 ut:hasCodeValue "confirmed".
+_:node_4002_1 ut:hasCodeValue "active".
+_:node_4004_1 ut:hasCodeValue 77386006 .
+_:node_4006_1 ut:hasCodeValue "confirmed".
+_:node_4011_1 ut:hasCodeValue 420008001 .
+_:node_4016_1 ut:hasCodeValue 420008001 .
+_:node_4025_1 ut:hasCodeValue 420008001 .
+_:node_4030_1 ut:hasCodeValue "active".
+_:node_4032_1 ut:hasCodeValue 271749004 .
+_:node_4034_1 ut:hasCodeValue "confirmed".
+_:node_4040_1 ut:hasCodeValue 225517006 .
+_:node_4049_1 ut:hasCodeValue "active".
+_:node_4051_1 ut:hasCodeValue 77386006 .
+_:node_4053_1 ut:hasCodeValue "confirmed".
+_:node_4058_1 ut:hasCodeValue "active".
+_:node_4060_1 ut:hasCodeValue 9826008 .
+_:node_4062_1 ut:hasCodeValue "confirmed".
+_:node_4069_1 ut:hasCodeValue "active".
+_:node_4071_1 ut:hasCodeValue 271749004 .
+_:node_4073_1 ut:hasCodeValue "confirmed".
+_:node_4078_1 ut:hasCodeValue "active".
+_:node_4080_1 ut:hasCodeValue 9826008 .
+_:node_4082_1 ut:hasCodeValue "confirmed".
+_:node_4093_1 ut:hasCodeValue 420008001 .
+_:node_4097_1 ut:hasCodeValue 420008001 .
+_:node_4104_1 ut:hasCodeValue 225517006 .
+_:node_4112_1 ut:hasCodeValue 225517006 .
+_:node_4120_1 ut:hasCodeValue "active".
+_:node_4122_1 ut:hasCodeValue 77386006 .
+_:node_4124_1 ut:hasCodeValue "confirmed".
+_:node_4128_1 ut:hasCodeValue "active".
+_:node_4130_1 ut:hasCodeValue 271749004 .
+_:node_4132_1 ut:hasCodeValue "confirmed".
+_:node_4138_1 ut:hasCodeValue 225517006 .
+_:node_42_1 ut:referredBy _:node_45_1.
+_:node_43_1 ut:referredBy _:node_45_1.
+_:node_88_1 ut:referredBy _:node_157_1.
+_:node_120_1 ut:referredBy _:node_157_1.
+_:node_133_1 ut:referredBy _:node_136_1.
+_:node_134_1 ut:referredBy _:node_136_1.
+_:node_205_1 ut:referredBy _:node_208_1.
+_:node_206_1 ut:referredBy _:node_208_1.
+_:node_236_1 ut:referredBy _:node_277_1.
+_:node_256_1 ut:referredBy _:node_277_1.
+_:node_281_1 ut:referredBy _:node_565_1.
+_:node_290_1 ut:referredBy _:node_293_1.
+_:node_291_1 ut:referredBy _:node_293_1.
+_:node_366_1 ut:referredBy _:node_372_1.
+_:node_393_1 ut:referredBy _:node_396_1.
+_:node_394_1 ut:referredBy _:node_396_1.
+_:node_478_1 ut:referredBy _:node_481_1.
+_:node_479_1 ut:referredBy _:node_481_1.
+_:node_498_1 ut:referredBy _:node_503_1.
+_:node_556_1 ut:referredBy _:node_559_1.
+_:node_557_1 ut:referredBy _:node_559_1.
+_:node_628_1 ut:referredBy _:node_631_1.
+_:node_629_1 ut:referredBy _:node_631_1.
+_:node_665_1 ut:referredBy _:node_670_1.
+_:node_688_1 ut:referredBy _:node_691_1.
+_:node_689_1 ut:referredBy _:node_691_1.
+_:node_709_1 ut:referredBy _:node_712_1.
+_:node_710_1 ut:referredBy _:node_712_1.
+_:node_790_1 ut:referredBy _:node_793_1.
+_:node_791_1 ut:referredBy _:node_793_1.
+_:node_852_1 ut:referredBy _:node_855_1.
+_:node_853_1 ut:referredBy _:node_855_1.
+_:node_869_1 ut:referredBy _:node_872_1.
+_:node_870_1 ut:referredBy _:node_872_1.
+_:node_876_1 ut:referredBy _:node_922_1.
+_:node_880_1 ut:referredBy _:node_883_1.
+_:node_881_1 ut:referredBy _:node_883_1.
+_:node_899_1 ut:referredBy _:node_904_1.
+_:node_900_1 ut:referredBy _:node_922_1.
+_:node_902_1 ut:referredBy _:node_904_1.
+_:node_964_1 ut:referredBy _:node_967_1.
+_:node_965_1 ut:referredBy _:node_967_1.
+_:node_1020_1 ut:referredBy _:node_1023_1.
+_:node_1021_1 ut:referredBy _:node_1023_1.
+_:node_1134_1 ut:referredBy _:node_1690_1.
+_:node_1174_1 ut:referredBy _:node_1177_1.
+_:node_1175_1 ut:referredBy _:node_1177_1.
+_:node_1223_1 ut:referredBy _:node_1226_1.
+_:node_1224_1 ut:referredBy _:node_1226_1.
+_:node_1246_1 ut:referredBy _:node_1249_1.
+_:node_1247_1 ut:referredBy _:node_1249_1.
+_:node_1327_1 ut:referredBy _:node_1331_1.
+_:node_1329_1 ut:referredBy _:node_1331_1.
+_:node_1384_1 ut:referredBy _:node_1387_1.
+_:node_1385_1 ut:referredBy _:node_1387_1.
+_:node_1430_1 ut:referredBy _:node_1690_1.
+_:node_1509_1 ut:referredBy _:node_1514_1.
+_:node_1546_1 ut:referredBy _:node_1549_1.
+_:node_1547_1 ut:referredBy _:node_1549_1.
+_:node_1623_1 ut:referredBy _:node_1626_1.
+_:node_1624_1 ut:referredBy _:node_1626_1.
+_:node_1662_1 ut:referredBy _:node_1666_1.
+_:node_1663_1 ut:referredBy _:node_1666_1.
+_:node_1671_1 ut:referredBy _:node_1674_1.
+_:node_1672_1 ut:referredBy _:node_1674_1.
+_:node_1703_1 ut:referredBy _:node_1706_1.
+_:node_1704_1 ut:referredBy _:node_1706_1.
+_:node_1714_1 ut:referredBy _:node_1767_1.
+_:node_1724_1 ut:referredBy _:node_1729_1.
+_:node_1743_1 ut:referredBy _:node_1767_1.
+_:node_1773_1 ut:referredBy _:node_1778_1.
+_:node_1810_1 ut:referredBy _:node_1813_1.
+_:node_1811_1 ut:referredBy _:node_1813_1.
+_:node_1817_1 ut:referredBy _:node_1862_1.
+_:node_1823_1 ut:referredBy _:node_1826_1.
+_:node_1824_1 ut:referredBy _:node_1826_1.
+_:node_1854_1 ut:referredBy _:node_1857_1.
+_:node_1855_1 ut:referredBy _:node_1857_1.
+_:node_1874_1 ut:referredBy _:node_1877_1.
+_:node_1875_1 ut:referredBy _:node_1877_1.
+_:node_1895_1 ut:referredBy _:node_1898_1.
+_:node_1896_1 ut:referredBy _:node_1898_1.
+_:node_1921_1 ut:referredBy _:node_1983_1.
+_:node_1947_1 ut:referredBy _:node_1983_1.
+_:node_1987_1 ut:referredBy _:node_1990_1.
+_:node_1988_1 ut:referredBy _:node_1990_1.
+_:node_2026_1 ut:referredBy _:node_2030_1.
+_:node_2027_1 ut:referredBy _:node_2077_1.
+_:node_2028_1 ut:referredBy _:node_2030_1.
+_:node_2067_1 ut:referredBy _:node_2072_1.
+_:node_2332_1 ut:referredBy _:node_2335_1.
+_:node_2333_1 ut:referredBy _:node_2335_1.
+_:node_2350_1 ut:referredBy _:node_2354_1.
+_:node_2352_1 ut:referredBy _:node_2354_1.
+_:node_2423_1 ut:referredBy _:node_2427_1.
+_:node_2425_1 ut:referredBy _:node_2427_1.
+_:node_2469_1 ut:referredBy _:node_2472_1.
+_:node_2470_1 ut:referredBy _:node_2472_1.
+_:node_2490_1 ut:referredBy _:node_2493_1.
+_:node_2491_1 ut:referredBy _:node_2493_1.
+_:node_2534_1 ut:referredBy _:node_2537_1.
+_:node_2535_1 ut:referredBy _:node_2537_1.
+_:node_2560_1 ut:referredBy _:node_2564_1.
+_:node_2561_1 ut:referredBy _:node_2564_1.
+_:node_2656_1 ut:referredBy _:node_2710_1.
+_:node_2691_1 ut:referredBy _:node_2710_1.
+_:node_2693_1 ut:referredBy _:node_2696_1.
+_:node_2694_1 ut:referredBy _:node_2696_1.
+_:node_2757_1 ut:referredBy _:node_2762_1.
+_:node_2825_1 ut:referredBy _:node_2828_1.
+_:node_2826_1 ut:referredBy _:node_2828_1.
+_:node_2834_1 ut:referredBy _:node_2882_1.
+_:node_2847_1 ut:referredBy _:node_2854_1.
+_:node_2852_1 ut:referredBy _:node_2854_1.
+_:node_2859_1 ut:referredBy _:node_2862_1.
+_:node_2860_1 ut:referredBy _:node_2862_1.
+_:node_3087_1 ut:referredBy _:node_3092_1.
+_:node_3090_1 ut:referredBy _:node_3092_1.
+_:node_3106_1 ut:referredBy _:node_3109_1.
+_:node_3107_1 ut:referredBy _:node_3109_1.
+_:node_3132_1 ut:referredBy _:node_3135_1.
+_:node_3133_1 ut:referredBy _:node_3135_1.
+_:node_3166_1 ut:referredBy _:node_3169_1.
+_:node_3167_1 ut:referredBy _:node_3169_1.
+_:node_3264_1 ut:referredBy _:node_3321_1.
+_:node_3299_1 ut:referredBy _:node_3321_1.
+_:node_3314_1 ut:referredBy _:node_3317_1.
+_:node_3315_1 ut:referredBy _:node_3317_1.
+_:node_3370_1 ut:referredBy _:node_3442_1.
+_:node_3418_1 ut:referredBy _:node_3442_1.
+_:node_3421_1 ut:referredBy _:node_3426_1.
+_:node_3450_1 ut:referredBy _:node_3453_1.
+_:node_3451_1 ut:referredBy _:node_3453_1.
+_:node_3473_1 ut:referredBy _:node_3476_1.
+_:node_3474_1 ut:referredBy _:node_3476_1.
+_:node_3503_1 ut:referredBy _:node_3513_1.
+_:node_3511_1 ut:referredBy _:node_3513_1.
+_:node_3534_1 ut:referredBy _:node_3537_1.
+_:node_3535_1 ut:referredBy _:node_3537_1.
+_:node_3598_1 ut:referredBy _:node_3601_1.
+_:node_3599_1 ut:referredBy _:node_3601_1.
+_:node_3612_1 ut:referredBy _:node_3615_1.
+_:node_3613_1 ut:referredBy _:node_3615_1.
+_:node_3625_1 ut:referredBy _:node_3628_1.
+_:node_3626_1 ut:referredBy _:node_3628_1.
+_:node_3660_1 ut:referredBy _:node_3670_1.
+_:node_3661_1 ut:referredBy _:node_3670_1.
+_:node_3688_1 ut:referredBy _:node_3691_1.
+_:node_3689_1 ut:referredBy _:node_3691_1.
+_:node_3853_1 ut:referredBy _:node_3856_1.
+_:node_3854_1 ut:referredBy _:node_3856_1.
+_:node_3870_1 ut:referredBy _:node_3873_1.
+_:node_3871_1 ut:referredBy _:node_3873_1.
+_:node_3925_1 ut:referredBy _:node_3928_1.
+_:node_3926_1 ut:referredBy _:node_3928_1.
+_:node_3935_1 ut:referredBy _:node_3975_1.
+_:node_3937_1 ut:referredBy _:node_3940_1.
+_:node_3938_1 ut:referredBy _:node_3940_1.
+_:node_3950_1 ut:referredBy _:node_3975_1.
+_:node_3954_1 ut:referredBy _:node_3957_1.
+_:node_3955_1 ut:referredBy _:node_3957_1.
+_:node_3981_1 ut:referredBy _:node_3984_1.
+_:node_3982_1 ut:referredBy _:node_3984_1.
+_:node_4036_1 ut:referredBy _:node_4039_1.
+_:node_4037_1 ut:referredBy _:node_4039_1.
+_:node_4100_1 ut:referredBy _:node_4103_1.
+_:node_4101_1 ut:referredBy _:node_4103_1.
+_:node_4108_1 ut:referredBy _:node_4111_1.
+_:node_4109_1 ut:referredBy _:node_4111_1.
+_:node_4134_1 ut:referredBy _:node_4137_1.
+_:node_4135_1 ut:referredBy _:node_4137_1.
+_:node_4145_1 ut:referredBy _:node_565_1.
+_:node_10_1 ut:timeSinceObsEnd 1209600000 .
+_:node_36_1 ut:timeSinceObsEnd 1209600000 .
+_:node_45_1 ut:timeSinceObsEnd 1209600000 .
+_:node_84_1 ut:timeSinceObsEnd 1209600000 .
+_:node_98_1 ut:timeSinceObsEnd 1209600000 .
+_:node_129_1 ut:timeSinceObsEnd 1209600000 .
+_:node_136_1 ut:timeSinceObsEnd 1209600000 .
+_:node_157_1 ut:timeSinceObsEnd 1209600000 .
+_:node_161_1 ut:timeSinceObsEnd 1209600000 .
+_:node_208_1 ut:timeSinceObsEnd 1209600000 .
+_:node_241_1 ut:timeSinceObsEnd 1209600000 .
+_:node_270_1 ut:timeSinceObsEnd 1209600000 .
+_:node_277_1 ut:timeSinceObsEnd 1209600000 .
+_:node_293_1 ut:timeSinceObsEnd 1209600000 .
+_:node_368_1 ut:timeSinceObsEnd 1209600000 .
+_:node_372_1 ut:timeSinceObsEnd 1209600000 .
+_:node_396_1 ut:timeSinceObsEnd 1209600000 .
+_:node_400_1 ut:timeSinceObsEnd 1209600000 .
+_:node_442_1 ut:timeSinceObsEnd 1209600000 .
+_:node_481_1 ut:timeSinceObsEnd 1209600000 .
+_:node_499_1 ut:timeSinceObsEnd 1209600000 .
+_:node_503_1 ut:timeSinceObsEnd 1209600000 .
+_:node_523_1 ut:timeSinceObsEnd 1209600000 .
+_:node_540_1 ut:timeSinceObsEnd 1209600000 .
+_:node_559_1 ut:timeSinceObsEnd 1209600000 .
+_:node_565_1 ut:timeSinceObsEnd 1209600000 .
+_:node_586_1 ut:timeSinceObsEnd 1209600000 .
+_:node_592_1 ut:timeSinceObsEnd 1209600000 .
+_:node_631_1 ut:timeSinceObsEnd 1209600000 .
+_:node_638_1 ut:timeSinceObsEnd 1209600000 .
+_:node_652_1 ut:timeSinceObsEnd 1209600000 .
+_:node_666_1 ut:timeSinceObsEnd 1209600000 .
+_:node_670_1 ut:timeSinceObsEnd 1209600000 .
+_:node_684_1 ut:timeSinceObsEnd 1209600000 .
+_:node_691_1 ut:timeSinceObsEnd 1209600000 .
+_:node_696_1 ut:timeSinceObsEnd 1209600000 .
+_:node_704_1 ut:timeSinceObsEnd 1209600000 .
+_:node_712_1 ut:timeSinceObsEnd 1209600000 .
+_:node_744_1 ut:timeSinceObsEnd 1209600000 .
+_:node_749_1 ut:timeSinceObsEnd 1209600000 .
+_:node_754_1 ut:timeSinceObsEnd 1209600000 .
+_:node_770_1 ut:timeSinceObsEnd 1209600000 .
+_:node_785_1 ut:timeSinceObsEnd 1209600000 .
+_:node_793_1 ut:timeSinceObsEnd 1209600000 .
+_:node_855_1 ut:timeSinceObsEnd 1209600000 .
+_:node_872_1 ut:timeSinceObsEnd 1209600000 .
+_:node_883_1 ut:timeSinceObsEnd 1209600000 .
+_:node_895_1 ut:timeSinceObsEnd 1209600000 .
+_:node_904_1 ut:timeSinceObsEnd 1209600000 .
+_:node_922_1 ut:timeSinceObsEnd 1209600000 .
+_:node_927_1 ut:timeSinceObsEnd 1209600000 .
+_:node_934_1 ut:timeSinceObsEnd 1209600000 .
+_:node_950_1 ut:timeSinceObsEnd 1209600000 .
+_:node_967_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1007_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1023_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1052_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1161_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1177_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1226_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1249_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1255_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1278_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1296_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1321_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1331_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1387_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1394_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1407_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1510_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1514_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1540_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1549_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1589_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1626_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1666_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1674_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1690_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1706_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1725_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1729_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1767_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1774_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1778_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1783_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1813_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1819_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1826_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1841_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1845_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1857_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1862_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1877_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1898_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1924_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1929_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1941_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1966_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1978_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1983_1 ut:timeSinceObsEnd 1209600000 .
+_:node_1990_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2015_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2030_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2048_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2052_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2068_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2072_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2077_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2138_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2189_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2222_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2227_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2271_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2285_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2300_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2315_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2335_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2354_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2378_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2382_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2387_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2418_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2427_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2472_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2485_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2493_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2537_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2554_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2564_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2576_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2597_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2634_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2696_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2702_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2710_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2731_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2743_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2758_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2762_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2776_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2821_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2828_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2841_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2848_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2854_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2862_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2882_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2905_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2929_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2935_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2955_1 ut:timeSinceObsEnd 1209600000 .
+_:node_2963_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3031_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3092_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3109_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3135_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3169_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3182_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3187_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3199_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3218_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3232_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3245_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3258_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3317_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3321_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3355_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3362_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3385_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3390_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3422_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3426_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3442_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3446_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3453_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3476_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3489_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3513_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3537_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3547_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3555_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3560_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3566_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3591_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3601_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3605_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3615_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3628_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3670_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3683_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3691_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3776_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3791_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3813_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3827_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3832_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3856_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3873_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3904_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3928_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3940_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3957_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3970_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3975_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3984_1 ut:timeSinceObsEnd 1209600000 .
+_:node_4010_1 ut:timeSinceObsEnd 1209600000 .
+_:node_4015_1 ut:timeSinceObsEnd 1209600000 .
+_:node_4024_1 ut:timeSinceObsEnd 1209600000 .
+_:node_4039_1 ut:timeSinceObsEnd 1209600000 .
+_:node_4092_1 ut:timeSinceObsEnd 1209600000 .
+_:node_4096_1 ut:timeSinceObsEnd 1209600000 .
+_:node_4103_1 ut:timeSinceObsEnd 1209600000 .
+_:node_4111_1 ut:timeSinceObsEnd 1209600000 .
+_:node_4137_1 ut:timeSinceObsEnd 1209600000 .
+_:node_3_1 ut:timeSinceCondOnset 0 .
+_:node_26_1 ut:timeSinceCondOnset 0 .
+_:node_52_1 ut:timeSinceCondOnset 0 .
+_:node_68_1 ut:timeSinceCondOnset 1209600000 .
+_:node_76_1 ut:timeSinceCondOnset 0 .
+_:node_90_1 ut:timeSinceCondOnset 0 .
+_:node_103_1 ut:timeSinceCondOnset 0 .
+_:node_111_1 ut:timeSinceCondOnset 0 .
+_:node_148_1 ut:timeSinceCondOnset 1209600000 .
+_:node_178_1 ut:timeSinceCondOnset 0 .
+_:node_197_1 ut:timeSinceCondOnset 0 .
+_:node_213_1 ut:timeSinceCondOnset 0 .
+_:node_261_1 ut:timeSinceCondOnset 0 .
+_:node_283_1 ut:timeSinceCondOnset 1209600000 .
+_:node_310_1 ut:timeSinceCondOnset 1209600000 .
+_:node_321_1 ut:timeSinceCondOnset 0 .
+_:node_338_1 ut:timeSinceCondOnset 1209600000 .
+_:node_345_1 ut:timeSinceCondOnset 1209600000 .
+_:node_358_1 ut:timeSinceCondOnset 0 .
+_:node_379_1 ut:timeSinceCondOnset 0 .
+_:node_386_1 ut:timeSinceCondOnset 1209600000 .
+_:node_405_1 ut:timeSinceCondOnset 1209600000 .
+_:node_423_1 ut:timeSinceCondOnset 0 .
+_:node_434_1 ut:timeSinceCondOnset 0 .
+_:node_456_1 ut:timeSinceCondOnset 0 .
+_:node_464_1 ut:timeSinceCondOnset 0 .
+_:node_471_1 ut:timeSinceCondOnset 1209600000 .
+_:node_509_1 ut:timeSinceCondOnset 0 .
+_:node_528_1 ut:timeSinceCondOnset 1209600000 .
+_:node_547_1 ut:timeSinceCondOnset 1209600000 .
+_:node_571_1 ut:timeSinceCondOnset 0 .
+_:node_598_1 ut:timeSinceCondOnset 0 .
+_:node_608_1 ut:timeSinceCondOnset 1209600000 .
+_:node_675_1 ut:timeSinceCondOnset 1209600000 .
+_:node_717_1 ut:timeSinceCondOnset 0 .
+_:node_760_1 ut:timeSinceCondOnset 0 .
+_:node_814_1 ut:timeSinceCondOnset 1209600000 .
+_:node_823_1 ut:timeSinceCondOnset 0 .
+_:node_830_1 ut:timeSinceCondOnset 1209600000 .
+_:node_862_1 ut:timeSinceCondOnset 0 .
+_:node_888_1 ut:timeSinceCondOnset 0 .
+_:node_909_1 ut:timeSinceCondOnset 0 .
+_:node_955_1 ut:timeSinceCondOnset 0 .
+_:node_973_1 ut:timeSinceCondOnset 0 .
+_:node_981_1 ut:timeSinceCondOnset 1209600000 .
+_:node_990_1 ut:timeSinceCondOnset 0 .
+_:node_998_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1011_1 ut:timeSinceCondOnset 0 .
+_:node_1044_1 ut:timeSinceCondOnset 0 .
+_:node_1057_1 ut:timeSinceCondOnset 0 .
+_:node_1071_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1079_1 ut:timeSinceCondOnset 0 .
+_:node_1089_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1099_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1109_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1125_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1144_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1167_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1198_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1207_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1215_1 ut:timeSinceCondOnset 0 .
+_:node_1232_1 ut:timeSinceCondOnset 0 .
+_:node_1239_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1303_1 ut:timeSinceCondOnset 0 .
+_:node_1310_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1346_1 ut:timeSinceCondOnset 0 .
+_:node_1353_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1361_1 ut:timeSinceCondOnset 0 .
+_:node_1368_1 ut:timeSinceCondOnset 0 .
+_:node_1422_1 ut:timeSinceCondOnset 0 .
+_:node_1432_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1446_1 ut:timeSinceCondOnset 0 .
+_:node_1455_1 ut:timeSinceCondOnset 0 .
+_:node_1480_1 ut:timeSinceCondOnset 0 .
+_:node_1488_1 ut:timeSinceCondOnset 0 .
+_:node_1495_1 ut:timeSinceCondOnset 0 .
+_:node_1502_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1533_1 ut:timeSinceCondOnset 0 .
+_:node_1554_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1573_1 ut:timeSinceCondOnset 0 .
+_:node_1582_1 ut:timeSinceCondOnset 0 .
+_:node_1595_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1606_1 ut:timeSinceCondOnset 0 .
+_:node_1614_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1646_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1680_1 ut:timeSinceCondOnset 0 .
+_:node_1695_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1715_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1754_1 ut:timeSinceCondOnset 0 .
+_:node_1793_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1834_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1882_1 ut:timeSinceCondOnset 0 .
+_:node_1904_1 ut:timeSinceCondOnset 0 .
+_:node_1912_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1949_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1957_1 ut:timeSinceCondOnset 1209600000 .
+_:node_1971_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2006_1 ut:timeSinceCondOnset 0 .
+_:node_2038_1 ut:timeSinceCondOnset 0 .
+_:node_2059_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2082_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2096_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2107_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2150_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2159_1 ut:timeSinceCondOnset 0 .
+_:node_2171_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2180_1 ut:timeSinceCondOnset 0 .
+_:node_2208_1 ut:timeSinceCondOnset 0 .
+_:node_2215_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2242_1 ut:timeSinceCondOnset 0 .
+_:node_2260_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2278_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2322_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2340_1 ut:timeSinceCondOnset 0 .
+_:node_2360_1 ut:timeSinceCondOnset 0 .
+_:node_2407_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2432_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2461_1 ut:timeSinceCondOnset 0 .
+_:node_2478_1 ut:timeSinceCondOnset 0 .
+_:node_2498_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2506_1 ut:timeSinceCondOnset 0 .
+_:node_2518_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2526_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2545_1 ut:timeSinceCondOnset 0 .
+_:node_2580_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2610_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2640_1 ut:timeSinceCondOnset 0 .
+_:node_2657_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2666_1 ut:timeSinceCondOnset 0 .
+_:node_2675_1 ut:timeSinceCondOnset 0 .
+_:node_2684_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2722_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2736_1 ut:timeSinceCondOnset 0 .
+_:node_2749_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2813_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2867_1 ut:timeSinceCondOnset 0 .
+_:node_2887_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2898_1 ut:timeSinceCondOnset 0 .
+_:node_2922_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2969_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2979_1 ut:timeSinceCondOnset 1209600000 .
+_:node_2992_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3000_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3016_1 ut:timeSinceCondOnset 0 .
+_:node_3024_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3041_1 ut:timeSinceCondOnset 0 .
+_:node_3048_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3063_1 ut:timeSinceCondOnset 0 .
+_:node_3070_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3141_1 ut:timeSinceCondOnset 0 .
+_:node_3148_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3159_1 ut:timeSinceCondOnset 0 .
+_:node_3175_1 ut:timeSinceCondOnset 0 .
+_:node_3192_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3208_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3237_1 ut:timeSinceCondOnset 0 .
+_:node_3250_1 ut:timeSinceCondOnset 0 .
+_:node_3276_1 ut:timeSinceCondOnset 0 .
+_:node_3292_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3303_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3326_1 ut:timeSinceCondOnset 0 .
+_:node_3337_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3346_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3371_1 ut:timeSinceCondOnset 0 .
+_:node_3410_1 ut:timeSinceCondOnset 0 .
+_:node_3435_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3464_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3504_1 ut:timeSinceCondOnset 0 .
+_:node_3527_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3578_1 ut:timeSinceCondOnset 0 .
+_:node_3663_1 ut:timeSinceCondOnset 0 .
+_:node_3676_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3696_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3712_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3733_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3752_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3760_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3799_1 ut:timeSinceCondOnset 0 .
+_:node_3806_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3818_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3838_1 ut:timeSinceCondOnset 0 .
+_:node_3884_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3894_1 ut:timeSinceCondOnset 1209600000 .
+_:node_3963_1 ut:timeSinceCondOnset 0 .
+_:node_3991_1 ut:timeSinceCondOnset 0 .
+_:node_4029_1 ut:timeSinceCondOnset 0 .
+_:node_4057_1 ut:timeSinceCondOnset 1209600000 .
+_:node_4068_1 ut:timeSinceCondOnset 0 .
+_:node_4077_1 ut:timeSinceCondOnset 1209600000 .
+_:node_4127_1 ut:timeSinceCondOnset 0 .
+_:node_43_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_120_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_134_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_206_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_256_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_281_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_291_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_394_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_479_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_557_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_629_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_689_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_710_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_791_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_853_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_870_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_881_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_900_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_902_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_965_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1021_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1175_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1224_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1247_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1329_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1385_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1430_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1547_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1624_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1663_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1672_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1704_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1743_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1811_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1824_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1855_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1875_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1896_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1947_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_1988_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_2028_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_2333_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_2352_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_2425_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_2470_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_2491_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_2535_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_2561_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_2691_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_2694_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_2826_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_2852_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_2860_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3090_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3107_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3133_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3167_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3299_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3315_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3418_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3451_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3474_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3511_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3535_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3599_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3613_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3626_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3661_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3689_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3854_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3871_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3926_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3938_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3950_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3955_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_3982_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_4037_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_4101_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_4109_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_4135_1 <http://example.org/zika#residentOfZikaArea> true.
+_:node_2_1 ut:hasCondition _:node_3_1.
+_:node_18_1 ut:hasCondition _:node_19_1.
+_:node_51_1 ut:hasCondition _:node_52_1.
+_:node_60_1 ut:hasCondition _:node_61_1.
+_:node_60_1 ut:hasCondition _:node_68_1.
+_:node_75_1 ut:hasCondition _:node_76_1.
+_:node_89_1 ut:hasCondition _:node_90_1.
+_:node_102_1 ut:hasCondition _:node_103_1.
+_:node_110_1 ut:hasCondition _:node_111_1.
+_:node_119_1 ut:hasCondition _:node_122_1.
+_:node_140_1 ut:hasCondition _:node_141_1.
+_:node_140_1 ut:hasCondition _:node_148_1.
+_:node_168_1 ut:hasCondition _:node_169_1.
+_:node_177_1 ut:hasCondition _:node_178_1.
+_:node_186_1 ut:hasCondition _:node_213_1.
+_:node_189_1 ut:hasCondition _:node_190_1.
+_:node_189_1 ut:hasCondition _:node_197_1.
+_:node_221_1 ut:hasCondition _:node_222_1.
+_:node_247_1 ut:hasCondition _:node_248_1.
+_:node_260_1 ut:hasCondition _:node_261_1.
+_:node_276_1 ut:hasCondition _:node_283_1.
+_:node_300_1 ut:hasCondition _:node_301_1.
+_:node_308_1 ut:hasCondition _:node_310_1.
+_:node_309_1 ut:hasCondition _:node_338_1.
+_:node_320_1 ut:hasCondition _:node_321_1.
+_:node_329_1 ut:hasCondition _:node_330_1.
+_:node_337_1 ut:hasCondition _:node_345_1.
+_:node_357_1 ut:hasCondition _:node_358_1.
+_:node_378_1 ut:hasCondition _:node_379_1.
+_:node_378_1 ut:hasCondition _:node_386_1.
+_:node_404_1 ut:hasCondition _:node_405_1.
+_:node_415_1 ut:hasCondition _:node_416_1.
+_:node_415_1 ut:hasCondition _:node_423_1.
+_:node_432_1 ut:hasCondition _:node_464_1.
+_:node_433_1 ut:hasCondition _:node_434_1.
+_:node_448_1 ut:hasCondition _:node_449_1.
+_:node_448_1 ut:hasCondition _:node_456_1.
+_:node_463_1 ut:hasCondition _:node_471_1.
+_:node_489_1 ut:hasCondition _:node_490_1.
+_:node_508_1 ut:hasCondition _:node_509_1.
+_:node_527_1 ut:hasCondition _:node_528_1.
+_:node_546_1 ut:hasCondition _:node_547_1.
+_:node_570_1 ut:hasCondition _:node_571_1.
+_:node_578_1 ut:hasCondition _:node_579_1.
+_:node_596_1 ut:hasCondition _:node_598_1.
+_:node_607_1 ut:hasCondition _:node_608_1.
+_:node_617_1 ut:hasCondition _:node_618_1.
+_:node_643_1 ut:hasCondition _:node_645_1.
+_:node_656_1 ut:hasCondition _:node_657_1.
+_:node_674_1 ut:hasCondition _:node_675_1.
+_:node_716_1 ut:hasCondition _:node_717_1.
+_:node_726_1 ut:hasCondition _:node_728_1.
+_:node_736_1 ut:hasCondition _:node_737_1.
+_:node_758_1 ut:hasCondition _:node_760_1.
+_:node_777_1 ut:hasCondition _:node_778_1.
+_:node_797_1 ut:hasCondition _:node_798_1.
+_:node_806_1 ut:hasCondition _:node_807_1.
+_:node_806_1 ut:hasCondition _:node_814_1.
+_:node_822_1 ut:hasCondition _:node_823_1.
+_:node_822_1 ut:hasCondition _:node_830_1.
+_:node_842_1 ut:hasCondition _:node_843_1.
+_:node_861_1 ut:hasCondition _:node_862_1.
+_:node_887_1 ut:hasCondition _:node_888_1.
+_:node_908_1 ut:hasCondition _:node_909_1.
+_:node_940_1 ut:hasCondition _:node_941_1.
+_:node_954_1 ut:hasCondition _:node_955_1.
+_:node_971_1 ut:hasCondition _:node_973_1.
+_:node_980_1 ut:hasCondition _:node_981_1.
+_:node_989_1 ut:hasCondition _:node_990_1.
+_:node_997_1 ut:hasCondition _:node_998_1.
+_:node_1006_1 ut:hasCondition _:node_1011_1.
+_:node_1029_1 ut:hasCondition _:node_1030_1.
+_:node_1037_1 ut:hasCondition _:node_1057_1.
+_:node_1043_1 ut:hasCondition _:node_1044_1.
+_:node_1056_1 ut:hasCondition _:node_1064_1.
+_:node_1056_1 ut:hasCondition _:node_1071_1.
+_:node_1078_1 ut:hasCondition _:node_1079_1.
+_:node_1088_1 ut:hasCondition _:node_1089_1.
+_:node_1097_1 ut:hasCondition _:node_1099_1.
+_:node_1108_1 ut:hasCondition _:node_1109_1.
+_:node_1117_1 ut:hasCondition _:node_1118_1.
+_:node_1117_1 ut:hasCondition _:node_1125_1.
+_:node_1136_1 ut:hasCondition _:node_1137_1.
+_:node_1136_1 ut:hasCondition _:node_1144_1.
+_:node_1152_1 ut:hasCondition _:node_1153_1.
+_:node_1165_1 ut:hasCondition _:node_1167_1.
+_:node_1182_1 ut:hasCondition _:node_1183_1.
+_:node_1190_1 ut:hasCondition _:node_1191_1.
+_:node_1190_1 ut:hasCondition _:node_1198_1.
+_:node_1205_1 ut:hasCondition _:node_1232_1.
+_:node_1206_1 ut:hasCondition _:node_1207_1.
+_:node_1214_1 ut:hasCondition _:node_1215_1.
+_:node_1231_1 ut:hasCondition _:node_1239_1.
+_:node_1270_1 ut:hasCondition _:node_1271_1.
+_:node_1287_1 ut:hasCondition _:node_1288_1.
+_:node_1301_1 ut:hasCondition _:node_1303_1.
+_:node_1301_1 ut:hasCondition _:node_1310_1.
+_:node_1328_1 ut:hasCondition _:node_1361_1.
+_:node_1335_1 ut:hasCondition _:node_1336_1.
+_:node_1345_1 ut:hasCondition _:node_1346_1.
+_:node_1345_1 ut:hasCondition _:node_1353_1.
+_:node_1360_1 ut:hasCondition _:node_1368_1.
+_:node_1375_1 ut:hasCondition _:node_1376_1.
+_:node_1399_1 ut:hasCondition _:node_1400_1.
+_:node_1412_1 ut:hasCondition _:node_1413_1.
+_:node_1421_1 ut:hasCondition _:node_1422_1.
+_:node_1421_1 ut:hasCondition _:node_1432_1.
+_:node_1445_1 ut:hasCondition _:node_1446_1.
+_:node_1453_1 ut:hasCondition _:node_1455_1.
+_:node_1454_1 ut:hasCondition _:node_1495_1.
+_:node_1462_1 ut:hasCondition _:node_1463_1.
+_:node_1470_1 ut:hasCondition _:node_1471_1.
+_:node_1479_1 ut:hasCondition _:node_1480_1.
+_:node_1487_1 ut:hasCondition _:node_1488_1.
+_:node_1487_1 ut:hasCondition _:node_1502_1.
+_:node_1524_1 ut:hasCondition _:node_1554_1.
+_:node_1525_1 ut:hasCondition _:node_1526_1.
+_:node_1525_1 ut:hasCondition _:node_1533_1.
+_:node_1562_1 ut:hasCondition _:node_1563_1.
+_:node_1572_1 ut:hasCondition _:node_1573_1.
+_:node_1581_1 ut:hasCondition _:node_1582_1.
+_:node_1594_1 ut:hasCondition _:node_1595_1.
+_:node_1605_1 ut:hasCondition _:node_1606_1.
+_:node_1613_1 ut:hasCondition _:node_1614_1.
+_:node_1645_1 ut:hasCondition _:node_1646_1.
+_:node_1679_1 ut:hasCondition _:node_1680_1.
+_:node_1694_1 ut:hasCondition _:node_1695_1.
+_:node_1713_1 ut:hasCondition _:node_1715_1.
+_:node_1733_1 ut:hasCondition _:node_1734_1.
+_:node_1742_1 ut:hasCondition _:node_1745_1.
+_:node_1753_1 ut:hasCondition _:node_1754_1.
+_:node_1792_1 ut:hasCondition _:node_1793_1.
+_:node_1800_1 ut:hasCondition _:node_1801_1.
+_:node_1833_1 ut:hasCondition _:node_1834_1.
+_:node_1861_1 ut:hasCondition _:node_1866_1.
+_:node_1881_1 ut:hasCondition _:node_1882_1.
+_:node_1903_1 ut:hasCondition _:node_1904_1.
+_:node_1911_1 ut:hasCondition _:node_1912_1.
+_:node_1933_1 ut:hasCondition _:node_1934_1.
+_:node_1946_1 ut:hasCondition _:node_1949_1.
+_:node_1956_1 ut:hasCondition _:node_1957_1.
+_:node_1970_1 ut:hasCondition _:node_1971_1.
+_:node_1995_1 ut:hasCondition _:node_1996_1.
+_:node_2005_1 ut:hasCondition _:node_2006_1.
+_:node_2037_1 ut:hasCondition _:node_2038_1.
+_:node_2058_1 ut:hasCondition _:node_2059_1.
+_:node_2081_1 ut:hasCondition _:node_2082_1.
+_:node_2095_1 ut:hasCondition _:node_2096_1.
+_:node_2103_1 ut:hasCondition _:node_2120_1.
+_:node_2106_1 ut:hasCondition _:node_2107_1.
+_:node_2129_1 ut:hasCondition _:node_2130_1.
+_:node_2142_1 ut:hasCondition _:node_2143_1.
+_:node_2142_1 ut:hasCondition _:node_2150_1.
+_:node_2157_1 ut:hasCondition _:node_2159_1.
+_:node_2170_1 ut:hasCondition _:node_2171_1.
+_:node_2179_1 ut:hasCondition _:node_2180_1.
+_:node_2197_1 ut:hasCondition _:node_2198_1.
+_:node_2206_1 ut:hasCondition _:node_2208_1.
+_:node_2206_1 ut:hasCondition _:node_2215_1.
+_:node_2207_1 ut:hasCondition _:node_2242_1.
+_:node_2234_1 ut:hasCondition _:node_2235_1.
+_:node_2250_1 ut:hasCondition _:node_2251_1.
+_:node_2259_1 ut:hasCondition _:node_2260_1.
+_:node_2277_1 ut:hasCondition _:node_2278_1.
+_:node_2291_1 ut:hasCondition _:node_2292_1.
+_:node_2305_1 ut:hasCondition _:node_2306_1.
+_:node_2321_1 ut:hasCondition _:node_2322_1.
+_:node_2339_1 ut:hasCondition _:node_2340_1.
+_:node_2359_1 ut:hasCondition _:node_2360_1.
+_:node_2367_1 ut:hasCondition _:node_2368_1.
+_:node_2394_1 ut:hasCondition _:node_2395_1.
+_:node_2406_1 ut:hasCondition _:node_2407_1.
+_:node_2431_1 ut:hasCondition _:node_2432_1.
+_:node_2441_1 ut:hasCondition _:node_2442_1.
+_:node_2449_1 ut:hasCondition _:node_2450_1.
+_:node_2457_1 ut:hasCondition _:node_2478_1.
+_:node_2460_1 ut:hasCondition _:node_2461_1.
+_:node_2497_1 ut:hasCondition _:node_2498_1.
+_:node_2505_1 ut:hasCondition _:node_2506_1.
+_:node_2517_1 ut:hasCondition _:node_2518_1.
+_:node_2525_1 ut:hasCondition _:node_2526_1.
+_:node_2544_1 ut:hasCondition _:node_2545_1.
+_:node_2563_1 ut:hasCondition _:node_2580_1.
+_:node_2587_1 ut:hasCondition _:node_2588_1.
+_:node_2602_1 ut:hasCondition _:node_2603_1.
+_:node_2602_1 ut:hasCondition _:node_2610_1.
+_:node_2617_1 ut:hasCondition _:node_2619_1.
+_:node_2626_1 ut:hasCondition _:node_2627_1.
+_:node_2639_1 ut:hasCondition _:node_2640_1.
+_:node_2648_1 ut:hasCondition _:node_2649_1.
+_:node_2648_1 ut:hasCondition _:node_2657_1.
+_:node_2665_1 ut:hasCondition _:node_2666_1.
+_:node_2674_1 ut:hasCondition _:node_2675_1.
+_:node_2683_1 ut:hasCondition _:node_2684_1.
+_:node_2714_1 ut:hasCondition _:node_2715_1.
+_:node_2714_1 ut:hasCondition _:node_2722_1.
+_:node_2735_1 ut:hasCondition _:node_2736_1.
+_:node_2747_1 ut:hasCondition _:node_2749_1.
+_:node_2771_1 ut:hasCondition _:node_2797_1.
+_:node_2780_1 ut:hasCondition _:node_2781_1.
+_:node_2788_1 ut:hasCondition _:node_2789_1.
+_:node_2796_1 ut:hasCondition _:node_2805_1.
+_:node_2812_1 ut:hasCondition _:node_2813_1.
+_:node_2866_1 ut:hasCondition _:node_2867_1.
+_:node_2874_1 ut:hasCondition _:node_2875_1.
+_:node_2886_1 ut:hasCondition _:node_2887_1.
+_:node_2897_1 ut:hasCondition _:node_2898_1.
+_:node_2909_1 ut:hasCondition _:node_2910_1.
+_:node_2921_1 ut:hasCondition _:node_2922_1.
+_:node_2945_1 ut:hasCondition _:node_2946_1.
+_:node_2968_1 ut:hasCondition _:node_2969_1.
+_:node_2978_1 ut:hasCondition _:node_2979_1.
+_:node_2986_1 ut:hasCondition _:node_3009_1.
+_:node_2986_1 ut:hasCondition _:node_3041_1.
+_:node_2991_1 ut:hasCondition _:node_2992_1.
+_:node_2999_1 ut:hasCondition _:node_3000_1.
+_:node_3008_1 ut:hasCondition _:node_3016_1.
+_:node_3023_1 ut:hasCondition _:node_3024_1.
+_:node_3040_1 ut:hasCondition _:node_3048_1.
+_:node_3055_1 ut:hasCondition _:node_3056_1.
+_:node_3055_1 ut:hasCondition _:node_3063_1.
+_:node_3055_1 ut:hasCondition _:node_3070_1.
+_:node_3078_1 ut:hasCondition _:node_3079_1.
+_:node_3088_1 ut:hasCondition _:node_3114_1.
+_:node_3088_1 ut:hasCondition _:node_3141_1.
+_:node_3089_1 ut:hasCondition _:node_3371_1.
+_:node_3096_1 ut:hasCondition _:node_3097_1.
+_:node_3121_1 ut:hasCondition _:node_3122_1.
+_:node_3140_1 ut:hasCondition _:node_3148_1.
+_:node_3158_1 ut:hasCondition _:node_3159_1.
+_:node_3173_1 ut:hasCondition _:node_3175_1.
+_:node_3191_1 ut:hasCondition _:node_3192_1.
+_:node_3207_1 ut:hasCondition _:node_3208_1.
+_:node_3224_1 ut:hasCondition _:node_3225_1.
+_:node_3236_1 ut:hasCondition _:node_3237_1.
+_:node_3249_1 ut:hasCondition _:node_3250_1.
+_:node_3263_1 ut:hasCondition _:node_3265_1.
+_:node_3275_1 ut:hasCondition _:node_3276_1.
+_:node_3283_1 ut:hasCondition _:node_3284_1.
+_:node_3291_1 ut:hasCondition _:node_3292_1.
+_:node_3302_1 ut:hasCondition _:node_3303_1.
+_:node_3325_1 ut:hasCondition _:node_3326_1.
+_:node_3336_1 ut:hasCondition _:node_3337_1.
+_:node_3345_1 ut:hasCondition _:node_3346_1.
+_:node_3369_1 ut:hasCondition _:node_3378_1.
+_:node_3394_1 ut:hasCondition _:node_3395_1.
+_:node_3402_1 ut:hasCondition _:node_3403_1.
+_:node_3402_1 ut:hasCondition _:node_3410_1.
+_:node_3434_1 ut:hasCondition _:node_3435_1.
+_:node_3462_1 ut:hasCondition _:node_3464_1.
+_:node_3484_1 ut:hasCondition _:node_3504_1.
+_:node_3495_1 ut:hasCondition _:node_3496_1.
+_:node_3518_1 ut:hasCondition _:node_3519_1.
+_:node_3526_1 ut:hasCondition _:node_3527_1.
+_:node_3570_1 ut:hasCondition _:node_3571_1.
+_:node_3570_1 ut:hasCondition _:node_3578_1.
+_:node_3623_1 ut:hasCondition _:node_3645_1.
+_:node_3623_1 ut:hasCondition _:node_3663_1.
+_:node_3623_1 ut:hasCondition _:node_3696_1.
+_:node_3624_1 ut:hasCondition _:node_3908_1.
+_:node_3633_1 ut:hasCondition _:node_3634_1.
+_:node_3675_1 ut:hasCondition _:node_3676_1.
+_:node_3695_1 ut:hasCondition _:node_3703_1.
+_:node_3711_1 ut:hasCondition _:node_3712_1.
+_:node_3720_1 ut:hasCondition _:node_3721_1.
+_:node_3731_1 ut:hasCondition _:node_3760_1.
+_:node_3732_1 ut:hasCondition _:node_3733_1.
+_:node_3740_1 ut:hasCondition _:node_3741_1.
+_:node_3751_1 ut:hasCondition _:node_3752_1.
+_:node_3759_1 ut:hasCondition _:node_3767_1.
+_:node_3783_1 ut:hasCondition _:node_3784_1.
+_:node_3798_1 ut:hasCondition _:node_3799_1.
+_:node_3798_1 ut:hasCondition _:node_3806_1.
+_:node_3817_1 ut:hasCondition _:node_3818_1.
+_:node_3837_1 ut:hasCondition _:node_3838_1.
+_:node_3845_1 ut:hasCondition _:node_3846_1.
+_:node_3861_1 ut:hasCondition _:node_3862_1.
+_:node_3883_1 ut:hasCondition _:node_3884_1.
+_:node_3893_1 ut:hasCondition _:node_3894_1.
+_:node_3916_1 ut:hasCondition _:node_3917_1.
+_:node_3962_1 ut:hasCondition _:node_3963_1.
+_:node_3990_1 ut:hasCondition _:node_3991_1.
+_:node_4000_1 ut:hasCondition _:node_4001_1.
+_:node_4028_1 ut:hasCondition _:node_4029_1.
+_:node_4047_1 ut:hasCondition _:node_4048_1.
+_:node_4056_1 ut:hasCondition _:node_4057_1.
+_:node_4067_1 ut:hasCondition _:node_4068_1.
+_:node_4076_1 ut:hasCondition _:node_4077_1.
+_:node_4118_1 ut:hasCondition _:node_4119_1.
+_:node_4126_1 ut:hasCondition _:node_4127_1.
+_:node_4144_1 ut:hasCondition _:node_26_1.
+_:node_2_1 ut:hasObservation _:node_10_1.
+_:node_35_1 ut:hasObservation _:node_36_1.
+_:node_41_1 ut:hasObservation _:node_45_1.
+_:node_50_1 ut:hasObservation _:node_157_1.
+_:node_83_1 ut:hasObservation _:node_84_1.
+_:node_97_1 ut:hasObservation _:node_98_1.
+_:node_119_1 ut:hasObservation _:node_129_1.
+_:node_119_1 ut:hasObservation _:node_136_1.
+_:node_156_1 ut:hasObservation _:node_161_1.
+_:node_186_1 ut:hasObservation _:node_277_1.
+_:node_204_1 ut:hasObservation _:node_208_1.
+_:node_240_1 ut:hasObservation _:node_241_1.
+_:node_269_1 ut:hasObservation _:node_270_1.
+_:node_276_1 ut:hasObservation _:node_293_1.
+_:node_365_1 ut:hasObservation _:node_372_1.
+_:node_366_1 ut:hasObservation _:node_368_1.
+_:node_367_1 ut:hasObservation _:node_400_1.
+_:node_378_1 ut:hasObservation _:node_396_1.
+_:node_441_1 ut:hasObservation _:node_442_1.
+_:node_463_1 ut:hasObservation _:node_481_1.
+_:node_489_1 ut:hasObservation _:node_503_1.
+_:node_498_1 ut:hasObservation _:node_499_1.
+_:node_520_1 ut:hasObservation _:node_540_1.
+_:node_522_1 ut:hasObservation _:node_523_1.
+_:node_555_1 ut:hasObservation _:node_559_1.
+_:node_578_1 ut:hasObservation _:node_586_1.
+_:node_591_1 ut:hasObservation _:node_592_1.
+_:node_627_1 ut:hasObservation _:node_631_1.
+_:node_637_1 ut:hasObservation _:node_638_1.
+_:node_643_1 ut:hasObservation _:node_652_1.
+_:node_664_1 ut:hasObservation _:node_670_1.
+_:node_665_1 ut:hasObservation _:node_666_1.
+_:node_683_1 ut:hasObservation _:node_684_1.
+_:node_683_1 ut:hasObservation _:node_691_1.
+_:node_695_1 ut:hasObservation _:node_696_1.
+_:node_702_1 ut:hasObservation _:node_704_1.
+_:node_708_1 ut:hasObservation _:node_712_1.
+_:node_736_1 ut:hasObservation _:node_744_1.
+_:node_748_1 ut:hasObservation _:node_749_1.
+_:node_753_1 ut:hasObservation _:node_754_1.
+_:node_759_1 ut:hasObservation _:node_785_1.
+_:node_769_1 ut:hasObservation _:node_770_1.
+_:node_789_1 ut:hasObservation _:node_793_1.
+_:node_842_1 ut:hasObservation _:node_855_1.
+_:node_850_1 ut:hasObservation _:node_922_1.
+_:node_851_1 ut:hasObservation _:node_1690_1.
+_:node_861_1 ut:hasObservation _:node_872_1.
+_:node_879_1 ut:hasObservation _:node_883_1.
+_:node_887_1 ut:hasObservation _:node_895_1.
+_:node_887_1 ut:hasObservation _:node_904_1.
+_:node_926_1 ut:hasObservation _:node_927_1.
+_:node_933_1 ut:hasObservation _:node_934_1.
+_:node_949_1 ut:hasObservation _:node_950_1.
+_:node_963_1 ut:hasObservation _:node_967_1.
+_:node_972_1 ut:hasObservation _:node_1007_1.
+_:node_1019_1 ut:hasObservation _:node_1023_1.
+_:node_1051_1 ut:hasObservation _:node_1052_1.
+_:node_1160_1 ut:hasObservation _:node_1161_1.
+_:node_1165_1 ut:hasObservation _:node_1177_1.
+_:node_1222_1 ut:hasObservation _:node_1226_1.
+_:node_1231_1 ut:hasObservation _:node_1249_1.
+_:node_1254_1 ut:hasObservation _:node_1255_1.
+_:node_1270_1 ut:hasObservation _:node_1278_1.
+_:node_1295_1 ut:hasObservation _:node_1296_1.
+_:node_1320_1 ut:hasObservation _:node_1321_1.
+_:node_1326_1 ut:hasObservation _:node_1331_1.
+_:node_1328_1 ut:hasObservation _:node_1394_1.
+_:node_1383_1 ut:hasObservation _:node_1387_1.
+_:node_1399_1 ut:hasObservation _:node_1407_1.
+_:node_1487_1 ut:hasObservation _:node_1514_1.
+_:node_1509_1 ut:hasObservation _:node_1510_1.
+_:node_1524_1 ut:hasObservation _:node_1589_1.
+_:node_1525_1 ut:hasObservation _:node_1540_1.
+_:node_1545_1 ut:hasObservation _:node_1549_1.
+_:node_1622_1 ut:hasObservation _:node_1626_1.
+_:node_1661_1 ut:hasObservation _:node_1666_1.
+_:node_1670_1 ut:hasObservation _:node_1674_1.
+_:node_1689_1 ut:hasObservation _:node_1767_1.
+_:node_1702_1 ut:hasObservation _:node_1706_1.
+_:node_1723_1 ut:hasObservation _:node_1729_1.
+_:node_1724_1 ut:hasObservation _:node_1725_1.
+_:node_1772_1 ut:hasObservation _:node_1778_1.
+_:node_1773_1 ut:hasObservation _:node_1774_1.
+_:node_1782_1 ut:hasObservation _:node_1783_1.
+_:node_1790_1 ut:hasObservation _:node_1862_1.
+_:node_1809_1 ut:hasObservation _:node_1813_1.
+_:node_1817_1 ut:hasObservation _:node_1841_1.
+_:node_1818_1 ut:hasObservation _:node_1819_1.
+_:node_1818_1 ut:hasObservation _:node_1826_1.
+_:node_1833_1 ut:hasObservation _:node_1845_1.
+_:node_1853_1 ut:hasObservation _:node_1857_1.
+_:node_1873_1 ut:hasObservation _:node_1877_1.
+_:node_1893_1 ut:hasObservation _:node_1898_1.
+_:node_1894_1 ut:hasObservation _:node_1983_1.
+_:node_1923_1 ut:hasObservation _:node_1924_1.
+_:node_1928_1 ut:hasObservation _:node_1929_1.
+_:node_1933_1 ut:hasObservation _:node_1941_1.
+_:node_1965_1 ut:hasObservation _:node_1966_1.
+_:node_1970_1 ut:hasObservation _:node_1978_1.
+_:node_1982_1 ut:hasObservation _:node_1990_1.
+_:node_2013_1 ut:hasObservation _:node_2077_1.
+_:node_2014_1 ut:hasObservation _:node_2015_1.
+_:node_2025_1 ut:hasObservation _:node_2030_1.
+_:node_2027_1 ut:hasObservation _:node_2048_1.
+_:node_2047_1 ut:hasObservation _:node_2052_1.
+_:node_2066_1 ut:hasObservation _:node_2072_1.
+_:node_2067_1 ut:hasObservation _:node_2068_1.
+_:node_2137_1 ut:hasObservation _:node_2138_1.
+_:node_2188_1 ut:hasObservation _:node_2189_1.
+_:node_2206_1 ut:hasObservation _:node_2222_1.
+_:node_2226_1 ut:hasObservation _:node_2227_1.
+_:node_2270_1 ut:hasObservation _:node_2271_1.
+_:node_2277_1 ut:hasObservation _:node_2285_1.
+_:node_2299_1 ut:hasObservation _:node_2300_1.
+_:node_2314_1 ut:hasObservation _:node_2315_1.
+_:node_2331_1 ut:hasObservation _:node_2335_1.
+_:node_2349_1 ut:hasObservation _:node_2354_1.
+_:node_2351_1 ut:hasObservation _:node_2378_1.
+_:node_2377_1 ut:hasObservation _:node_2382_1.
+_:node_2386_1 ut:hasObservation _:node_2387_1.
+_:node_2417_1 ut:hasObservation _:node_2418_1.
+_:node_2422_1 ut:hasObservation _:node_2427_1.
+_:node_2468_1 ut:hasObservation _:node_2472_1.
+_:node_2477_1 ut:hasObservation _:node_2485_1.
+_:node_2489_1 ut:hasObservation _:node_2493_1.
+_:node_2533_1 ut:hasObservation _:node_2537_1.
+_:node_2553_1 ut:hasObservation _:node_2554_1.
+_:node_2559_1 ut:hasObservation _:node_2564_1.
+_:node_2575_1 ut:hasObservation _:node_2576_1.
+_:node_2596_1 ut:hasObservation _:node_2597_1.
+_:node_2618_1 ut:hasObservation _:node_2710_1.
+_:node_2626_1 ut:hasObservation _:node_2634_1.
+_:node_2683_1 ut:hasObservation _:node_2696_1.
+_:node_2701_1 ut:hasObservation _:node_2702_1.
+_:node_2730_1 ut:hasObservation _:node_2731_1.
+_:node_2735_1 ut:hasObservation _:node_2743_1.
+_:node_2756_1 ut:hasObservation _:node_2762_1.
+_:node_2757_1 ut:hasObservation _:node_2758_1.
+_:node_2771_1 ut:hasObservation _:node_2882_1.
+_:node_2775_1 ut:hasObservation _:node_2776_1.
+_:node_2820_1 ut:hasObservation _:node_2821_1.
+_:node_2820_1 ut:hasObservation _:node_2828_1.
+_:node_2834_1 ut:hasObservation _:node_2848_1.
+_:node_2840_1 ut:hasObservation _:node_2841_1.
+_:node_2846_1 ut:hasObservation _:node_2854_1.
+_:node_2858_1 ut:hasObservation _:node_2862_1.
+_:node_2897_1 ut:hasObservation _:node_2905_1.
+_:node_2921_1 ut:hasObservation _:node_2929_1.
+_:node_2934_1 ut:hasObservation _:node_2935_1.
+_:node_2954_1 ut:hasObservation _:node_2955_1.
+_:node_2962_1 ut:hasObservation _:node_2963_1.
+_:node_3023_1 ut:hasObservation _:node_3031_1.
+_:node_3086_1 ut:hasObservation _:node_3092_1.
+_:node_3105_1 ut:hasObservation _:node_3109_1.
+_:node_3131_1 ut:hasObservation _:node_3135_1.
+_:node_3158_1 ut:hasObservation _:node_3169_1.
+_:node_3173_1 ut:hasObservation _:node_3182_1.
+_:node_3186_1 ut:hasObservation _:node_3187_1.
+_:node_3191_1 ut:hasObservation _:node_3199_1.
+_:node_3206_1 ut:hasObservation _:node_3232_1.
+_:node_3206_1 ut:hasObservation _:node_3321_1.
+_:node_3217_1 ut:hasObservation _:node_3218_1.
+_:node_3244_1 ut:hasObservation _:node_3245_1.
+_:node_3257_1 ut:hasObservation _:node_3258_1.
+_:node_3313_1 ut:hasObservation _:node_3317_1.
+_:node_3353_1 ut:hasObservation _:node_3442_1.
+_:node_3354_1 ut:hasObservation _:node_3355_1.
+_:node_3361_1 ut:hasObservation _:node_3362_1.
+_:node_3369_1 ut:hasObservation _:node_3385_1.
+_:node_3389_1 ut:hasObservation _:node_3390_1.
+_:node_3420_1 ut:hasObservation _:node_3426_1.
+_:node_3421_1 ut:hasObservation _:node_3422_1.
+_:node_3434_1 ut:hasObservation _:node_3446_1.
+_:node_3434_1 ut:hasObservation _:node_3453_1.
+_:node_3472_1 ut:hasObservation _:node_3476_1.
+_:node_3488_1 ut:hasObservation _:node_3489_1.
+_:node_3495_1 ut:hasObservation _:node_3513_1.
+_:node_3526_1 ut:hasObservation _:node_3537_1.
+_:node_3541_1 ut:hasObservation _:node_3555_1.
+_:node_3546_1 ut:hasObservation _:node_3547_1.
+_:node_3559_1 ut:hasObservation _:node_3560_1.
+_:node_3565_1 ut:hasObservation _:node_3566_1.
+_:node_3587_1 ut:hasObservation _:node_3605_1.
+_:node_3590_1 ut:hasObservation _:node_3591_1.
+_:node_3597_1 ut:hasObservation _:node_3601_1.
+_:node_3611_1 ut:hasObservation _:node_3615_1.
+_:node_3622_1 ut:hasObservation _:node_3628_1.
+_:node_3624_1 ut:hasObservation _:node_565_1.
+_:node_3659_1 ut:hasObservation _:node_3670_1.
+_:node_3675_1 ut:hasObservation _:node_3683_1.
+_:node_3687_1 ut:hasObservation _:node_3691_1.
+_:node_3775_1 ut:hasObservation _:node_3776_1.
+_:node_3783_1 ut:hasObservation _:node_3791_1.
+_:node_3795_1 ut:hasObservation _:node_3827_1.
+_:node_3798_1 ut:hasObservation _:node_3813_1.
+_:node_3831_1 ut:hasObservation _:node_3832_1.
+_:node_3845_1 ut:hasObservation _:node_3856_1.
+_:node_3869_1 ut:hasObservation _:node_3873_1.
+_:node_3881_1 ut:hasObservation _:node_3904_1.
+_:node_3881_1 ut:hasObservation _:node_3975_1.
+_:node_3924_1 ut:hasObservation _:node_3928_1.
+_:node_3936_1 ut:hasObservation _:node_3940_1.
+_:node_3953_1 ut:hasObservation _:node_3957_1.
+_:node_3962_1 ut:hasObservation _:node_3970_1.
+_:node_3980_1 ut:hasObservation _:node_3984_1.
+_:node_4009_1 ut:hasObservation _:node_4010_1.
+_:node_4014_1 ut:hasObservation _:node_4015_1.
+_:node_4023_1 ut:hasObservation _:node_4024_1.
+_:node_4028_1 ut:hasObservation _:node_4039_1.
+_:node_4075_1 ut:hasObservation _:node_4092_1.
+_:node_4091_1 ut:hasObservation _:node_4096_1.
+_:node_4091_1 ut:hasObservation _:node_4103_1.
+_:node_4107_1 ut:hasObservation _:node_4111_1.
+_:node_4126_1 ut:hasObservation _:node_4137_1.
+_:node_18_1 <http://example.org/zika#isPregnant> true.
+_:node_60_1 <http://example.org/zika#isPregnant> true.
+_:node_119_1 <http://example.org/zika#isPregnant> true.
+_:node_140_1 <http://example.org/zika#isPregnant> true.
+_:node_168_1 <http://example.org/zika#isPregnant> true.
+_:node_189_1 <http://example.org/zika#isPregnant> true.
+_:node_221_1 <http://example.org/zika#isPregnant> true.
+_:node_247_1 <http://example.org/zika#isPregnant> true.
+_:node_300_1 <http://example.org/zika#isPregnant> true.
+_:node_329_1 <http://example.org/zika#isPregnant> true.
+_:node_415_1 <http://example.org/zika#isPregnant> true.
+_:node_448_1 <http://example.org/zika#isPregnant> true.
+_:node_489_1 <http://example.org/zika#isPregnant> true.
+_:node_578_1 <http://example.org/zika#isPregnant> true.
+_:node_617_1 <http://example.org/zika#isPregnant> true.
+_:node_643_1 <http://example.org/zika#isPregnant> true.
+_:node_656_1 <http://example.org/zika#isPregnant> true.
+_:node_726_1 <http://example.org/zika#isPregnant> true.
+_:node_736_1 <http://example.org/zika#isPregnant> true.
+_:node_777_1 <http://example.org/zika#isPregnant> true.
+_:node_797_1 <http://example.org/zika#isPregnant> true.
+_:node_806_1 <http://example.org/zika#isPregnant> true.
+_:node_842_1 <http://example.org/zika#isPregnant> true.
+_:node_940_1 <http://example.org/zika#isPregnant> true.
+_:node_1029_1 <http://example.org/zika#isPregnant> true.
+_:node_1056_1 <http://example.org/zika#isPregnant> true.
+_:node_1117_1 <http://example.org/zika#isPregnant> true.
+_:node_1136_1 <http://example.org/zika#isPregnant> true.
+_:node_1152_1 <http://example.org/zika#isPregnant> true.
+_:node_1182_1 <http://example.org/zika#isPregnant> true.
+_:node_1190_1 <http://example.org/zika#isPregnant> true.
+_:node_1270_1 <http://example.org/zika#isPregnant> true.
+_:node_1287_1 <http://example.org/zika#isPregnant> true.
+_:node_1335_1 <http://example.org/zika#isPregnant> true.
+_:node_1375_1 <http://example.org/zika#isPregnant> true.
+_:node_1399_1 <http://example.org/zika#isPregnant> true.
+_:node_1412_1 <http://example.org/zika#isPregnant> true.
+_:node_1462_1 <http://example.org/zika#isPregnant> true.
+_:node_1470_1 <http://example.org/zika#isPregnant> true.
+_:node_1525_1 <http://example.org/zika#isPregnant> true.
+_:node_1562_1 <http://example.org/zika#isPregnant> true.
+_:node_1733_1 <http://example.org/zika#isPregnant> true.
+_:node_1742_1 <http://example.org/zika#isPregnant> true.
+_:node_1800_1 <http://example.org/zika#isPregnant> true.
+_:node_1861_1 <http://example.org/zika#isPregnant> true.
+_:node_1933_1 <http://example.org/zika#isPregnant> true.
+_:node_1995_1 <http://example.org/zika#isPregnant> true.
+_:node_2103_1 <http://example.org/zika#isPregnant> true.
+_:node_2129_1 <http://example.org/zika#isPregnant> true.
+_:node_2142_1 <http://example.org/zika#isPregnant> true.
+_:node_2197_1 <http://example.org/zika#isPregnant> true.
+_:node_2234_1 <http://example.org/zika#isPregnant> true.
+_:node_2250_1 <http://example.org/zika#isPregnant> true.
+_:node_2291_1 <http://example.org/zika#isPregnant> true.
+_:node_2305_1 <http://example.org/zika#isPregnant> true.
+_:node_2367_1 <http://example.org/zika#isPregnant> true.
+_:node_2394_1 <http://example.org/zika#isPregnant> true.
+_:node_2441_1 <http://example.org/zika#isPregnant> true.
+_:node_2449_1 <http://example.org/zika#isPregnant> true.
+_:node_2587_1 <http://example.org/zika#isPregnant> true.
+_:node_2602_1 <http://example.org/zika#isPregnant> true.
+_:node_2617_1 <http://example.org/zika#isPregnant> true.
+_:node_2626_1 <http://example.org/zika#isPregnant> true.
+_:node_2648_1 <http://example.org/zika#isPregnant> true.
+_:node_2714_1 <http://example.org/zika#isPregnant> true.
+_:node_2771_1 <http://example.org/zika#isPregnant> true.
+_:node_2780_1 <http://example.org/zika#isPregnant> true.
+_:node_2788_1 <http://example.org/zika#isPregnant> true.
+_:node_2796_1 <http://example.org/zika#isPregnant> true.
+_:node_2874_1 <http://example.org/zika#isPregnant> true.
+_:node_2909_1 <http://example.org/zika#isPregnant> true.
+_:node_2945_1 <http://example.org/zika#isPregnant> true.
+_:node_2986_1 <http://example.org/zika#isPregnant> true.
+_:node_3055_1 <http://example.org/zika#isPregnant> true.
+_:node_3078_1 <http://example.org/zika#isPregnant> true.
+_:node_3088_1 <http://example.org/zika#isPregnant> true.
+_:node_3096_1 <http://example.org/zika#isPregnant> true.
+_:node_3121_1 <http://example.org/zika#isPregnant> true.
+_:node_3224_1 <http://example.org/zika#isPregnant> true.
+_:node_3263_1 <http://example.org/zika#isPregnant> true.
+_:node_3283_1 <http://example.org/zika#isPregnant> true.
+_:node_3369_1 <http://example.org/zika#isPregnant> true.
+_:node_3394_1 <http://example.org/zika#isPregnant> true.
+_:node_3402_1 <http://example.org/zika#isPregnant> true.
+_:node_3495_1 <http://example.org/zika#isPregnant> true.
+_:node_3518_1 <http://example.org/zika#isPregnant> true.
+_:node_3570_1 <http://example.org/zika#isPregnant> true.
+_:node_3623_1 <http://example.org/zika#isPregnant> true.
+_:node_3624_1 <http://example.org/zika#isPregnant> true.
+_:node_3633_1 <http://example.org/zika#isPregnant> true.
+_:node_3695_1 <http://example.org/zika#isPregnant> true.
+_:node_3720_1 <http://example.org/zika#isPregnant> true.
+_:node_3740_1 <http://example.org/zika#isPregnant> true.
+_:node_3759_1 <http://example.org/zika#isPregnant> true.
+_:node_3783_1 <http://example.org/zika#isPregnant> true.
+_:node_3845_1 <http://example.org/zika#isPregnant> true.
+_:node_3861_1 <http://example.org/zika#isPregnant> true.
+_:node_3916_1 <http://example.org/zika#isPregnant> true.
+_:node_4000_1 <http://example.org/zika#isPregnant> true.
+_:node_4047_1 <http://example.org/zika#isPregnant> true.
+_:node_4118_1 <http://example.org/zika#isPregnant> true.
+_:node_2_1 <http://example.org/zika#hasZikaSymptom> _:node_3_1.
+_:node_51_1 <http://example.org/zika#hasZikaSymptom> _:node_52_1.
+_:node_60_1 <http://example.org/zika#hasZikaSymptom> _:node_68_1.
+_:node_75_1 <http://example.org/zika#hasZikaSymptom> _:node_76_1.
+_:node_89_1 <http://example.org/zika#hasZikaSymptom> _:node_90_1.
+_:node_102_1 <http://example.org/zika#hasZikaSymptom> _:node_103_1.
+_:node_110_1 <http://example.org/zika#hasZikaSymptom> _:node_111_1.
+_:node_140_1 <http://example.org/zika#hasZikaSymptom> _:node_148_1.
+_:node_177_1 <http://example.org/zika#hasZikaSymptom> _:node_178_1.
+_:node_186_1 <http://example.org/zika#hasZikaSymptom> _:node_213_1.
+_:node_189_1 <http://example.org/zika#hasZikaSymptom> _:node_197_1.
+_:node_260_1 <http://example.org/zika#hasZikaSymptom> _:node_261_1.
+_:node_276_1 <http://example.org/zika#hasZikaSymptom> _:node_283_1.
+_:node_308_1 <http://example.org/zika#hasZikaSymptom> _:node_310_1.
+_:node_309_1 <http://example.org/zika#hasZikaSymptom> _:node_338_1.
+_:node_320_1 <http://example.org/zika#hasZikaSymptom> _:node_321_1.
+_:node_337_1 <http://example.org/zika#hasZikaSymptom> _:node_345_1.
+_:node_357_1 <http://example.org/zika#hasZikaSymptom> _:node_358_1.
+_:node_378_1 <http://example.org/zika#hasZikaSymptom> _:node_379_1.
+_:node_378_1 <http://example.org/zika#hasZikaSymptom> _:node_386_1.
+_:node_404_1 <http://example.org/zika#hasZikaSymptom> _:node_405_1.
+_:node_415_1 <http://example.org/zika#hasZikaSymptom> _:node_423_1.
+_:node_432_1 <http://example.org/zika#hasZikaSymptom> _:node_464_1.
+_:node_433_1 <http://example.org/zika#hasZikaSymptom> _:node_434_1.
+_:node_448_1 <http://example.org/zika#hasZikaSymptom> _:node_456_1.
+_:node_463_1 <http://example.org/zika#hasZikaSymptom> _:node_471_1.
+_:node_508_1 <http://example.org/zika#hasZikaSymptom> _:node_509_1.
+_:node_527_1 <http://example.org/zika#hasZikaSymptom> _:node_528_1.
+_:node_546_1 <http://example.org/zika#hasZikaSymptom> _:node_547_1.
+_:node_570_1 <http://example.org/zika#hasZikaSymptom> _:node_571_1.
+_:node_596_1 <http://example.org/zika#hasZikaSymptom> _:node_598_1.
+_:node_607_1 <http://example.org/zika#hasZikaSymptom> _:node_608_1.
+_:node_674_1 <http://example.org/zika#hasZikaSymptom> _:node_675_1.
+_:node_716_1 <http://example.org/zika#hasZikaSymptom> _:node_717_1.
+_:node_758_1 <http://example.org/zika#hasZikaSymptom> _:node_760_1.
+_:node_806_1 <http://example.org/zika#hasZikaSymptom> _:node_814_1.
+_:node_822_1 <http://example.org/zika#hasZikaSymptom> _:node_823_1.
+_:node_822_1 <http://example.org/zika#hasZikaSymptom> _:node_830_1.
+_:node_861_1 <http://example.org/zika#hasZikaSymptom> _:node_862_1.
+_:node_887_1 <http://example.org/zika#hasZikaSymptom> _:node_888_1.
+_:node_908_1 <http://example.org/zika#hasZikaSymptom> _:node_909_1.
+_:node_954_1 <http://example.org/zika#hasZikaSymptom> _:node_955_1.
+_:node_971_1 <http://example.org/zika#hasZikaSymptom> _:node_973_1.
+_:node_980_1 <http://example.org/zika#hasZikaSymptom> _:node_981_1.
+_:node_989_1 <http://example.org/zika#hasZikaSymptom> _:node_990_1.
+_:node_997_1 <http://example.org/zika#hasZikaSymptom> _:node_998_1.
+_:node_1006_1 <http://example.org/zika#hasZikaSymptom> _:node_1011_1.
+_:node_1037_1 <http://example.org/zika#hasZikaSymptom> _:node_1057_1.
+_:node_1043_1 <http://example.org/zika#hasZikaSymptom> _:node_1044_1.
+_:node_1056_1 <http://example.org/zika#hasZikaSymptom> _:node_1071_1.
+_:node_1078_1 <http://example.org/zika#hasZikaSymptom> _:node_1079_1.
+_:node_1088_1 <http://example.org/zika#hasZikaSymptom> _:node_1089_1.
+_:node_1097_1 <http://example.org/zika#hasZikaSymptom> _:node_1099_1.
+_:node_1108_1 <http://example.org/zika#hasZikaSymptom> _:node_1109_1.
+_:node_1117_1 <http://example.org/zika#hasZikaSymptom> _:node_1125_1.
+_:node_1136_1 <http://example.org/zika#hasZikaSymptom> _:node_1144_1.
+_:node_1165_1 <http://example.org/zika#hasZikaSymptom> _:node_1167_1.
+_:node_1190_1 <http://example.org/zika#hasZikaSymptom> _:node_1198_1.
+_:node_1205_1 <http://example.org/zika#hasZikaSymptom> _:node_1232_1.
+_:node_1206_1 <http://example.org/zika#hasZikaSymptom> _:node_1207_1.
+_:node_1214_1 <http://example.org/zika#hasZikaSymptom> _:node_1215_1.
+_:node_1231_1 <http://example.org/zika#hasZikaSymptom> _:node_1239_1.
+_:node_1301_1 <http://example.org/zika#hasZikaSymptom> _:node_1303_1.
+_:node_1301_1 <http://example.org/zika#hasZikaSymptom> _:node_1310_1.
+_:node_1328_1 <http://example.org/zika#hasZikaSymptom> _:node_1361_1.
+_:node_1345_1 <http://example.org/zika#hasZikaSymptom> _:node_1346_1.
+_:node_1345_1 <http://example.org/zika#hasZikaSymptom> _:node_1353_1.
+_:node_1360_1 <http://example.org/zika#hasZikaSymptom> _:node_1368_1.
+_:node_1421_1 <http://example.org/zika#hasZikaSymptom> _:node_1422_1.
+_:node_1421_1 <http://example.org/zika#hasZikaSymptom> _:node_1432_1.
+_:node_1445_1 <http://example.org/zika#hasZikaSymptom> _:node_1446_1.
+_:node_1453_1 <http://example.org/zika#hasZikaSymptom> _:node_1455_1.
+_:node_1454_1 <http://example.org/zika#hasZikaSymptom> _:node_1495_1.
+_:node_1479_1 <http://example.org/zika#hasZikaSymptom> _:node_1480_1.
+_:node_1487_1 <http://example.org/zika#hasZikaSymptom> _:node_1488_1.
+_:node_1487_1 <http://example.org/zika#hasZikaSymptom> _:node_1502_1.
+_:node_1524_1 <http://example.org/zika#hasZikaSymptom> _:node_1554_1.
+_:node_1525_1 <http://example.org/zika#hasZikaSymptom> _:node_1533_1.
+_:node_1572_1 <http://example.org/zika#hasZikaSymptom> _:node_1573_1.
+_:node_1581_1 <http://example.org/zika#hasZikaSymptom> _:node_1582_1.
+_:node_1594_1 <http://example.org/zika#hasZikaSymptom> _:node_1595_1.
+_:node_1605_1 <http://example.org/zika#hasZikaSymptom> _:node_1606_1.
+_:node_1613_1 <http://example.org/zika#hasZikaSymptom> _:node_1614_1.
+_:node_1645_1 <http://example.org/zika#hasZikaSymptom> _:node_1646_1.
+_:node_1679_1 <http://example.org/zika#hasZikaSymptom> _:node_1680_1.
+_:node_1694_1 <http://example.org/zika#hasZikaSymptom> _:node_1695_1.
+_:node_1713_1 <http://example.org/zika#hasZikaSymptom> _:node_1715_1.
+_:node_1753_1 <http://example.org/zika#hasZikaSymptom> _:node_1754_1.
+_:node_1792_1 <http://example.org/zika#hasZikaSymptom> _:node_1793_1.
+_:node_1833_1 <http://example.org/zika#hasZikaSymptom> _:node_1834_1.
+_:node_1881_1 <http://example.org/zika#hasZikaSymptom> _:node_1882_1.
+_:node_1903_1 <http://example.org/zika#hasZikaSymptom> _:node_1904_1.
+_:node_1911_1 <http://example.org/zika#hasZikaSymptom> _:node_1912_1.
+_:node_1946_1 <http://example.org/zika#hasZikaSymptom> _:node_1949_1.
+_:node_1956_1 <http://example.org/zika#hasZikaSymptom> _:node_1957_1.
+_:node_1970_1 <http://example.org/zika#hasZikaSymptom> _:node_1971_1.
+_:node_2005_1 <http://example.org/zika#hasZikaSymptom> _:node_2006_1.
+_:node_2037_1 <http://example.org/zika#hasZikaSymptom> _:node_2038_1.
+_:node_2058_1 <http://example.org/zika#hasZikaSymptom> _:node_2059_1.
+_:node_2081_1 <http://example.org/zika#hasZikaSymptom> _:node_2082_1.
+_:node_2095_1 <http://example.org/zika#hasZikaSymptom> _:node_2096_1.
+_:node_2106_1 <http://example.org/zika#hasZikaSymptom> _:node_2107_1.
+_:node_2142_1 <http://example.org/zika#hasZikaSymptom> _:node_2150_1.
+_:node_2157_1 <http://example.org/zika#hasZikaSymptom> _:node_2159_1.
+_:node_2170_1 <http://example.org/zika#hasZikaSymptom> _:node_2171_1.
+_:node_2179_1 <http://example.org/zika#hasZikaSymptom> _:node_2180_1.
+_:node_2206_1 <http://example.org/zika#hasZikaSymptom> _:node_2208_1.
+_:node_2206_1 <http://example.org/zika#hasZikaSymptom> _:node_2215_1.
+_:node_2207_1 <http://example.org/zika#hasZikaSymptom> _:node_2242_1.
+_:node_2259_1 <http://example.org/zika#hasZikaSymptom> _:node_2260_1.
+_:node_2277_1 <http://example.org/zika#hasZikaSymptom> _:node_2278_1.
+_:node_2321_1 <http://example.org/zika#hasZikaSymptom> _:node_2322_1.
+_:node_2339_1 <http://example.org/zika#hasZikaSymptom> _:node_2340_1.
+_:node_2359_1 <http://example.org/zika#hasZikaSymptom> _:node_2360_1.
+_:node_2406_1 <http://example.org/zika#hasZikaSymptom> _:node_2407_1.
+_:node_2431_1 <http://example.org/zika#hasZikaSymptom> _:node_2432_1.
+_:node_2457_1 <http://example.org/zika#hasZikaSymptom> _:node_2478_1.
+_:node_2460_1 <http://example.org/zika#hasZikaSymptom> _:node_2461_1.
+_:node_2497_1 <http://example.org/zika#hasZikaSymptom> _:node_2498_1.
+_:node_2505_1 <http://example.org/zika#hasZikaSymptom> _:node_2506_1.
+_:node_2517_1 <http://example.org/zika#hasZikaSymptom> _:node_2518_1.
+_:node_2525_1 <http://example.org/zika#hasZikaSymptom> _:node_2526_1.
+_:node_2544_1 <http://example.org/zika#hasZikaSymptom> _:node_2545_1.
+_:node_2563_1 <http://example.org/zika#hasZikaSymptom> _:node_2580_1.
+_:node_2602_1 <http://example.org/zika#hasZikaSymptom> _:node_2610_1.
+_:node_2639_1 <http://example.org/zika#hasZikaSymptom> _:node_2640_1.
+_:node_2648_1 <http://example.org/zika#hasZikaSymptom> _:node_2657_1.
+_:node_2665_1 <http://example.org/zika#hasZikaSymptom> _:node_2666_1.
+_:node_2674_1 <http://example.org/zika#hasZikaSymptom> _:node_2675_1.
+_:node_2683_1 <http://example.org/zika#hasZikaSymptom> _:node_2684_1.
+_:node_2714_1 <http://example.org/zika#hasZikaSymptom> _:node_2722_1.
+_:node_2735_1 <http://example.org/zika#hasZikaSymptom> _:node_2736_1.
+_:node_2747_1 <http://example.org/zika#hasZikaSymptom> _:node_2749_1.
+_:node_2812_1 <http://example.org/zika#hasZikaSymptom> _:node_2813_1.
+_:node_2866_1 <http://example.org/zika#hasZikaSymptom> _:node_2867_1.
+_:node_2886_1 <http://example.org/zika#hasZikaSymptom> _:node_2887_1.
+_:node_2897_1 <http://example.org/zika#hasZikaSymptom> _:node_2898_1.
+_:node_2921_1 <http://example.org/zika#hasZikaSymptom> _:node_2922_1.
+_:node_2968_1 <http://example.org/zika#hasZikaSymptom> _:node_2969_1.
+_:node_2978_1 <http://example.org/zika#hasZikaSymptom> _:node_2979_1.
+_:node_2986_1 <http://example.org/zika#hasZikaSymptom> _:node_3041_1.
+_:node_2991_1 <http://example.org/zika#hasZikaSymptom> _:node_2992_1.
+_:node_2999_1 <http://example.org/zika#hasZikaSymptom> _:node_3000_1.
+_:node_3008_1 <http://example.org/zika#hasZikaSymptom> _:node_3016_1.
+_:node_3023_1 <http://example.org/zika#hasZikaSymptom> _:node_3024_1.
+_:node_3040_1 <http://example.org/zika#hasZikaSymptom> _:node_3048_1.
+_:node_3055_1 <http://example.org/zika#hasZikaSymptom> _:node_3063_1.
+_:node_3055_1 <http://example.org/zika#hasZikaSymptom> _:node_3070_1.
+_:node_3088_1 <http://example.org/zika#hasZikaSymptom> _:node_3141_1.
+_:node_3089_1 <http://example.org/zika#hasZikaSymptom> _:node_3371_1.
+_:node_3140_1 <http://example.org/zika#hasZikaSymptom> _:node_3148_1.
+_:node_3158_1 <http://example.org/zika#hasZikaSymptom> _:node_3159_1.
+_:node_3173_1 <http://example.org/zika#hasZikaSymptom> _:node_3175_1.
+_:node_3191_1 <http://example.org/zika#hasZikaSymptom> _:node_3192_1.
+_:node_3207_1 <http://example.org/zika#hasZikaSymptom> _:node_3208_1.
+_:node_3236_1 <http://example.org/zika#hasZikaSymptom> _:node_3237_1.
+_:node_3249_1 <http://example.org/zika#hasZikaSymptom> _:node_3250_1.
+_:node_3275_1 <http://example.org/zika#hasZikaSymptom> _:node_3276_1.
+_:node_3291_1 <http://example.org/zika#hasZikaSymptom> _:node_3292_1.
+_:node_3302_1 <http://example.org/zika#hasZikaSymptom> _:node_3303_1.
+_:node_3325_1 <http://example.org/zika#hasZikaSymptom> _:node_3326_1.
+_:node_3336_1 <http://example.org/zika#hasZikaSymptom> _:node_3337_1.
+_:node_3345_1 <http://example.org/zika#hasZikaSymptom> _:node_3346_1.
+_:node_3402_1 <http://example.org/zika#hasZikaSymptom> _:node_3410_1.
+_:node_3434_1 <http://example.org/zika#hasZikaSymptom> _:node_3435_1.
+_:node_3462_1 <http://example.org/zika#hasZikaSymptom> _:node_3464_1.
+_:node_3484_1 <http://example.org/zika#hasZikaSymptom> _:node_3504_1.
+_:node_3526_1 <http://example.org/zika#hasZikaSymptom> _:node_3527_1.
+_:node_3570_1 <http://example.org/zika#hasZikaSymptom> _:node_3578_1.
+_:node_3623_1 <http://example.org/zika#hasZikaSymptom> _:node_3663_1.
+_:node_3623_1 <http://example.org/zika#hasZikaSymptom> _:node_3696_1.
+_:node_3675_1 <http://example.org/zika#hasZikaSymptom> _:node_3676_1.
+_:node_3711_1 <http://example.org/zika#hasZikaSymptom> _:node_3712_1.
+_:node_3731_1 <http://example.org/zika#hasZikaSymptom> _:node_3760_1.
+_:node_3732_1 <http://example.org/zika#hasZikaSymptom> _:node_3733_1.
+_:node_3751_1 <http://example.org/zika#hasZikaSymptom> _:node_3752_1.
+_:node_3798_1 <http://example.org/zika#hasZikaSymptom> _:node_3799_1.
+_:node_3798_1 <http://example.org/zika#hasZikaSymptom> _:node_3806_1.
+_:node_3817_1 <http://example.org/zika#hasZikaSymptom> _:node_3818_1.
+_:node_3837_1 <http://example.org/zika#hasZikaSymptom> _:node_3838_1.
+_:node_3883_1 <http://example.org/zika#hasZikaSymptom> _:node_3884_1.
+_:node_3893_1 <http://example.org/zika#hasZikaSymptom> _:node_3894_1.
+_:node_3962_1 <http://example.org/zika#hasZikaSymptom> _:node_3963_1.
+_:node_3990_1 <http://example.org/zika#hasZikaSymptom> _:node_3991_1.
+_:node_4028_1 <http://example.org/zika#hasZikaSymptom> _:node_4029_1.
+_:node_4056_1 <http://example.org/zika#hasZikaSymptom> _:node_4057_1.
+_:node_4067_1 <http://example.org/zika#hasZikaSymptom> _:node_4068_1.
+_:node_4076_1 <http://example.org/zika#hasZikaSymptom> _:node_4077_1.
+_:node_4126_1 <http://example.org/zika#hasZikaSymptom> _:node_4127_1.
+_:node_4144_1 <http://example.org/zika#hasZikaSymptom> _:node_26_1.
+_:node_2_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_35_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_83_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_97_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_119_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_156_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_240_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_269_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_366_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_367_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_441_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_498_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_520_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_522_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_578_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_591_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_637_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_643_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_665_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_683_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_695_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_702_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_736_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_748_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_753_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_759_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_769_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_887_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_926_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_933_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_949_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_972_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1051_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1160_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1254_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1270_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1295_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1320_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1328_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1399_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1509_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1524_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1525_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1724_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1773_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1782_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1817_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1818_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1833_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1923_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1928_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1933_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1965_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_1970_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2014_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2027_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2047_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2067_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2137_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2188_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2206_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2226_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2270_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2277_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2299_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2314_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2351_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2377_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2386_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2417_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2477_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2553_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2575_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2596_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2626_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2701_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2730_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2735_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2757_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2775_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2820_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2834_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2840_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2897_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2921_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2934_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2954_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_2962_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3023_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3173_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3186_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3191_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3206_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3217_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3244_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3257_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3354_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3361_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3369_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3389_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3421_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3434_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3488_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3541_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3546_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3559_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3565_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3587_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3590_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3675_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3775_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3783_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3795_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3798_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3831_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3881_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_3962_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_4009_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_4014_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_4023_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_4075_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_4091_1 <http://example.org/zika#recentTravelToZikaArea> true.
+_:node_365_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_489_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_664_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1487_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1723_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1772_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1790_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2013_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2066_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2756_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2771_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3420_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_41_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_50_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_119_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_186_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_204_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_276_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_378_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_463_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_555_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_627_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_683_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_708_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_789_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_842_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_850_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_851_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_861_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_879_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_887_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_963_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1019_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1165_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1222_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1231_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1326_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1383_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1545_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1622_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1661_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1670_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1689_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1702_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1809_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1818_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1853_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1873_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1893_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1894_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_1982_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2025_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2331_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2349_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2422_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2468_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2489_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2533_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2559_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2618_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2683_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2820_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2846_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2858_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3086_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3105_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3131_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3158_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3206_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3313_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3353_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3434_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3472_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3495_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3526_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3597_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3611_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3622_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3624_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3659_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3687_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3845_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3869_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3881_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3924_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3936_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3953_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_3980_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_4028_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_4091_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_4107_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_4126_1 <http://example.org/zika#recentSexualEncounterWithZikaResidentOrTraveler> true.
+_:node_2_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_35_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_83_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_97_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_119_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_156_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_240_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_269_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_366_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_367_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_441_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_498_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_520_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_522_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_578_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_591_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_637_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_643_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_665_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_683_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_695_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_702_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_736_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_748_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_753_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_759_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_769_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_887_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_926_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_933_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_949_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_972_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1051_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1160_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1254_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1270_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1295_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1320_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1328_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1399_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1509_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1524_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1525_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1724_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1773_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1782_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1817_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1818_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1833_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1923_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1928_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1933_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1965_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1970_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2014_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2027_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2047_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2067_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2137_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2188_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2206_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2226_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2270_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2277_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2299_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2314_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2351_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2377_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2386_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2417_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2477_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2553_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2575_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2596_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2626_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2701_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2730_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2735_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2757_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2775_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2820_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2834_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2840_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2897_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2921_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2934_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2954_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2962_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3023_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3173_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3186_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3191_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3206_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3217_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3244_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3257_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3354_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3361_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3369_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3389_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3421_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3434_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3488_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3541_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3546_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3559_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3565_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3587_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3590_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3675_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3775_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3783_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3795_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3798_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3831_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3881_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3962_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_4009_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_4014_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_4023_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_4075_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_4091_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_365_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_489_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_664_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1487_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1723_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1772_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1790_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2013_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2066_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2756_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2771_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3420_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_41_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_50_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_186_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_204_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_276_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_378_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_463_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_555_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_627_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_708_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_789_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_842_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_850_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_851_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_861_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_879_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_963_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1019_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1165_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1222_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1231_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1326_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1383_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1545_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1622_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1661_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1670_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1689_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1702_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1809_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1853_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1873_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1893_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1894_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_1982_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2025_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2331_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2349_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2422_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2468_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2489_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2533_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2559_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2618_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2683_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2846_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2858_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3086_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3105_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3131_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3158_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3313_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3353_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3472_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3495_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3526_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3597_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3611_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3622_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3624_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3659_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3687_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3845_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3869_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3924_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3936_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3953_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_3980_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_4028_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_4107_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_4126_1 <http://example.org/zika#possibleZikaExposure> true.
+_:node_2_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_51_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_60_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_75_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_89_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_102_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_110_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_140_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_177_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_186_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_189_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_260_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_276_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_308_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_309_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_320_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_337_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_357_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_378_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 604800000 .
+_:node_404_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_415_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_432_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_433_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_448_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_463_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_508_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_527_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_546_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_570_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_596_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_607_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_674_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_716_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_758_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_806_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_822_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 604800000 .
+_:node_861_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_887_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_908_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_954_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_971_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_980_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_989_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_997_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1006_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1037_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1043_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1056_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1078_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1088_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1097_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1108_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1117_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1136_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1165_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1190_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1205_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1206_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1214_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1231_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1301_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 604800000 .
+_:node_1328_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1345_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 604800000 .
+_:node_1360_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1421_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 604800000 .
+_:node_1445_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1453_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1454_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1479_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1487_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 604800000 .
+_:node_1524_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1525_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1572_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1581_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1594_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1605_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1613_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1645_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1679_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1694_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1713_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1753_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1792_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1833_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1881_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1903_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1911_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1946_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1956_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_1970_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2005_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2037_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2058_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2081_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2095_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2106_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2142_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2157_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2170_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2179_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2206_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 604800000 .
+_:node_2207_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2259_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2277_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2321_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2339_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2359_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2406_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2431_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2457_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2460_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2497_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2505_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2517_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2525_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2544_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2563_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2602_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2639_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2648_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2665_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2674_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2683_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2714_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2735_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2747_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2812_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2866_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2886_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2897_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2921_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2968_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2978_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2986_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_2991_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_2999_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3008_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_3023_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3040_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3055_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 604800000 .
+_:node_3088_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_3089_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_3140_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3158_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_3173_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_3191_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3207_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3236_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_3249_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_3275_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_3291_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3302_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3325_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_3336_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3345_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3402_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_3434_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3462_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3484_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_3526_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3570_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_3623_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 604800000 .
+_:node_3675_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3711_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3731_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3732_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3751_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3798_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 604800000 .
+_:node_3817_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3837_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_3883_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3893_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_3962_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_3990_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_4028_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_4056_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_4067_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_4076_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 1209600000 .
+_:node_4126_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_4144_1 <http://example.org/zika#avgTimeSinceZikaSymptomsOnset> 0 .
+_:node_1525_1 <http://example.org/zika#testForZika> true.
+# 2025-08-12T19:10:51.245Z in=9252 out=7290 ent=3645 step=20403 brake=6 inf=12634654 sec=0.711 inf/sec=17770259
+# ENDS
+

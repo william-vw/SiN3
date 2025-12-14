@@ -1,5 +1,9 @@
 .DS_Store
 
+exp/deep_taxonomy/test-dl-1000000.n3
+exp/lmdb/lmdb.nt
+exp/yago/yagoFacts.nt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

@@ -1,0 +1,17 @@
+eye --quiet tmp/query.spin code/aux.n3 --query code/query-fwd.n3 --nope --quantify https://eyereasoner.github.io/.well-known/genid/
+EYE v11.20.4 (2025-07-27)
+SWI-Prolog version 9.2.7
+starting 24 [msec cputime] 35 [msec walltime]
+GET file:///Users/wvw/git/n3/sparql2n3/research-paper-2025/run/tmp/query.spin SC=574
+GET file:///Users/wvw/git/n3/sparql2n3/research-paper-2025/run/code/aux.n3 SC=126
+GET file:///Users/wvw/git/n3/sparql2n3/research-paper-2025/run/code/query-fwd.n3 SC=3
+networking 109 [msec cputime] 118 [msec walltime]
+"fn" TRACE {
+    (_:t_50 _:t_51) sp:sub _:t_52.
+}
+"fn" TRACE {
+    (_:t_50 _:t_55) sp:sub _:t_56.
+}
+reasoning 16 [msec cputime] 16 [msec walltime]
+2025-08-12T19:10:50.494Z in=703 out=18 ent=18 step=18 brake=2 inf=2220622 sec=0.149 inf/sec=14903503
+
