@@ -1,0 +1,52 @@
+@prefix aux: <http://example.org/aux#>.
+@prefix ex: <http://example.org/spin#>.
+@prefix skolem: <https://eyereasoner.github.io/.well-known/genid/cb7214fe-d26e-4592-82a4-dd02b17674fc#>.
+
+{
+    {
+        ?t_29 <http://example.org/gmark/p0> ?t_30.
+        ?t_30 <http://example.org/gmark/p3> ?t_31.
+        ?t_32 <http://example.org/gmark/p3> ?t_31.
+        ?t_33 <http://example.org/gmark/p0> ?t_32.
+    } aux:union {
+        ?t_29 <http://example.org/gmark/p0> ?t_34.
+        ?t_34 <http://example.org/gmark/p3> ?t_35.
+        ?t_36 <http://example.org/gmark/p3> ?t_35.
+        ?t_33 <http://example.org/gmark/p0> ?t_36.
+    }.
+    ?t_29 <http://example.org/gmark/p0> ?t_37.
+    ?t_37 <http://example.org/gmark/p3> ?t_38.
+    ?t_39 <http://example.org/gmark/p3> ?t_38.
+    ?t_40 <http://example.org/gmark/p0> ?t_39.
+    {
+        ?t_29 <http://example.org/gmark/p0> ?t_41.
+        ?t_42 <http://example.org/gmark/p0> ?t_41.
+        ?t_42 <http://example.org/gmark/p0> ?t_43.
+        ?t_44 <http://example.org/gmark/p0> ?t_43.
+    } aux:union {
+        ?t_29 <http://example.org/gmark/p0> ?t_45.
+        ?t_45 <http://example.org/gmark/p3> ?t_46.
+        ?t_47 <http://example.org/gmark/p3> ?t_46.
+        ?t_44 <http://example.org/gmark/p0> ?t_47.
+    }.
+    {
+        {
+            ?t_29 <http://example.org/gmark/p0> ?t_48.
+            ?t_48 <http://example.org/gmark/p3> ?t_49.
+            ?t_50 <http://example.org/gmark/p3> ?t_49.
+            ?t_51 <http://example.org/gmark/p0> ?t_50.
+        } aux:union {
+            ?t_29 <http://example.org/gmark/p0> ?t_52.
+            ?t_53 <http://example.org/gmark/p0> ?t_52.
+            ?t_53 <http://example.org/gmark/p0> ?t_54.
+            ?t_51 <http://example.org/gmark/p0> ?t_54.
+        }.
+    } aux:union {
+        ?t_29 <http://example.org/gmark/p0> ?t_55.
+        ?t_55 <http://example.org/gmark/p3> ?t_56.
+        ?t_57 <http://example.org/gmark/p3> ?t_56.
+        ?t_51 <http://example.org/gmark/p0> ?t_57.
+    }.
+} => {
+    _:e_1154 ex:result (("x3" ?t_44) ("x1" ?t_33) ("x0" ?t_29) ("x2" ?t_40)).
+}.

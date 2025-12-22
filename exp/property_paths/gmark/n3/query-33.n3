@@ -1,0 +1,58 @@
+@prefix aux: <http://example.org/aux#>.
+@prefix ex: <http://example.org/spin#>.
+@prefix skolem: <https://eyereasoner.github.io/.well-known/genid/1782f075-4376-4a5e-8a3a-8abafdfbb757#>.
+
+{
+    {
+        ?t_27 <http://example.org/gmark/p2> ?t_28.
+        ?t_29 <http://example.org/gmark/p1> ?t_27.
+        ?t_30 <http://example.org/gmark/p0> ?t_29.
+    } aux:union {
+        ?t_31 <http://example.org/gmark/p2> ?t_28.
+        ?t_32 <http://example.org/gmark/p1> ?t_31.
+        ?t_30 <http://example.org/gmark/p0> ?t_32.
+    }.
+    {
+        ?t_30 <http://example.org/gmark/p0> ?t_33.
+        ?t_33 <http://example.org/gmark/p1> ?t_34.
+        ?t_34 <http://example.org/gmark/p2> ?t_35.
+    } aux:union {
+        ?t_30 <http://example.org/gmark/p0> ?t_36.
+        ?t_36 <http://example.org/gmark/p1> ?t_37.
+        ?t_37 <http://example.org/gmark/p2> ?t_35.
+    }.
+    {
+        {
+            ?t_38 <http://example.org/gmark/p2> ?t_28.
+            ?t_39 <http://example.org/gmark/p1> ?t_38.
+            ?t_39 <http://example.org/gmark/p1> ?t_40.
+            ?t_40 <http://example.org/gmark/p2> ?t_41.
+        } aux:union {
+            ?t_42 <http://example.org/gmark/p2> ?t_28.
+            ?t_43 <http://example.org/gmark/p1> ?t_42.
+            ?t_43 <http://example.org/gmark/p1> ?t_44.
+            ?t_44 <http://example.org/gmark/p2> ?t_41.
+        }.
+    } aux:union {
+        ?t_45 <http://example.org/gmark/p2> ?t_28.
+        ?t_45 <http://example.org/gmark/p2> ?t_41.
+    }.
+    {
+        {
+            ?t_46 <http://example.org/gmark/p2> ?t_35.
+            ?t_47 <http://example.org/gmark/p1> ?t_46.
+            ?t_47 <http://example.org/gmark/p1> ?t_48.
+            ?t_48 <http://example.org/gmark/p2> ?t_49.
+        } aux:union {
+            ?t_50 <http://example.org/gmark/p2> ?t_35.
+            ?t_50 <http://example.org/gmark/p2> ?t_51.
+            ?t_52 <http://example.org/gmark/p2> ?t_51.
+            ?t_52 <http://example.org/gmark/p2> ?t_49.
+        }.
+    } aux:union {
+        ?t_53 <http://example.org/gmark/p2> ?t_35.
+        ?t_53 <http://example.org/gmark/p2> ?t_49.
+    }.
+} => {
+    _:e_1786 ex:result true.
+}.

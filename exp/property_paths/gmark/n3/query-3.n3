@@ -1,0 +1,52 @@
+@prefix aux: <http://example.org/aux#>.
+@prefix ex: <http://example.org/spin#>.
+@prefix skolem: <https://eyereasoner.github.io/.well-known/genid/2bc7d9cf-ba4e-4d79-9377-51ffd2643b40#>.
+
+{
+    ?t_28 <http://example.org/gmark/p0> ?t_29.
+    ?t_29 <http://example.org/gmark/p1> ?t_30.
+    ?t_31 <http://example.org/gmark/p1> ?t_30.
+    ?t_31 <http://example.org/gmark/p3> ?t_32.
+    ?t_33 <http://example.org/gmark/p3> ?t_32.
+    ?t_33 <http://example.org/gmark/p3> ?t_34.
+    ?t_35 <http://example.org/gmark/p3> ?t_34.
+    ?t_35 <http://example.org/gmark/p1> ?t_36.
+    {
+        {
+            ?t_28 <http://example.org/gmark/p0> ?t_37.
+            ?t_38 <http://example.org/gmark/p0> ?t_37.
+            ?t_38 <http://example.org/gmark/p0> ?t_39.
+            ?t_40 <http://example.org/gmark/p0> ?t_39.
+        } aux:union {
+            ?t_28 <http://example.org/gmark/p0> ?t_41.
+            ?t_42 <http://example.org/gmark/p0> ?t_41.
+            ?t_42 <http://example.org/gmark/p0> ?t_43.
+            ?t_40 <http://example.org/gmark/p0> ?t_43.
+        }.
+    } aux:union {
+        ?t_28 <http://example.org/gmark/p0> ?t_44.
+        ?t_45 <http://example.org/gmark/p0> ?t_44.
+        ?t_45 <http://example.org/gmark/p0> ?t_46.
+        ?t_40 <http://example.org/gmark/p0> ?t_46.
+    }.
+    {
+        {
+            ?t_40 <http://example.org/gmark/p0> ?t_47.
+            ?t_47 <http://example.org/gmark/p3> ?t_48.
+            ?t_49 <http://example.org/gmark/p3> ?t_48.
+            ?t_36 <http://example.org/gmark/p0> ?t_49.
+        } aux:union {
+            ?t_40 <http://example.org/gmark/p0> ?t_50.
+            ?t_50 <http://example.org/gmark/p3> ?t_51.
+            ?t_52 <http://example.org/gmark/p3> ?t_51.
+            ?t_36 <http://example.org/gmark/p0> ?t_52.
+        }.
+    } aux:union {
+        ?t_40 <http://example.org/gmark/p0> ?t_53.
+        ?t_53 <http://example.org/gmark/p3> ?t_54.
+        ?t_55 <http://example.org/gmark/p3> ?t_54.
+        ?t_36 <http://example.org/gmark/p0> ?t_55.
+    }.
+} => {
+    _:e_1386 ex:result true.
+}.

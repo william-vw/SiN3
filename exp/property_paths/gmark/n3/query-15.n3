@@ -1,0 +1,25 @@
+@prefix aux: <http://example.org/aux#>.
+@prefix ex: <http://example.org/spin#>.
+@prefix skolem: <https://eyereasoner.github.io/.well-known/genid/762de8a4-4c1d-490e-a0ed-08ab6678830a#>.
+
+{
+    ?t_14 <http://example.org/gmark/p2> ?t_15.
+    ?t_14 <http://example.org/gmark/p2> ?t_16.
+    ?t_17 <http://example.org/gmark/p2> ?t_16.
+    ?t_17 <http://example.org/gmark/p2> ?t_18.
+    {
+        ?t_19 <http://example.org/gmark/p2> ?t_15.
+        ?t_19 <http://example.org/gmark/p2> ?t_20.
+    } aux:union {
+        ?t_21 <http://example.org/gmark/p2> ?t_15.
+        ?t_21 <http://example.org/gmark/p2> ?t_22.
+        ?t_23 <http://example.org/gmark/p2> ?t_22.
+        ?t_23 <http://example.org/gmark/p2> ?t_20.
+    }.
+    ?t_24 <http://example.org/gmark/p2> ?t_15.
+    ?t_24 <http://example.org/gmark/p2> ?t_25.
+    ?t_26 <http://example.org/gmark/p2> ?t_25.
+    ?t_26 <http://example.org/gmark/p2> ?t_27.
+} => {
+    _:e_364 ex:result true.
+}.

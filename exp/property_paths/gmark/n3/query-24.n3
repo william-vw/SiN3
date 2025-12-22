@@ -1,0 +1,58 @@
+@prefix aux: <http://example.org/aux#>.
+@prefix ex: <http://example.org/spin#>.
+@prefix skolem: <https://eyereasoner.github.io/.well-known/genid/95e87576-525e-4642-9193-97b39da5140c#>.
+
+{
+    {
+        {
+            ?t_27 <http://example.org/gmark/p0> ?t_28.
+            ?t_29 <http://example.org/gmark/p0> ?t_28.
+            ?t_29 <http://example.org/gmark/p0> ?t_30.
+            ?t_31 <http://example.org/gmark/p0> ?t_30.
+        } aux:union {
+            ?t_27 <http://example.org/gmark/p0> ?t_32.
+            ?t_32 <http://example.org/gmark/p3> ?t_33.
+            ?t_34 <http://example.org/gmark/p3> ?t_33.
+            ?t_31 <http://example.org/gmark/p0> ?t_34.
+        }.
+    } aux:union {
+        ?t_27 <http://example.org/gmark/p0> ?t_35.
+        ?t_35 <http://example.org/gmark/p3> ?t_36.
+        ?t_37 <http://example.org/gmark/p3> ?t_36.
+        ?t_31 <http://example.org/gmark/p0> ?t_37.
+    }.
+    {
+        {
+            ?t_31 <http://example.org/gmark/p0> ?t_38.
+            ?t_38 <http://example.org/gmark/p1> ?t_39.
+            ?t_40 <http://example.org/gmark/p1> ?t_39.
+            ?t_40 <http://example.org/gmark/p1> ?t_41.
+        } aux:union {
+            ?t_31 <http://example.org/gmark/p0> ?t_42.
+            ?t_42 <http://example.org/gmark/p1> ?t_43.
+            ?t_44 <http://example.org/gmark/p1> ?t_43.
+            ?t_44 <http://example.org/gmark/p1> ?t_41.
+        }.
+    } aux:union {
+        ?t_31 <http://example.org/gmark/p0> ?t_45.
+        ?t_45 <http://example.org/gmark/p1> ?t_46.
+        ?t_47 <http://example.org/gmark/p1> ?t_46.
+        ?t_47 <http://example.org/gmark/p1> ?t_41.
+    }.
+    {
+        {
+            ?t_48 <http://example.org/gmark/p1> ?t_41.
+            ?t_48 <http://example.org/gmark/p1> ?t_49.
+            ?t_50 <http://example.org/gmark/p1> ?t_49.
+            ?t_50 <http://example.org/gmark/p3> ?t_51.
+        } aux:union {
+            ?t_52 <http://example.org/gmark/p1> ?t_41.
+            ?t_52 <http://example.org/gmark/p3> ?t_51.
+        }.
+    } aux:union {
+        ?t_53 <http://example.org/gmark/p1> ?t_41.
+        ?t_53 <http://example.org/gmark/p3> ?t_51.
+    }.
+} => {
+    _:e_1476 ex:result (("x0" ?t_27) ("x1" ?t_31) ("x3" ?t_51) ("x2" ?t_41)).
+}.

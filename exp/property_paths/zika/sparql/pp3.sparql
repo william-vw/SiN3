@@ -1,0 +1,7 @@
+PREFIX fh: <http://hl7.org/fhir/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?r ?c
+WHERE {
+    ?r fh:coding/rdf:r3st*/rdf:f1rst/fh:code/fh:v ?c
+}

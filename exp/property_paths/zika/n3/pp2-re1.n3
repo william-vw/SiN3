@@ -1,0 +1,12 @@
+@prefix ex: <http://example.org/spin#>.
+@prefix skolem: <https://eyereasoner.github.io/.well-known/genid/0e9d9471-fb11-4057-832a-a9e2555e3735#>.
+
+{
+    ?t_6 <http://hl7.org/fhir/address> ?t_7.
+    ?t_6 <http://hl7.org/fhir/id> ?t_8.
+    ?t_8 <http://hl7.org/fhir/v> ?t_9.
+    ?t_10 <http://hl7.org/fhir/reference> ?t_11.
+    ?t_11 <http://hl7.org/fhir/v> ?t_9.
+} => {
+    _:e_46 ex:result (("r" ?t_10) ("p" ?t_6) ("id" ?t_9)).
+}.

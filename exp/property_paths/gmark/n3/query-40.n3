@@ -1,0 +1,10 @@
+@prefix ex: <http://example.org/spin#>.
+@prefix skolem: <https://eyereasoner.github.io/.well-known/genid/e2ff5066-532d-4fb8-aa21-404fea1ff4df#>.
+
+{
+    ?t_6 ((((((<http://example.org/gmark/p1> "/" ("^" <http://example.org/gmark/p1>)) "/" <http://example.org/gmark/p1>) "/" ("^" <http://example.org/gmark/p1>)) "|" (((<http://example.org/gmark/p1> "/" ("^" <http://example.org/gmark/p1>)) "/" <http://example.org/gmark/p1>) "/" ("^" <http://example.org/gmark/p1>))) "|" (<http://example.org/gmark/p1> "/" ("^" <http://example.org/gmark/p1>))) "*") ?t_7.
+    ?t_6 ((((<http://example.org/gmark/p1> "/" ("^" <http://example.org/gmark/p1>)) "/" <http://example.org/gmark/p1>) "/" ("^" <http://example.org/gmark/p1>)) "+") ?t_8.
+    ?t_8 (((<http://example.org/gmark/p1> "/" ("^" <http://example.org/gmark/p1>)) "|" (<http://example.org/gmark/p1> "/" ("^" <http://example.org/gmark/p1>))) "*") ?t_7.
+} => {
+    _:e_1450 ex:result (("x2" ?t_8) ("x0" ?t_6) ("x1" ?t_7)).
+}.

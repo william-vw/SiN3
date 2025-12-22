@@ -1,0 +1,19 @@
+@prefix aux: <http://example.org/aux#>.
+@prefix ex: <http://example.org/spin#>.
+@prefix skolem: <https://eyereasoner.github.io/.well-known/genid/557a871b-56a4-40df-8ae4-51ba38c7b011#>.
+
+{
+    ?t_10 (((("^" <http://example.org/gmark/p1>) "/" <http://example.org/gmark/p1>) "|" (((("^" <http://example.org/gmark/p1>) "/" <http://example.org/gmark/p1>) "/" ("^" <http://example.org/gmark/p1>)) "/" <http://example.org/gmark/p1>)) "*") ?t_11.
+    ?t_11 (((((("^" <http://example.org/gmark/p1>) "/" <http://example.org/gmark/p1>) "/" ("^" <http://example.org/gmark/p1>)) "/" <http://example.org/gmark/p1>) "|" (("^" <http://example.org/gmark/p1>) "/" <http://example.org/gmark/p1>)) "+") ?t_12.
+    {
+        ?t_13 <http://example.org/gmark/p1> ?t_12.
+        ?t_13 <http://example.org/gmark/p1> ?t_14.
+    } aux:union {
+        ?t_15 <http://example.org/gmark/p1> ?t_12.
+        ?t_15 <http://example.org/gmark/p1> ?t_16.
+        ?t_17 <http://example.org/gmark/p1> ?t_16.
+        ?t_17 <http://example.org/gmark/p1> ?t_14.
+    }.
+} => {
+    _:e_944 ex:result (("x0" ?t_10) ("x3" ?t_14)).
+}.

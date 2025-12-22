@@ -1,0 +1,33 @@
+@prefix aux: <http://example.org/aux#>.
+@prefix ex: <http://example.org/spin#>.
+@prefix skolem: <https://eyereasoner.github.io/.well-known/genid/10b1f328-1f64-450e-a7c2-ed14bcf1fccd#>.
+
+{
+    {
+        ?t_15 <http://example.org/gmark/p2> ?t_16.
+        ?t_17 <http://example.org/gmark/p1> ?t_15.
+        ?t_18 <http://example.org/gmark/p0> ?t_17.
+    } aux:union {
+        ?t_19 <http://example.org/gmark/p2> ?t_16.
+        ?t_20 <http://example.org/gmark/p1> ?t_19.
+        ?t_18 <http://example.org/gmark/p0> ?t_20.
+    }.
+    {
+        {
+            ?t_18 <http://example.org/gmark/p0> ?t_21.
+            ?t_21 <http://example.org/gmark/p1> ?t_22.
+            ?t_23 <http://example.org/gmark/p1> ?t_22.
+        } aux:union {
+            ?t_18 <http://example.org/gmark/p0> ?t_24.
+            ?t_24 <http://example.org/gmark/p1> ?t_25.
+            ?t_23 <http://example.org/gmark/p1> ?t_25.
+        }.
+    } aux:union {
+        ?t_18 <http://example.org/gmark/p0> ?t_26.
+        ?t_26 <http://example.org/gmark/p1> ?t_27.
+        ?t_23 <http://example.org/gmark/p1> ?t_27.
+    }.
+    ?t_23 ((((((<http://example.org/gmark/p1> "/" ("^" <http://example.org/gmark/p1>)) "/" <http://example.org/gmark/p1>) "/" ("^" <http://example.org/gmark/p1>)) "|" (<http://example.org/gmark/p1> "/" ("^" <http://example.org/gmark/p1>))) "|" (((<http://example.org/gmark/p1> "/" ("^" <http://example.org/gmark/p1>)) "/" <http://example.org/gmark/p1>) "/" ("^" <http://example.org/gmark/p1>))) "+") ?t_28.
+} => {
+    _:e_1404 ex:result (("x1" ?t_18) ("x3" ?t_28) ("x2" ?t_23) ("x0" ?t_16)).
+}.

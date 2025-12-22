@@ -1,0 +1,13 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix ex: <http://example.org/spin#>.
+@prefix skolem: <https://eyereasoner.github.io/.well-known/genid/890a9f51-d9f9-4269-8b97-b4b3dab7b1a1#>.
+
+{
+    ?t_7 <http://hl7.org/fhir/coding> ?t_8.
+    ?t_8 (rdf:r3st "*") ?t_9.
+    ?t_9 rdf:f1rst ?t_10.
+    ?t_10 <http://hl7.org/fhir/code> ?t_11.
+    ?t_11 <http://hl7.org/fhir/v> ?t_12.
+} => {
+    _:e_140 ex:result (("r" ?t_7) ("c" ?t_12)).
+}.

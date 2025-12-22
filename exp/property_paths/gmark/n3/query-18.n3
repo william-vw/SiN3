@@ -1,0 +1,39 @@
+@prefix aux: <http://example.org/aux#>.
+@prefix ex: <http://example.org/spin#>.
+@prefix skolem: <https://eyereasoner.github.io/.well-known/genid/5d9c7738-c62f-418c-b9b7-d14527c726ca#>.
+
+{
+    {
+        {
+            ?t_19 <http://example.org/gmark/p2> ?t_20.
+            ?t_21 <http://example.org/gmark/p1> ?t_19.
+            ?t_21 <http://example.org/gmark/p1> ?t_22.
+            ?t_22 <http://example.org/gmark/p2> ?t_23.
+        } aux:union {
+            ?t_24 <http://example.org/gmark/p2> ?t_20.
+            ?t_25 <http://example.org/gmark/p1> ?t_24.
+            ?t_25 <http://example.org/gmark/p1> ?t_26.
+            ?t_26 <http://example.org/gmark/p2> ?t_23.
+        }.
+    } aux:union {
+        ?t_27 <http://example.org/gmark/p2> ?t_20.
+        ?t_27 <http://example.org/gmark/p2> ?t_28.
+        ?t_29 <http://example.org/gmark/p2> ?t_28.
+        ?t_29 <http://example.org/gmark/p2> ?t_23.
+    }.
+    ?t_30 <http://example.org/gmark/p2> ?t_20.
+    ?t_31 <http://example.org/gmark/p1> ?t_30.
+    {
+        ?t_31 <http://example.org/gmark/p3> ?t_32.
+        ?t_33 <http://example.org/gmark/p3> ?t_32.
+        ?t_33 <http://example.org/gmark/p1> ?t_34.
+        ?t_34 <http://example.org/gmark/p2> ?t_23.
+    } aux:union {
+        ?t_31 <http://example.org/gmark/p1> ?t_35.
+        ?t_36 <http://example.org/gmark/p1> ?t_35.
+        ?t_36 <http://example.org/gmark/p1> ?t_37.
+        ?t_37 <http://example.org/gmark/p2> ?t_23.
+    }.
+} => {
+    _:e_1196 ex:result true.
+}.

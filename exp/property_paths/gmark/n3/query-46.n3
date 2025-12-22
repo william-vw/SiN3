@@ -1,0 +1,17 @@
+@prefix ex: <http://example.org/spin#>.
+@prefix skolem: <https://eyereasoner.github.io/.well-known/genid/ddb31fb3-f9a3-40d2-a7ee-d9582a397d6e#>.
+
+{
+    ?t_11 <http://example.org/gmark/p2> ?t_12.
+    ?t_11 <http://example.org/gmark/p2> ?t_13.
+    ?t_14 <http://example.org/gmark/p2> ?t_12.
+    ?t_15 <http://example.org/gmark/p1> ?t_14.
+    ?t_15 <http://example.org/gmark/p1> ?t_16.
+    ?t_16 <http://example.org/gmark/p2> ?t_17.
+    ?t_18 <http://example.org/gmark/p2> ?t_12.
+    ?t_19 <http://example.org/gmark/p1> ?t_18.
+    ?t_19 <http://example.org/gmark/p1> ?t_20.
+    ?t_20 <http://example.org/gmark/p2> ?t_21.
+} => {
+    _:e_234 ex:result (("x0" ?t_12) ("x2" ?t_17) ("x1" ?t_13)).
+}.
